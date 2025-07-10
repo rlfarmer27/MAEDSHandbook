@@ -1,8 +1,13 @@
 bookdown::gitbook:
-  css: style.css
+  css: {"style.css"}
   config:
+    logo: "https://github.com/rlfarmer27/MAEDSHandbook/blob/main/docs/images/maedslogo.png?raw=true"
     toc:
+      collapse: section
+      toc_depth: 2   # <-- Only show H1 and H2 in the sidebar
       before: |
-        <li><a href="./">SHORT TITLE HERE</a></li>
+        <a href="index.html">
+          <img src="https://github.com/rlfarmer27/MAEDSHandbook/blob/main/docs/images/maedslogo.png?raw=true" alt="MA/EdS Logo" style="width: 120px; margin: 10px auto; display: block;" />
+        </a>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>

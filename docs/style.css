@@ -1,14 +1,84 @@
-p.caption {
-  color: #777;
+/* === SHARED GLOBAL STYLES === */
+
+body {
+  font-family: "Aptos", "Segoe UI", "Calibri", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #222;
+}
+
+.book .book-body .page-wrapper .page-inner {
+  padding-top: 0px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* === SIDEBAR (TOC) STYLING === */
+
+/* Increase sidebar width and adjust main body */
+.book .book-summary {
+  width: 300px;
+  font-size: 14px;
+}
+.book .book-body {
+  left: 300px;
+}
+
+/* TOC PART (section) headers */
+.book .book-summary .summary .part span {
+  white-space: normal;
+  overflow: visible;
+  text-overflow: initial;
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  color: #004990 !important;  /* Memphis blue */
+  text-transform: none;
   margin-top: 10px;
+  opacity: 1 !important;
 }
-p code {
-  white-space: inherit;
+
+/* TOC link styling */
+.book .book-summary .summary li a,
+.book .book-summary .summary li li a,
+.book .book-summary .summary li li li a {
+  white-space: normal !important;
+  overflow: visible !important;
+  text-overflow: initial !important;
+  display: block !important;
+  line-height: 1.4;
+  padding: 4px 0;
+  font-size: 14px;
 }
-pre {
-  word-break: normal;
-  word-wrap: normal;
+
+/* Reduce font size for nested TOC items */
+.book .book-summary .summary li li a {
+  font-size: 13px;
 }
-pre code {
-  white-space: inherit;
+
+/* Hide section numbers on H3+ in main content */
+.book .book-body .page-inner h3 .header-section-number,
+.book .book-body .page-inner h4 .header-section-number,
+.book .book-body .page-inner h5 .header-section-number,
+.book .book-body .page-inner h6 .header-section-number {
+  display: none;
+}
+
+/* Hide section numbers on H3+ in TOC sidebar */
+.book .book-summary .summary li li li a span,
+.book .book-summary .summary li li li li a span {
+  display: none;
+}
+
+/* Optional: Hide TOC items below H2 entirely */
+.book .book-summary .summary li li li,
+.book .book-summary .summary li li li li,
+.book .book-summary .summary li li li li li {
+  display: none !important;
 }

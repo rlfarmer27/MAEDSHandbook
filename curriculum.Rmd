@@ -1,0 +1,5 @@
+# Curriculum {#curriculum}
+
+[Back to top](#program-handbook)
+
+<small>*Last updated: `r format(file.info("sppc.Rmd")$mtime, "%B %d, %Y")`*</small>

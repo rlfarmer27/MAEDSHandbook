@@ -1,9 +1,23 @@
---- 
-title: "YOUR TITLE HERE"
-author: "YOUR NAME HERE"
+---
+title: "MA/EdS School Psychology Program Handbook"
+author: "R.L. Farmer"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
+output: 
+  bookdown::gitbook:
+    css: ["style.css", "custom.css"]
 ---
 
-# Down the rabbit-hole
+<!-- Suppress chapter numbering -->
+# {-}
+\
+\
+<div style="text-align: center; margin-top: 100px;">
 
+<img src="https://github.com/rlfarmer27/MAEDSHandbook/blob/main/docs/images/maedslogo.png?raw=true" width="500px" style="margin-top: 50px;" />
+
+<div style="text-align: center; margin-top: 50px;">
+  <p><em>R.L. Farmer</em></p>
+  <p><em>`r format(file.info("sppc.Rmd")$mtime, "%B %d, %Y")`</em></p>
+</div>
+</div>
