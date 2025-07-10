@@ -104,20 +104,67 @@ The following policies apply to the committee:
 
 -   The SPPC Chair shall rotate annually between the MA/EdS and PhD
     program directors, beginning with the MA/EdS director in 2015. A
-    history of the SPPC chair is presented below with the year
-    representing the fall in which the chair began.
+    history of the SPPC chair is provided in Figure \@ref(fig:spcc).
 
-    -   2015, Tom Fagan
-    -   2016, Randy Floyd
-    -   2017, Tom Fagan
-    -   2018, Randy Floyd
-    -   2019, Tom Fagan
-    -   2020, Beth Meisinger
-    -   2021,
-    -   2022, Beth Meisinger
-    -   2023, Sarah Irby
-    -   2024, Ryan Farmer
-    -   2025, Ryan Farmer (Dr. Meisinger will be on hiatus)
+```{r spcc, fig.cap ="Timeline of MA/EdS Program Faculty.", fig.align="center",fig.align="center", fig.width=10, fig.height=3, echo=FALSE, message=FALSE, warning=FALSE}
+# Timeline reference:
+#   - 2015, Tom Fagan
+#   - 2016, Randy Floyd
+#   - 2017, Tom Fagan
+#   - 2018, Randy Floyd
+#   - 2019, Tom Fagan
+#   - 2020, Beth Meisinger
+#   - 2021, Tom Fagan
+#   - 2022, Beth Meisinger
+#   - 2023, Sarah Irby
+#   - 2024, Beth Meisinger
+#   - 2025, Ryan Farmer
+
+library(ggplot2)
+library(dplyr)
+
+df <- data.frame(
+  person = c("Tom Fagan", "Randy Floyd", "Tom Fagan", "Randy Floyd", "Tom Fagan", 
+             "Beth Meisinger", "Tom Fagan", "Beth Meisinger", "Sarah Irby", 
+             "Beth Meisinger", "Ryan Farmer"),
+  year = 2015:2025
+)
+
+df <- df %>%
+  mutate(start = as.Date(paste0(year, "-01-01")),
+         end = as.Date(paste0(year, "-12-31")),
+         duration = as.numeric(end - start))
+
+# Order names by first year served, reversed for top-to-bottom layout
+first_years <- df %>%
+  group_by(person) %>%
+  summarize(first_year = min(year)) %>%
+  arrange(first_year)
+
+df$person <- factor(df$person, levels = rev(first_years$person))
+
+uofm_colors <- c(
+  "Tom Fagan" = "#002147",
+  "Randy Floyd" = "#0077C8",
+  "Beth Meisinger" = "#A7A9AC",
+  "Sarah Irby" = "#003366",
+  "Ryan Farmer" = "#005DAA"
+)
+
+ggplot(df, aes(y = person, x = start, fill = person)) +
+  geom_tile(aes(width = 365, height = 0.3), color = "white") +
+  scale_fill_manual(values = uofm_colors) +
+  scale_x_date(date_breaks = "1 year", date_labels = "%Y") +
+  theme_minimal(base_size = 12) +
+  labs(title = "Program Directors by Year", x = "Year", y = NULL) +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    legend.position = "none"
+  )
+```
+
+
+
 
 ### Operating Procedures
 

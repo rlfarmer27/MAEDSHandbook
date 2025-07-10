@@ -82,3 +82,12 @@ img {
 .book .book-summary .summary li li li li li {
   display: none !important;
 }
+
+/* Table Hover styling */
+table.kable-hover tbody tr:hover {
+  background-color: #e6f2ff !important;
+}
+
+table.kable-hover tbody td:hover {
+  background-color: #cce5ff !important;
+}

@@ -36,7 +36,98 @@ The University of Memphis operates a large, urban campus with a strong faculty a
 -   **Total Employees:** Approximately 2,500 (faculty and staff combined)
 -   **Campus Size:** 1,160 acres
 
-**Tuition & Fees for Graduate Students (2025-2025 data; Full-Time, 10+ Credit Hours):** - In-State: \$6,780/year\
+### Faculty Demographic Data
+
+Table \@ref(tab:facdemo) summarizes the demographic composition of faculty by race, gender, and appointment type for the 2024 academic year. Data are organized separately for female and male faculty, with categories for non-tenure track, tenure track, and tenured appointments. A small number of visiting faculty (n=2) are excluded from the table.
+
+```{r facdemo, results='asis', echo=FALSE, message=FALSE, warning=FALSE}
+library(dplyr)
+library(knitr)
+library(kableExtra)
+library(scales)
+
+# Original faculty data by Race and Gender
+faculty_data <- data.frame(
+  Race = rep(c("Asian", "Black", "Hispanic", "Multi Race", "Other", "White"), times = 2),
+  Gender = rep(c("Female", "Male"), each = 6),
+  NonTenure = c(11, 63, 6, 6, 2, 201,
+                 22, 21, 5, 2, 2, 108),
+  TenureTrack = c(19, 18, 4, 2, 0, 56,
+                   24, 10, 5, 1, 1, 53),
+  Tenured = c(21, 14, 10, 1, 1, 111,
+              46, 16, 13, 4, 1, 175)
+)
+
+# Calculate totals
+faculty_data <- faculty_data %>%
+  mutate(Total = NonTenure + TenureTrack + Tenured)
+
+# Add 'Not Reported' row 
+faculty_not_reported <- data.frame(
+  Race = "Asian",
+  Gender = "Not Reported",
+  NonTenure = 2,
+  TenureTrack = 0,
+  Tenured = 0,
+  Total = 2
+)
+
+faculty_data <- bind_rows(faculty_data, faculty_not_reported)
+
+# Group and summarize female, male, and not reported
+faculty_female <- faculty_data %>%
+  filter(Gender == "Female") %>%
+  bind_rows(
+    summarise(., Race = "Total", Gender = "Female",
+              NonTenure = sum(NonTenure), TenureTrack = sum(TenureTrack),
+              Tenured = sum(Tenured), Total = sum(Total))
+  )
+
+faculty_male <- faculty_data %>%
+  filter(Gender == "Male") %>%
+  bind_rows(
+    summarise(., Race = "Total", Gender = "Male",
+              NonTenure = sum(NonTenure), TenureTrack = sum(TenureTrack),
+              Tenured = sum(Tenured), Total = sum(Total))
+  )
+
+faculty_unknown <- faculty_data %>%
+  filter(Gender == "Not Reported") %>%
+  bind_rows(
+    summarise(., Race = "Total", Gender = "Not Reported",
+              NonTenure = sum(NonTenure), TenureTrack = sum(TenureTrack),
+              Tenured = sum(Tenured), Total = sum(Total))
+  )
+
+# Combine for final display
+faculty_split <- bind_rows(faculty_female, faculty_male, faculty_unknown)
+
+# Format and display table
+faculty_split %>%
+  mutate(across(c(NonTenure, TenureTrack, Tenured, Total), ~ comma(.))) %>%
+  select(-Gender) %>%
+  kbl(
+     caption = "Faculty Demographics by Appointment Type",
+     col.names = c("Race", "Non-Tenure Track", "Tenure Track", "Tenured", "Total"),
+    align = "lrrrr",
+    format = "html"
+  ) %>%
+  add_header_above(c(" " = 1, "Appointment Type" = 3, " " = 1)) %>%
+  group_rows("Female", 1, nrow(faculty_female)) %>%
+  group_rows("Male", nrow(faculty_female) + 1, nrow(faculty_female) + nrow(faculty_male)) %>%
+  group_rows("Not Reported", nrow(faculty_female) + nrow(faculty_male) + 1, nrow(faculty_split)) %>%
+  kable_styling(
+    full_width = TRUE,
+    bootstrap_options = c("striped", "hover", "condensed", "responsive"),
+    font_size = 13
+  )
+```
+
+**Note.** This table presents full-time faculty by gender, race, and appointment type. Visiting and Ineligible faculty (n = 5) were excluded from this summary.\
+\
+\
+**Tuition & Fees for Graduate Students (2025-2025 data; Full-Time, 10+ Credit Hours):** 
+- In-State: \$6,780/year\
 - Out-of-State: \$9,140/year\
 - International: \$11,500/year
 
@@ -48,33 +139,116 @@ As of Fall 2024, the University of Memphis serves over 20,000 students across un
     -   Undergraduate: \~15,766
     -   Graduate: \~3,093
 
-**Average ACT Score (Entering Freshmen):** - University of Memphis: **23**\
+**Average ACT Score (Entering Freshmen):** 
+- University of Memphis: **23**\
 - Tennessee Average: **19.1**\
 - U.S. Average: **20.3**
 
-**Undergraduate Ethnicity:** - Black: 37.7%\
-- White: 37.5%\
-- Hispanic: 12.2%\
-- Asian: 5.6%\
-- Other: 6.9%
+### Undergraduate and Graduate Student Demographic Data
 
-**Graduate Ethnicity (includes Law School):** - White: 36.3%\
-- Non Resident Alien: 27.4%\
-- Black: 27.4%\
-- Hispanic: 4.6%\
-- Asian: 3.5%\
-- Other: 2.94%
+The tables below summarize the race and gender distribution of undergraduate and graduate students at the university for the 2024 academic year. Table \@ref(tab:ugraddemo) presents demographic data for undergraduate students, while Table \@ref(tab:graddemo) provides the same breakdown for graduate students. Each table includes headcounts and percentages by gender and race, offering a clear snapshot of the student population’s composition. These data help contextualize the diversity represented within the university community.\
+\
 
-**Gender Breakdown:**
+```{r ugraddemo, results='asis', echo=FALSE, message=FALSE, warning=FALSE}
+library(knitr)
+library(kableExtra)
+library(dplyr)
+library(scales)
 
-\- **Undergraduate:**\
-- Male: 40.9%\
-- Female: 59.1%\
-- **Graduate:**\
-- Male: 39.2%\
-- Female: 60.8%
+# Undergraduate Data
+ug_data <- data.frame(
+  Race = c("Black", "White", "Hispanic", "Asian", "Multi Race", "Non Resident Alien",
+           "Not Specified", "Am Indian/Alaskan", "Native Hawaiian/Pacific Isl."),
+  Female_Headcount = c(3490, 2421, 909, 298, 337, 126, 32, 10, 8),
+  Female_Percent = c(45.73, 31.73, 11.91, 3.91, 4.42, 1.65, 0.42, 0.13, 0.10),
+  Male_Headcount = c(1695, 2061, 637, 306, 213, 139, 44, 5, 5),
+  Male_Percent = c(33.20, 40.37, 12.48, 5.99, 4.17, 2.72, 0.86, 0.10, 0.10),
+  Total_Headcount = c(5185, 4482, 1546, 604, 551, 265, 76, 15, 13),
+  Total_Percent = c(40.71, 35.19, 12.14, 4.74, 4.33, 2.08, 0.60, 0.12, 0.10)
+)
 
-**Up To Date Data & Dashboards:**\
+ug_totals <- ug_data %>%
+  summarise(
+    Race = "Total",
+    Female_Headcount = sum(Female_Headcount),
+    Female_Percent = 100.00,
+    Male_Headcount = sum(Male_Headcount),
+    Male_Percent = 100.00,
+    Total_Headcount = sum(Total_Headcount),
+    Total_Percent = 100.00
+  )
+
+ug_data_full <- bind_rows(ug_data, ug_totals) %>%
+  mutate(across(ends_with("Headcount"), comma),
+         across(ends_with("Percent"), ~ sprintf("%.2f", .)))
+
+ug_data_full %>%
+  kbl(
+  caption = "Undergraduate Student Race and Gender",
+  col.names = c("Race", "Female", "%", "Male", "%", "Total", "%"),
+  align = "lrrrrrr",
+  format = "html"
+) %>%
+add_header_above(c(" " = 1, "Headcount" = 6)) %>%
+kable_styling(
+  full_width = TRUE,
+  bootstrap_options = c("striped", "hover", "condensed", "responsive"),
+  font_size = 13
+) %>%
+row_spec(nrow(ug_data_full), bold = TRUE)
+
+```
+
+\
+\
+
+```{r graddemo, echo=FALSE, message=FALSE, warning=FALSE}
+
+# Graduate Data
+grad_data <- data.frame(
+  Race = c("White", "Non Resident Alien", "Black", "Hispanic", "Asian",
+           "Multi Race", "Am Indian/Alaskan", "Not Specified"),
+  Female_Headcount = c(1013, 515, 867, 150, 99, 79, 7, 6),
+  Female_Percent = c(37.01, 18.82, 31.68, 5.48, 3.62, 2.89, 0.26, 0.22),
+  Male_Headcount = c(621, 718, 267, 59, 58, 31, 5, 6),
+  Male_Percent = c(35.14, 40.63, 15.11, 3.34, 3.28, 1.75, 0.40, 0.34),
+  Total_Headcount = c(1636, 1233, 1134, 209, 157, 110, 12, 12),
+  Total_Percent = c(36.31, 27.36, 25.17, 4.64, 3.48, 2.44, 0.27, 0.27)
+)
+
+grad_totals <- grad_data %>%
+  summarise(
+    Race = "Total",
+    Female_Headcount = sum(Female_Headcount),
+    Female_Percent = 100.00,
+    Male_Headcount = sum(Male_Headcount),
+    Male_Percent = 100.00,
+    Total_Headcount = sum(Total_Headcount),
+    Total_Percent = 100.00
+  )
+
+grad_data_full <- bind_rows(grad_data, grad_totals) %>%
+  mutate(across(ends_with("Headcount"), comma),
+         across(ends_with("Percent"), ~ sprintf("%.2f", .)))
+
+grad_data_full %>%
+  kbl(
+    caption = "Graduate Student Race and Gender",
+    col.names = c("Race", "Female", "%", "Male", "%", "Total", "%"),
+    align = "lrrrrrr",
+  format = "html") %>%
+  add_header_above(c(" " = 1, "Headcount" = 6)) %>%
+  kable_styling(
+  full_width = TRUE,
+  bootstrap_options = c("striped", "hover", "condensed", "responsive"),
+  font_size = 13) %>%
+  row_spec(nrow(grad_data_full), bold = TRUE)
+```
+
+\
+\
+**University Maintained Data & Dashboards:**\
+This section provides links to University of Memphis maintained fact sheets and dashboards that may provide more up-to-date information about the University of Memphis as well as University of Memphis faculty, employee, and student data. 
 - [UofM Facts at a Glance](https://www.memphis.edu/about/facts.php)\
 - [Faculty Statistics](https://www.memphis.edu/oir/data/public_faculty.php)\
 - [Employee Headcount](https://www.memphis.edu/oir/data/public_employee_headcount.php)\
@@ -97,18 +271,38 @@ The University maintains a modern computer center with numerous networked connec
 
 **Collaboration:** Faculty and graduate students conduct research and work on collaborative service projects in numerous community agencies, including the Desoto County Schools, Shelby County Schools, the municipal school districts of Arlington, Bartlett, Collierville, Germantown, Lakeland, and Millington, area charter schools and the Achievement School Districts including the ASPIRE Schools; Shelby County Head Start, the Boling Developmental Disabilities Center, the Veterans Administration Medical Center, the Departments of Psychiatry, Community Medicine, Pediatrics and Preventive Medicine at the University of Tennessee-Center for the Health Sciences-Memphis, St. Jude Children’s Research Hospital, the Memphis Mental Health Institute, agencies and departments of the City of Memphis, the University's Center for Student Development and Disability Resources for Students, and several community agencies. Administrators of these agencies are receptive to making their facilities and subject populations available for diverse psychological research projects and clinical services. Several distinguished scholars in psychology and related areas visit the department each year to present colloquia and workshops to faculty and students. The speakers represent a variety of current subject matter areas within psychology and have contributed to the Department’s Diversity Series held across the academic year. Additionally, the local chapters of Sigma Xi and other campus and community groups often invite scholars in psychology and related disciplines to Memphis.
 
-Research Areas: The faculty, students, and programs are spread over 5 research areas: Behavioral Neuroscience; Child and Family Studies; Clinical Health Psychology; Cognitive Psychology; and Psychotherapy Research. All faculty and students in the school psychology programs are affiliated with the Child and Family Studies area.
+**Research Areas:** The faculty, students, and programs are spread over 5 research areas: Behavioral Neuroscience; Child and Family Studies; Clinical Health Psychology; Cognitive Psychology; and Psychotherapy Research. All faculty and students in the school psychology programs are affiliated with the Child and Family Studies area.
 
-The Child, Adolescent, and Family Studies (CAFS) Research Area. CAFS includes faculty and students from several department programs including Child Clinical Psychology, Developmental Psychology, and School Psychology and represents all three of the department's doctoral degree concentrations (Clinical, Experimental, and School). The common core of faculty research interests is a commitment to examining age-related cognitive, cultural, emotional, health, and social factors across infancy, childhood, and adolescence. Basic and applied research projects are conducted in a variety of settings, including community agencies, day care and preschool programs, homes, hospitals, and schools. From this diversity across faculty interests, graduate students can construct individualized programs of study and be involved with a wide variety of research topics and populations. CFS faculty have teaching assignments to courses related to the research area, and many provide supervised practicum experiences through the department's Psychological Services Center. Colloquium meetings are scheduled as needed on Friday afternoons during which faculty, students, and community partners present research findings. [Sources: Psychology Website, Undergraduate and Graduate Bulletins, Admissions Secretary, Governance Policy Manual.] The College of Education Teacher education has been a strong mission since the University was founded as a normal school in 1912. The College of Education (COE) is dedicated to preparing students for careers in a variety of professional and related occupational areas. Three academic departments make up the College of Education: Counseling, Educational Psychology and Research; Instruction and Curriculum Leadership; and Leadership. One department offers undergraduate degrees, and all departments offer a variety of graduate degree programs. School psychology students take courses in several of these departments including the areas of counseling, educational psychology and research, educational leadership, reading, and special education.
+*The Child, Adolescent, and Family Studies (CAFS) Research Area.* CAFS includes faculty and students from several department programs including Child Clinical Psychology, Developmental Psychology, and School Psychology and represents all three of the department's doctoral degree concentrations (Clinical, Experimental, and School). The common core of faculty research interests is a commitment to examining age-related cognitive, cultural, emotional, health, and social factors across infancy, childhood, and adolescence. Basic and applied research projects are conducted in a variety of settings, including community agencies, day care and preschool programs, homes, hospitals, and schools. From this diversity across faculty interests, graduate students can construct individualized programs of study and be involved with a wide variety of research topics and populations. CFS faculty have teaching assignments to courses related to the research area, and many provide supervised practicum experiences through the department's Psychological Services Center. Colloquium meetings are scheduled as needed on Friday afternoons during which faculty, students, and community partners present research findings. [Sources: Psychology Website, Undergraduate and Graduate Bulletins, Admissions Secretary, Governance Policy Manual.] The College of Education Teacher education has been a strong mission since the University was founded as a normal school in 1912.
+
+## The College of Education
+
+**The College of Education (COE)** is dedicated to preparing students for careers in a variety of professional and related occupational areas. Three academic departments make up the College of Education: Counseling, Educational Psychology and Research; Instruction and Curriculum Leadership; and Leadership. One department offers undergraduate degrees, and all departments offer a variety of graduate degree programs. School psychology students take courses in several of these departments including the areas of counseling, educational psychology and research, educational leadership, reading, and special education.
 
 The COE also has several research and service units: Advising and Student Services, The Center for the Study of Higher Education, The Reading Center, The Center for Rehabilitation and Employment Research, The Center for Research in Educational Policy, The Institute on Disability, and The Barbara K. Lipman Early Childhood School and Research Institute.
 
-Conceptual Framework: Preparing Educational Leaders The conceptual framework of the University of Memphis’ College of Education consists of its vision, mission, and core values. We have high expectations for candidate performance. It ensures that we are engaged with our community, relevant to our stakeholders and disciplines, and leading our profession.
+## Conceptual Framework: Preparing Educational Leaders
+
+The conceptual framework of the University of Memphis’ College of Education consists of its vision, mission, and core values. We have high expectations for candidate performance. It ensures that we are engaged with our community, relevant to our stakeholders and disciplines, and leading our profession.
 
 The vision of the College of Education is driven by a commitment to diversity, social justice and equity. The College of Education is a premier educational organization that engages in innovative and impactful research, teaching, and service.
 
-The mission of the College of Education is to build on a foundation of success in research, teaching, and service by: • fostering depth and breadth of knowledge • conducting relevant and innovative research • developing culturally competent leaders and practitioners • collaborating with and providing services to diverse and local, national, and international partners to address real world problems of practice • advancing an environment where diversity, social justice, and equity are paramount.
+The mission of the College of Education is to build on a foundation of success in research, teaching, and service by:
 
-The core values of the College of Education include: • Diversity – We recognize, include and embrace all individuals ensuring intercultural relationships. • Inclusion – We actively and intentionally commit to promoting equity and social justice in every endeavor. • Respect – We value all people, recognizing that good ideas can come from anyone, anywhere, at any time. • Innovation – We stay on the cutting edge by identifying new ways to embrace technology and solve problems. • Service – We utilize our skills and attributes to enhance our practices and expand our support to others. • Build on the foundation of success in research, teaching and service by fostering depth and breadth of knowledge, conducting relevant and innovative research, developing culturally competent leaders and practitioners.
+-   fostering depth and breadth of knowledge conducting relevant and innovative research
+-   developing culturally competent leaders and practitioners
+-   collaborating with and providing services to diverse and local, national, and international partners to address real world problems of practice
+-   advancing an environment where diversity, social justice, and equity are paramount.
 
-[Back to top](#program-handbook) <small>*Last updated: `r format(file.info("sppc.Rmd")$mtime, "%B %d, %Y")`*</small>
+The core values of the College of Education include:
+
+-   *Diversity* – We recognize, include and embrace all individuals ensuring intercultural relationships.
+-   *Inclusion* – We actively and intentionally commit to promoting equity and social justice in every endeavor.
+-   *Respect* – We value all people, recognizing that good ideas can come from anyone, anywhere, at any time.
+-   *Innovation* – We stay on the cutting edge by identifying new ways to embrace technology and solve problems.
+-   *Service* – We utilize our skills and attributes to enhance our practices and expand our support to others.
+-   *Build* on the foundation of success in research, teaching and service by fostering depth and breadth of knowledge, conducting relevant and innovative research, developing culturally competent leaders and practitioners.
+
+[Back to top](#program-handbook)
+
+<small>*Last updated: `r format(file.info("sppc.Rmd")$mtime, "%B %d, %Y")`*</small>

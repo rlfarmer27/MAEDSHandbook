@@ -1,3 +1,8 @@
+fig:fachistory
+tab:facdemo
+tab:ugraddemo
+tab:graddemo
+fig:spcc
 program-information
 school-psychology-faculty
 history
@@ -28,7 +33,11 @@ state-conferences
 context
 the-university-of-memphis
 unidata
+faculty-demographic-data
+undergraduate-and-graduate-student-demographic-data
 the-department-of-psychology
+the-college-of-education
+conceptual-framework-preparing-educational-leaders
 curriculum
 sppc
 sppc-policies-procedures

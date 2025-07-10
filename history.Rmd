@@ -1,6 +1,113 @@
 # Program History {#history}
 
-The history of the School Psychology Programs at The University of Memphis dates primarily from 1975 and is closely tied to the histories of the Department of Psychology and the College of Education (COE).  While school-clinical psychology offerings and an MA degree program were available during the period 1960-1975, a jointly sponsored MA/EdS program (Department of Psychology and COE) was formally initiated in 1976.  It was an outgrowth of changes in the requirements for Tennessee State Department of Education certification (now licensure) of school psychologists in Tennessee (circa 1975) and the need for a revised school psychology program at what was then called Memphis State University.  The revised program, a 45 semester hour MA degree, was developed by a School Psychology Coordinating Committee (SPCC), established at the request of the Vice President for Academic Affairs. The SPCC functioned as the policy-making body for the jointly sponsored MA/EdS program until August 2015.  The new MA program was the first instance of a school psychology specific degree and the hiring of faculty in the area of school psychology.  Dr. Thomas Fagan, the first bona fide school psychologist faculty member, was hired for the 1976-1977 school year.  Dr. Bruce Bracken joined the faculty in 1986 and left in 1999.  Dr. Wendy Naumann served from 1998-2001.  Dr. Randy Floyd joined the program in fall 2001, Dr. Robin Phaneuf served from 2002-2006 and Dr. Laura Casey served in her position on an interim basis in 2006-2007 as a visiting assistant professor.  Dr. Elizabeth Meisinger joined the faculty in fall 2007 and Dr. Xu (Lilya) Jiang joined the faculty in fall 2015 and left in June 2020.  Dr. Sarah Irby was hired as a clinical assistant professor in fall 2020 and in fall 2021 was appointed interim director of the MA/EdS program when Dr. Fagan retired as an emeritus professor in August 2021.  Drs. Emily Srisarajivakul and Ryan Farmer joined the faculty in fall 2022. Dr. Ryan Farmer assumed the role of director of the MA/EdS program in fall 2023. Dr. Sarah Irby left the faculty in spring 2024. Dr. Michelle Washington joined the faculty in Fall 2024. Drs. Meisinger, Srisarajivakul, Washington, Farmer, and Floyd currently constitute the core program faculty and are supported by faculty in other areas of the Psychology Department, the COE, and local practitioners who assist with instruction and field supervision.
+The history of the School Psychology Programs at The University of Memphis dates primarily from 1975 and is closely tied to the histories of the Department of Psychology and the College of Education (COE).  While school-clinical psychology offerings and an MA degree program were available during the period 1960-1975, a jointly sponsored MA/EdS program (Department of Psychology and COE) was formally initiated in 1976.  It was an outgrowth of changes in the requirements for Tennessee State Department of Education certification (now licensure) of school psychologists in Tennessee (circa 1975) and the need for a revised school psychology program at what was then called Memphis State University.  The revised program, a 45 semester hour MA degree, was developed by a School Psychology Coordinating Committee (SPCC), established at the request of the Vice President for Academic Affairs. The SPCC functioned as the policy-making body for the jointly sponsored MA/EdS program until August 2015.  The new MA program was the first instance of a school psychology specific degree and the hiring of faculty in the area of school psychology.  Dr. Thomas Fagan, the first bona fide school psychologist faculty member, was hired for the 1976-1977 school year.  Dr. Bruce Bracken joined the faculty in 1986 and left in 1999.  Dr. Wendy Naumann served from 1998-2001.  Dr. Randy Floyd joined the program in fall 2001, Dr. Robin Phaneuf served from 2002-2006 and Dr. Laura Casey served in her position on an interim basis in 2006-2007 as a visiting assistant professor.  Dr. Elizabeth Meisinger joined the faculty in fall 2007 and Dr. Xu (Lilya) Jiang joined the faculty in fall 2015 and left in June 2020.  Dr. Sarah Irby was hired as a clinical assistant professor in fall 2020 and in fall 2021 was appointed interim director of the MA/EdS program when Dr. Fagan retired as an emeritus professor in August 2021.  Drs. Emily Srisarajivakul and Ryan Farmer joined the faculty in fall 2022. Dr. Ryan Farmer assumed the role of director of the MA/EdS program in fall 2023. Dr. Sarah Irby left the faculty in spring 2024. Dr. Michelle Washington joined the faculty in Fall 2024. Drs. Meisinger, Srisarajivakul, Washington, Farmer, and Floyd currently constitute the core program faculty and are supported by faculty in other areas of the Psychology Department, the COE, and local practitioners who assist with instruction and field supervision. Faculty appointment history is displayed in figure \@ref(fig:fachistory). 
+
+```{r fachistory, fig.cap ="Timeline of MA/EdS Program Faculty.", fig.align="center", fig.width=12, fig.height=6, echo=FALSE, message=FALSE, warning=FALSE}
+# Faculty history reference:
+# - Dr. Thomas Fagan: 1976–2021 (Director until 2020)
+# - Dr. Bruce Bracken: 1986–1999
+# - Dr. Wendy Naumann: 1998–2001
+# - Dr. Randy Floyd: 2001–present
+# - Dr. Robin Phaneuf: 2002–2006
+# - Dr. Laura Casey: 2006–2007 (interim)
+# - Dr. Elizabeth Meisinger: 2007–present
+# - Dr. Xu (Lilya) Jiang: 2015–2020
+# - Dr. Sarah Irby: 2020–2024 (Director 2021–2023)
+# - Dr. Emily Srisarajivakul: 2022–present
+# - Dr. Ryan Farmer: 2022–present (Director from 2023)
+# - Dr. Michelle Washington: 2024–present
+
+library(ggplot2)
+library(dplyr)
+
+# Faculty appointment data
+faculty <- data.frame(
+  name = c(
+    "Thomas Fagan", "Bruce Bracken", "Wendy Naumann", "Randy Floyd",
+    "Robin Phaneuf", "Laura Casey", "Elizabeth Meisinger", "Lilya Jiang",
+    "Sarah Irby", "Emily Srisarajivakul", "Ryan Farmer", "Michelle Washington"
+  ),
+  start_year = c(1976, 1986, 1998, 2001, 2002, 2006, 2007, 2015, 2020, 2022, 2022, 2024),
+  end_year = c(2021, 1999, 2001, 2025, 2006, 2007, 2025, 2020, 2024, 2025, 2025, 2025)
+)
+
+faculty <- faculty %>%
+  mutate(
+    start = as.Date(paste0(start_year, "-08-01")),
+    end = as.Date(paste0(end_year, "-07-31"))
+  ) %>%
+  arrange(start) %>%
+  mutate(name = factor(name, levels = rev(unique(name))))
+
+# UofM-style colors (can be extended/adjusted)
+faculty_colors <- c(
+  "Thomas Fagan" = "#002147",
+  "Bruce Bracken" = "#005DAA",
+  "Wendy Naumann" = "#A7A9AC",
+  "Randy Floyd" = "#0077C8",
+  "Robin Phaneuf" = "#6C7A89",
+  "Laura Casey" = "#A0CBE8",
+  "Elizabeth Meisinger" = "#A7A9AC",
+  "Lilya Jiang" = "#BFD7EA",
+  "Sarah Irby" = "#003366",
+  "Emily Srisarajivakul" = "#92B4EC",
+  "Ryan Farmer" = "#005DAA",
+  "Michelle Washington" = "#6096BA"
+)
+
+# Director appointment spans
+director_spans <- data.frame(
+  name = c("Thomas Fagan", "Sarah Irby", "Ryan Farmer"),
+  x_start = as.Date(c("1976-08-01", "2021-08-01", "2023-08-01")),
+  x_end   = as.Date(c("2020-07-31", "2023-07-31", "2025-07-31")),
+  y = as.numeric(factor(c("Thomas Fagan", "Sarah Irby", "Ryan Farmer"),
+                        levels = levels(faculty$name))) + 0.35
+)
+
+director_labels <- data.frame(
+  label = c("Director", "Director", "Director"),
+  x = as.Date(c("1998-01-01", "2022-01-01", "2024-01-01")),
+  y = director_spans$y + 0.1
+)
+  # Calculate Y position for labels near Ryan Farmer's line
+label_y <- which(levels(faculty$name) == "Ryan Farmer") - 0.3
+
+# Plot
+ggplot(faculty, aes(y = name, xmin = start, xmax = end, fill = name)) +
+  # Faculty appointment bars
+  geom_rect(aes(xmin = start, xmax = end,
+                ymin = as.numeric(name) - 0.3,
+                ymax = as.numeric(name) + 0.3)) +
+  scale_fill_manual(values = faculty_colors) +
+
+  # Vertical milestone lines
+  geom_vline(xintercept = as.Date("1988-08-01"), color = "black", size = 1) +
+  geom_text(aes(x = as.Date("1988-07-30"), y = label_y),
+          label = "Initial NCATE/NASP Approval",
+          angle = 90, vjust = 0, hjust = 0,
+          size = 3.5, fontface = "bold", color = "#005DAA") +
+
+  geom_vline(xintercept = as.Date("2014-08-01"), color = "black", size = 1) +
+  geom_text(aes(x = as.Date("2014-07-30"), y = label_y),
+          label = "Doctoral Program Begins",
+          angle = 90, vjust = 0, hjust = 0,
+          size = 3.5, fontface = "bold", color = "#005DAA") +
+
+  scale_x_date(date_breaks = "5 years", date_labels = "%Y",
+               expand = expansion(mult = c(0, 0.05))) +
+  labs(title = "Faculty History in the MA/EdS Program", x = "Year", y = NULL) +
+  theme_minimal(base_size = 12) +
+  theme(
+    legend.position = "none",
+    axis.text.y = element_text(size = 10)
+  )
+
+```
+
+
+```
+
+
   
 Administered from the Psychology Department, the jointly sponsored MA/EdS program was indirectly overseen by the Dean of the COE and the Chair of the Psychology Department.  The MA/EdS program was governed by a 10-member School Psychology Coordinating Committee (SPCC; 4 members chosen from Psychology, 4 chosen from the COE, and 2 students).  All policies and curricula related to this program were the responsibility of the committee and were implemented by the MA/EdS program Director. The Associate Dean for Graduate Studies served as the program's primary contact in the COE. The SPCC developed a set of policy statements for the program as well as the original 45 semester hour Master's degree in 1975-1976 and the revised versions of those policies appear in this Handbook. The current 60-66 semester hour combined MA/EdS degree curriculum was initiated in 1982; the one-school year internship requirement was part of the EdS having previously been one semester. The PhD program was initiated in 1991 but governed by the policies of the Psychology Department's PhD major.  Program curricula and requirements for the different programs (MA/EdS and PhD) were determined entirely by the SPCC and by the Psychology Department, respectively. Starting in the fall of 2014, the directorship of the two programs was split with Dr. Fagan continuing as the director of the MA/EdS program and Dr. Floyd assuming the directorship of the PhD program. The programs continued to overlap in several areas of the curriculum and other areas (e.g., School Psychology Association, SPCC representation, field placements). 
   
