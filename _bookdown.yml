@@ -18,6 +18,7 @@ rmd_files:
 
   # Section 2: Details
   - section2.Rmd
+  - philosophy.Rmd
   - curriculum.Rmd
 
 

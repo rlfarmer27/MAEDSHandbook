@@ -1,5 +1,342 @@
 # Curriculum {#curriculum}
 
+## An Established Plan of Study
+All students are required to complete a Plan of Study, outlining their anticipated coursework and clinical experiences for each term. This plan helps ensure timely progress toward graduation and is often used to verify eligibility for financial aid, course prerequisites, and internship placement.
+
+Students should complete their Plan of Study in consultation with their academic advisor during their first semester. The plan is flexible and can be updated as needed to reflect changes in goals, course availability, or field placements.
+
+Students should also download and maintain the [Degree Worksheet](https://github.com/rlfarmer27/MAEDSHandbook/raw/main/docs/resources/chron_degreeworksheet.docx) throughout the program. It serves as a personal record of progress and a helpful tool during advising sessions.
+
+The following section provides a detailed course sequence in chronological order. Students are expected to download and complete the degree worksheet. This will support advising and help you stay organized as you progress through the program.
+
+The MA/EdS Program requires 61 semester hours divided across the two degrees. 
+
+## Degree Worksheet
+<small>Updated Spring 2025</small>
+
+#### Fall Year 1
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(knitr)
+library(kableExtra)
+fall_y1 <- data.frame(
+  Course = c(
+    "PSYC 7800: Ethical, Legal, & Professional Issues in School Psychology",
+    "PSYC 7803: Psychoeducational Assessment I",
+    "PSYC 7803 Lab: Assessment Lab",
+    "SPED 7000: Introduction to Special Education OR SPED 7206: Special Education LAw",
+    "Mid-Year Evaluation"
+  ),
+  `Credit Hours` = c(3, 3, 1, 3, 0),
+  `Permit Source` = c(
+    "Department of Psychology", "Department of Psychology", "None",
+    "College of Education", "None"
+  )
+)
+
+kbl(
+  fall_y1,
+  booktabs = TRUE,
+  align = "lcc",
+  caption = "Fall Year 1 Course Sequence",
+  col.names = c("Course", "Credit Hours", "Permit Source"),
+  format ="html") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed"),
+                position = "center")
+
+```
+
+#### Spring Year 1
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+spring_y1 <- data.frame(
+  Course = c(
+    "PSYC 7614a: Practicum in School Psychology",
+    "PSYC 7804: Psychoeducational Assessment II",
+    "PSYC 7807: Academic Interventions",
+    "COUN 7542: Counseling, Consultation, & Interventions in Schools OR COUN 7730: Crisis Intervention Counseling",
+    "End-of-Year Evaluation"
+  ),
+  `Credit Hours` = c(3, 3, 3, 3, 0),
+  `Permit Source` = c(
+    "Department of Psychology", "Department of Psychology", "Department of Psychology",
+    "College of Education", "None"
+  )
+)
+
+kbl(
+  spring_y1,
+  booktabs = TRUE,
+  align = "lcc",
+  caption = "Spring Year 1 Course Sequence",
+  col.names = c("Course", "Credit Hours", "Permit Source"),
+  format ="html") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed"),
+                position = "center") 
+
+
+```
+
+#### Summer Year 1
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+summer_y1 <- data.frame(
+  Course = c(
+    "EDPR 7521: Introduction to Research Design & Methods",
+    "EDPR 7511: Introduction to Edu and Psych Measurement",
+    "Annual Evaluations"
+  ),
+  `Credit Hours` = c(3, 3, 0),
+  `Permit Source` = c("College of Education", "College of Education", "None")
+)
+
+kbl(
+  summer_y1,
+  booktabs = TRUE,
+  align = "lcc",
+  caption = "Summer Year 1 Course Sequence",
+  col.names = c("Course", "Credit Hours", "Permit Source"),
+  format ="html") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed"),
+                position = "center")
+
+```
+
+#### Fall Year 2
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(knitr)
+library(kableExtra)
+
+fall_y2 <- data.frame(
+  Course = c(
+    "PSYC 7207: Developmental Psychology",
+    "PSYC 7805: Psych Consultation",
+    "PSYC 7806: School Psych Interventions",
+    "EDPR 7581: Behavior Analysis/Single Case Design",
+    "Mid-Year Eval",
+    "Comprehensive Ethics Exam"
+  ),
+  `Credit Hours` = c(3, 3, 3, 3, 0, 0),
+  `Permit Source` = c(
+    "Department of Psychology", "Department of Psychology", "Department of Psychology", "College of Education", "None", "None")
+)
+
+kbl(
+  fall_y2,
+  booktabs = TRUE,
+  align = "lcc",
+  caption = "Fall Year 2 Course Sequence",
+  col.names = c("Course", "Credit Hours", "Permit Source"),
+  format ="html") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed"),
+                position = "center")
+
+```
+<small>*Note.* Students earn their MA in School Psychology in December after their fourth semester on campus. Students who participate in the graduation ceremony do so during the December commencement.</small>
+
+#### Spring Year 2
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(knitr)
+library(kableExtra)
+
+spring_y2 <- data.frame(
+  Course = c(
+    "PSYC 7614b: Consultation Practicum in SP",
+    "SPED 7518: EBP in ABA",
+    "EDPR 7541: Stat Methods Applied to Edu I",
+    "COUN 7750: Multicultural Counseling",
+    "End-of-Year Eval"
+  ),
+  `Credit Hours` = c(3, 3, 3, 3, 0),
+  `Permit Source` = c(
+    "Department of Psychology",
+    "College of Education",
+    "College of Education",
+    "College of Education",
+    "None"
+  )
+)
+
+kbl(
+  spring_y2,
+  booktabs = TRUE,
+  align = "lcc",
+  caption = "Spring Year 2 Course Sequence",
+  col.names = c("Course", "Credit Hours", "Permit Source"),
+  format ="html") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed"),
+                position = "center")
+
+```
+<small>*Note.* In spring of the second year, students are applying for and accepting positions as interns. The internship is completed during the third year.</small>
+
+#### Summer Year 2
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+
+
+summer_y2 <- data.frame(
+  Course = c(
+    "Annual Evaluation"),
+  `Credit Hours` = c(0),
+  `Permit Source` = c("None")
+)
+
+kbl(
+  summer_y2,
+  booktabs = TRUE,
+  align = "lcc",
+  caption = "Summer Year 2 Course Sequence",
+  col.names = c("Course", "Credit Hours", "Permit Source"),
+  format ="html") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed"),
+                position = "center")
+
+```
+
+#### Internship Year
+##### Fall
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(knitr)
+library(kableExtra)
+
+fall_y3 <- data.frame(
+  Course = c(
+    "PSYC 8812: Internship in School Psychology",
+    "Mid-Year Evaluation"
+  ),
+  `Credit Hours` = c(3, 0),
+  `Permit Source` = c("Department of Psychology", "None"
+  )
+)
+
+kbl(
+  fall_y3,
+  booktabs = TRUE,
+  align = "lcc",
+  caption = "Fall Year 3 Course Sequence",
+  col.names = c("Course", "Credit Hours", "Permit Source"),
+  format ="html") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed"),
+                position = "center")
+```
+
+##### Spring
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(knitr)
+library(kableExtra)
+
+spring_y3 <- data.frame(
+  Course = c(
+    "PSYC 8812: Internship in School Psychology",
+    "End-of-Year Evaluation",
+    "Praxis Examination"
+  ),
+  `Credit Hours` = c(3, 0, 0),
+  `Permit Source` = c("Department of Psychology", "None", "Educational Testing Service"
+  )
+)
+
+kbl(
+  spring_y3,
+  booktabs = TRUE,
+  align = "lcc",
+  caption = "Spring Year 3 Course Sequence",
+  col.names = c("Course", "Credit Hours", "Permit Source"),
+  format ="html") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed"),
+                position = "center")
+```
+<small>*Note.* During this semester, interns are often applying for and securing formal positions as school psychologists post-internship. They should also apply for any credentials they will need, though this is not a program requirement. Completion of this semester yields the Educational Specialist degree.</small>
+
+### Courses & NASP Alignments {@naspalign}
+
+```{r  echo=FALSE, message=FALSE, warning=FALSE}
+psych_courses <- data.frame(
+  Course = c(
+    "PSYC 7800 Introduction to School Psychology",
+    "PSYC 7803 Psych. Asst. I, Cognitive & Ach",
+    "PSYC 7804 Psych. Asst. II, Personality & Social",
+    "PSYC 7805 Psychological Consultation",
+    "PSYC 7806 Interventions in School Psychology",
+    "PSYC 7807 Academic Interventions",
+    "PSYC 7614a Prac in School Psych, Assessment",
+    "PSYC 7614b Prac in School Psych, Interventions",
+    "PSYC 7207 Developmental Psychology",
+    "PSYC 7812 Internship in School Psychology"
+  ),
+  Hours = c(3, 3, 3, 3, 3, 3, 3, 3, 3, 7),
+  `2.1` = c("", "P", "", "P", "P", "P", "P", "P", "", "P"),
+  `2.2` = c("", "P", "", "P", "P", "P", "", "P", "", "P"),
+  `2.3` = c("", "", "", "P", "P", "", "", "P", "", "P"),
+  `2.4` = c("P", "", "", "", "P", "", "", "", "", "P"),
+  `2.5` = c("", "", "", "", "P", "", "", "", "", "P"),
+  `2.6` = c("", "", "", "P", "", "", "", "", "", "P"),
+  `2.7` = c("", "", "", "", "", "", "", "", "", "P"),
+  `2.8` = c("", "", "", "", "", "", "", "P", "", "P"),
+  `2.9` = c("", "", "", "", "", "P", "", "P", "", "P"),
+  `2.10` = c("P", "", "", "", "", "", "", "P", "", "P")
+)
+ed_courses <- data.frame(
+  Course = c(
+    "COUN 7730 Crisis Intervention Counseling",
+    "COUN 7542 Couns. Cons. & Intervention in Schl",
+    "EDPR 7511 Measurement & Evaluation",
+    "EDPR 7521 Intro to Research Design & Method",
+    "EDPR 7581: Behavior Analysis/Single Case Design",
+    "EDPR 7541 Stat Method Applied to Education I",
+    "SPED 7000 Introduction to Exceptional Children",
+    "SPED 7514 Intro to Appl Beh Analysis",
+    "SPED 7518 Evidence Based Practice in ABA",
+    "COE Elective (Examples Below)"
+  ),
+  Hours = c(3, 3, 3, 3, 3, 3, 3, 3, 3, 6),
+  `2.1` = c("", "", "", "P", "", "P", "", "P", "P", ""),
+  `2.2` = c("P", "P", "", "", "", "", "", "", "P", ""),
+  `2.3` = c("", "", "", "", "", "", "", "", "P", ""),
+  `2.4` = c("", "", "", "", "", "", "", "", "P", ""),
+  `2.5` = c("", "", "", "", "", "", "", "", "P", ""),
+  `2.6` = c("", "", "P", "", "", "", "", "", "P", ""),
+  `2.7` = c("", "", "", "", "", "", "", "", "P", ""),
+  `2.8` = c("", "", "", "", "", "", "P", "", "P", ""),
+  `2.9` = c("", "", "", "P", "", "P", "P", "", "P", ""),
+  `2.10` = c("", "", "", "", "", "", "", "", "", "")
+)
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+kbl(
+  psych_courses,
+  booktabs = TRUE,
+  align = "lccccccccccc",
+  caption = "Department of Psychology Courses and NASP Standards",
+  col.names = c("Course", "Hours", "2.1", "2.2", "2.3", "2.4", "2.5", "2.6", "2.7", "2.8", "2.9", "2.10")
+) %>%
+  kable_styling(full_width = TRUE, bootstrap_options = c("striped", "hover", "condensed"))
+
+```
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+kbl(
+  ed_courses,
+  booktabs = TRUE,
+  align = "lccccccccccc",
+  caption = "College of Education Courses and NASP Standards",
+  col.names = c("Course", "Hours", "2.1", "2.2", "2.3", "2.4", "2.5", "2.6", "2.7", "2.8", "2.9", "2.10")
+) %>%
+  kable_styling(full_width = TRUE, bootstrap_options = c("striped", "hover", "condensed"))
+
+```
+> **COE Elective Examples:**
+> - COUN 7750 Multicultural Counseling  
+> - EDPR 6000 Edu, School, & American Society  
+> - LEAD 7100 Education & Community  
+> - EDPR 7111 Child Development & Edu  
+> - EDPR 7150 Motivation  
+> - EDPR 7112 Adolescent Dev & Edu  
+> - SPED 7806 Special Education Law  
+> - SPED 7522 Tiered Interventions  
+
+
+> You can download the Degree Worksheet [here](https://github.com/rlfarmer27/MAEDSHandbook/raw/main/docs/resources/chron_degreeworksheet.docx).
+
 [Back to top](#program-handbook)
 
 <small>*Last updated: `r format(file.info("sppc.Rmd")$mtime, "%B %d, %Y")`*</small>
