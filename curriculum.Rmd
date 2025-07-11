@@ -220,7 +220,7 @@ kbl(
 ##### Spring
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 library(knitr)
-library(kableExtra)
+library(kableExtra) 
 
 spring_y3 <- data.frame(
   Course = c(
@@ -245,7 +245,7 @@ kbl(
 ```
 <small>*Note.* During this semester, interns are often applying for and securing formal positions as school psychologists post-internship. They should also apply for any credentials they will need, though this is not a program requirement. Completion of this semester yields the Educational Specialist degree.</small>
 
-### Courses & NASP Alignments {@naspalign}
+### Courses & NASP Alignments
 
 ```{r  echo=FALSE, message=FALSE, warning=FALSE}
 psych_courses <- data.frame(
@@ -311,8 +311,8 @@ kbl(
   kable_styling(full_width = TRUE, bootstrap_options = c("striped", "hover", "condensed"))
 
 ```
-
-
+\
+\
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 kbl(
   ed_courses,
@@ -324,18 +324,18 @@ kbl(
   kable_styling(full_width = TRUE, bootstrap_options = c("striped", "hover", "condensed"))
 
 ```
-> **COE Elective Examples:**
-> - COUN 7750 Multicultural Counseling  
-> - EDPR 6000 Edu, School, & American Society  
-> - LEAD 7100 Education & Community  
-> - EDPR 7111 Child Development & Edu  
-> - EDPR 7150 Motivation  
-> - EDPR 7112 Adolescent Dev & Edu  
-> - SPED 7806 Special Education Law  
-> - SPED 7522 Tiered Interventions  
+**COE Elective Examples:**
+- COUN 7750 Multicultural Counseling  
+- EDPR 6000 Edu, School, & American Society  
+- LEAD 7100 Education & Community  
+- EDPR 7111 Child Development & Edu  
+- EDPR 7150 Motivation  
+- EDPR 7112 Adolescent Dev & Edu  
+- SPED 7806 Special Education Law  
+- SPED 7522 Tiered Interventions  
 
 
-> You can download the Degree Worksheet [here](https://github.com/rlfarmer27/MAEDSHandbook/raw/main/docs/resources/chron_degreeworksheet.docx).
+You can download the Degree Worksheet [here](https://github.com/rlfarmer27/MAEDSHandbook/raw/main/docs/resources/chron_degreeworksheet.docx).
 
 [Back to top](#program-handbook)
 
