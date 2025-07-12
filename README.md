@@ -1,35 +1,22 @@
-### Render the book (RStudio)
+## MA / EdS School Psychology Program Handbook
 
--   [ ] 1. Install **bookdown** with `install.packages("bookdown")`. If you already have it, update to the most recent version.
+This repository hosts the **MA/EdS School Psychology Program Handbook** for the University of Memphis.  
+The handbook is built with **R Markdown** and **bookdown**, and published as a multi-page GitBook (see the `docs/` folder for the rendered site).
 
--   [ ] 2. Render locally with `bookdown::render_book("index.Rmd")` or clicking the *Build book* button which should appear in the Build tab (in the same pane as Environment, History, Connections, ...).
+### What’s inside
 
--   [ ] 3. Use `browseURL("docs/index.html")` to view your book locally (or just open `index.html` in a browser).
+| Section | Highlights |
+|---------|------------|
+| **Program & Context** | Mission, history, faculty profiles, resources, and institutional context |
+| **Program Logistics & Details** | Degree requirements, course sequence, field experiences, assessment policies, and professional expectations |
+| **Governance & Policies** | Advising structure, annual reviews, grievance procedures, and accreditation alignment |
+| **Appendices** | Portfolio templates, evaluation forms, and policy references |
 
--   [ ] 4. If it looks good, commit and push all changed files to GitHub.
+### How to build locally
 
-(You will need to repeat steps 2 and 4 every time you wish to update the book online.)
+1. Clone or download the repository.  
+2. Open the project in RStudio (or any R environment).  
+3. Install dependencies:  
 
-### Edit README (GitHub or RStudio)
-
-Once you've completed these steps, delete the content of this **README** and add a short description of your project with a link to the book URL. It would be appreciated if you add the following to the end:
-
-*This repo was initially generated from a bookdown template available here: <https://github.com/jtr13/bookdown-template>.*
-
-(And starring the repo would be nice too!)
-
-### Demo Video
-
-A demo video showing how to create a **bookdown book** following these instructions: <http://bit.ly/fiveminutebookdown>
-
-### Additional features
-
-Please consult the official guide to **bookdown**: <https://bookdown.org/yihui/bookdown>
-
-bookdown::clean_book(TRUE)
-
-bookdown::render_book("index.Rmd")
-
-browseURL("docs/index.html")
-
-
+   ```r
+   install.packages(c("bookdown", "rmarkdown", "knitr"))
