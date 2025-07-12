@@ -37,5 +37,7 @@ Rm. 310 \| [emily.srisarajivakul\@memphis.edu](mailto:emily.srisarajivakul@memph
 Ph.D. 2021, Georgia State University\
 Interests: School climate and safety, cultural humility, applications of positive psychological interventions in schools, and consultation with educators to promote equitable outcome
 
-<small>*Last updated: `r format(file.info("sppc.Rmd")$mtime, "%B %d, %Y")`*</small>
+
+***
+<small>*Last updated: `r format(file.info("faculty.Rmd")$mtime, "%B %d, %Y")`*</small>
 

@@ -47,7 +47,7 @@
 -   School Psych PhD – TBD
 -   MSGP Program Rep – TBD
 
-------------------------------------------------------------------------
+
 
 # Contact Information
 
@@ -137,7 +137,7 @@
     -   Phone: 901-416-7113
     -   Email: [geterjl\@scsk12.org](mailto:geterjl@scsk12.org){.email}
 
-------------------------------------------------------------------------
+
 
 ### State Agencies and Licensing Boards
 
@@ -159,7 +159,7 @@
 -   Website: [TN Psychology
     Board](https://www.tn.gov/health/health-program-areas/health-professional-boards/psychology-board.html)
 
-------------------------------------------------------------------------
+
 
 # Important Resources, Publications, and Events
 
@@ -186,7 +186,7 @@
 -   **NASP Principles for Professional Ethics**\
     <https://www.nasponline.org/standards-and-certification/professional-ethics>
 
-------------------------------------------------------------------------
+
 
 ## Selected Journals in School Psychology
 
@@ -205,7 +205,7 @@
 -   *International Journal of School & Educational Psychology*
 :::
 
-------------------------------------------------------------------------
+
 
 ## Newsletters
 
@@ -213,7 +213,7 @@
 - [*The School Psychologist*](https://apadivision16.org/the-school-psychologist-tsp/), Division of School Psychology, APA  
 - *The Tennessee School Psychologist*, Tennessee Association of School Psychologists (TASP)
 
----
+
 
 ## Websites for School Psychology Information
 
@@ -222,7 +222,7 @@
 - [APA Division of School Psychology](https://www.apadivisions.org/division-16)  
 - [Tennessee Association of School Psychologists](https://www.tasponline.org)  
 
----
+
 
 ## Calendar of Events (2025–2026)
 
@@ -238,7 +238,7 @@ August 6-8, 2026
 _Chicago, IL (Hyatt Regency Chicago)_\
 February 24–27, 2026
 
----
+
 
 ### State Conferences
 
@@ -252,5 +252,5 @@ TBA\
 [https://www.tpaonline.org](https://www.tpaonline.org)
 
 
-[Back to top](#program-handbook)
-<small>*Last updated: `r format(file.info("sppc.Rmd")$mtime, "%B %d, %Y")`*</small>
+***
+<small>*Last updated: `r format(file.info("resources.Rmd")$mtime, "%B %d, %Y")`*</small>

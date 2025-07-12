@@ -57,4 +57,5 @@ School psychologists have knowledge of the history and foundations of school psy
 
 Note: The domains and descriptions are from the [2020 NASP Standards](https://www.nasponline.org/standards-and-certification/nasp-2020-professional-standards-adopted/nasp-2020-domains-of-practice) and added to the Handbook in 2021. The 2010 NASP domains were used for all program requirements and evaluations in 2019-2020 and 2020-2021.
 
-[Back to top](#program-handbook) <small>*Last updated: `r format(file.info("sppc.Rmd")$mtime, "%B %d, %Y")`*</small>
+***
+<small>*Last updated: `r format(file.info("philosophy.Rmd")$mtime, "%B %d, %Y")`*</small>

@@ -1,13 +1,13 @@
 ---
 title: "MA/EdS School Psychology Program Handbook"
 author: "R.L. Farmer"
-date: "`r Sys.Date()`"
+date: "July 11 2025"
 site: bookdown::bookdown_site
 output: 
   bookdown::gitbook:
     css: ["style.css", "custom.css"]
+    keep_md: false
 ---
-
 
 <!-- Suppress chapter numbering -->
 # {-}
@@ -22,3 +22,4 @@ output:
   <p><em>`r format(file.info("sppc.Rmd")$mtime, "%B %d, %Y")`</em></p>
 </div>
 </div>
+

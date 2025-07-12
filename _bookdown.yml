@@ -1,6 +1,7 @@
-book_filename: "bookdownproj"
+book_filename: "MAEDSHandbook"
 output_dir: docs
-delete_merged_file: true
+delete_merged_file: TRUE
+new_session: yes
 edit: https://github.com/rlfarmer27/MAEDSHandbook/edit/main/%s
 view: https://github.com/rlfarmer27/MAEDSHandbook/blob/main/%s
 language:
@@ -9,21 +10,27 @@ language:
 rmd_files:
   - index.Rmd
 
-  # Section 1
+  # Section 1: The Program & Its Context
   - section1.Rmd
+  - overview.Rmd
   - faculty.Rmd
   - history.Rmd
   - resources.Rmd
   - context.Rmd
 
-  # Section 2: Details
+  # Section 2: Program Logistics & Details
   - section2.Rmd
   - philosophy.Rmd
+  - gettingstarted.Rmd
   - curriculum.Rmd
+  - fieldexp.Rmd
+  - evaluation.Rmd
+  - misc.Rmd
 
 
-  # Section 3: Policies
+  # Section 3: Program Governance & Policies
   - section3.Rmd
   - sppc.Rmd
+  - policy.Rmd
   
   # Section 4: Appendices

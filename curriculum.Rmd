@@ -324,19 +324,17 @@ kbl(
   kable_styling(full_width = TRUE, bootstrap_options = c("striped", "hover", "condensed"))
 
 ```
-**COE Elective Examples:**
-- COUN 7750 Multicultural Counseling  
-- EDPR 6000 Edu, School, & American Society  
-- LEAD 7100 Education & Community  
-- EDPR 7111 Child Development & Edu  
-- EDPR 7150 Motivation  
-- EDPR 7112 Adolescent Dev & Edu  
-- SPED 7806 Special Education Law  
-- SPED 7522 Tiered Interventions  
-
+> **COE Elective Examples:**
+> - COUN 7750 Multicultural Counseling  
+> - EDPR 6000 Edu, School, & American Society  
+> - LEAD 7100 Education & Community  
+> - EDPR 7111 Child Development & Edu  
+> - EDPR 7150 Motivation  
+> - EDPR 7112 Adolescent Dev & Edu  
+> - SPED 7806 Special Education Law  
+> - SPED 7522 Tiered Interventions  
 
 You can download the Degree Worksheet [here](https://github.com/rlfarmer27/MAEDSHandbook/raw/main/docs/resources/chron_degreeworksheet.docx).
 
-[Back to top](#program-handbook)
-
-<small>*Last updated: `r format(file.info("sppc.Rmd")$mtime, "%B %d, %Y")`*</small>
+***
+<small>*Last updated: `r format(file.info("curriculum.Rmd")$mtime, "%B %d, %Y")`*</small>

@@ -1,0 +1,7 @@
+# template {#template}
+
+
+***
+[Back to top](#template)
+
+<small>*Last updated: `r format(file.info("xxx.Rmd")$mtime, "%B %d, %Y")`*</small>

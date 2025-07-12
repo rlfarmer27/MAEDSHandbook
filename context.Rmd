@@ -255,7 +255,6 @@ This section provides links to University of Memphis maintained fact sheets and 
 - [Enrollment Trends](https://www.memphis.edu/oir/data/public_enrollment_trends.php)\
 - [Student Demographics](https://www.memphis.edu/oir/data/public_student_demographics.php)
 
-------------------------------------------------------------------------
 
 ## The Department of Psychology
 
@@ -303,6 +302,7 @@ The core values of the College of Education include:
 -   *Service* – We utilize our skills and attributes to enhance our practices and expand our support to others.
 -   *Build* on the foundation of success in research, teaching and service by fostering depth and breadth of knowledge, conducting relevant and innovative research, developing culturally competent leaders and practitioners.
 
+
 [Back to top](#program-handbook)
 
-<small>*Last updated: `r format(file.info("sppc.Rmd")$mtime, "%B %d, %Y")`*</small>
+<small>*Last updated: `r format(file.info("context.Rmd")$mtime, "%B %d, %Y")`*</small>

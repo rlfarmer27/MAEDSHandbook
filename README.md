@@ -28,7 +28,7 @@ Please consult the official guide to **bookdown**: <https://bookdown.org/yihui/b
 
 bookdown::clean_book(TRUE)
 
-bookdown::render_book("index.Rmd", clean = TRUE)
+bookdown::render_book("index.Rmd")
 
 browseURL("docs/index.html")
 

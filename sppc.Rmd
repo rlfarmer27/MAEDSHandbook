@@ -245,6 +245,6 @@ the policies may be permanently changed by the proper motion, second,
 and affirmative vote of two-thirds of the SPPC's eligible voting
 members.
 
-[Back to top](#program-handbook)
+***
 <small>*Last updated: `r format(file.info("sppc.Rmd")$mtime, "%B %d, %Y")`*</small>
 

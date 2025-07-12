@@ -1,0 +1,1898 @@
+---
+title: "MA/EdS School Psychology Program Handbook"
+author: "R.L. Farmer"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: 
+  bookdown::gitbook:
+    css: ["style.css", "custom.css"]
+---
+
+
+<!-- Suppress chapter numbering -->
+# {-}
+\
+\
+<div style="text-align: center; margin-top: 100px;">
+
+<img src="https://github.com/rlfarmer27/MAEDSHandbook/blob/main/docs/images/maedslogo.png?raw=true" width="500px" style="margin-top: 50px;" />
+
+<div style="text-align: center; margin-top: 50px;">
+  <p><em>R.L. Farmer</em></p>
+  <p><em>`r format(file.info("sppc.Rmd")$mtime, "%B %d, %Y")`</em></p>
+</div>
+</div>
+
+<!--chapter:end:index.Rmd-->
+
+# (PART) The Program & Its Context {.unnumbered}
+
+<!--chapter:end:section1.Rmd-->
+
+# Program Overview {#overview}
+
+The School Psychology Program at the University of Memphis prepares graduate students to become competent, ethical, and effective school psychologists. Through integrated coursework, closely supervised fieldwork, and a strong emphasis on applied research, the program develops professionals who are equipped to serve diverse children, families, and schools.
+
+## Mission and Values
+
+The mission of the MA/EdS Program in School Psychology is to prepare graduates who are ready to provide evidence-based, culturally responsive services to children, families, and schools. Grounded in the scientist-practitioner model, the program emphasizes critical thinking, professional ethics, and collaborative problem-solving.
+
+We are committed to:
+- Equitable service delivery across diverse settings  
+- Developing professional skills through real-world experience  
+- Supporting the well-being and learning of all children  
+- Upholding the highest standards of ethical and professional conduct  
+- Preparing students for long-term success in practice or doctoral-level study  
+
+## Degrees Awarded
+
+Students who complete the program earn the following degrees:
+- Master of Arts (MA) in Psychology
+- Education Specialist (EdS) in School Psychology
+
+These degrees are awarded concurrently, and both are required for program completion and credentialing.
+
+## Relationship with the Doctoral Program 
+
+Students in the MA/EdS program take many of their courses alongside students in the School Psychology doctoral program. This shared coursework fosters collaboration, shared learning, and familiarity with advanced topics in the field. Furthermore, the majority of *applied* skills for doctoral-level school psychologists are the same as those required of MA/EdS-level practitioners, especially in areas such as assessment, consultation, and intervention.
+
+MA/EdS students are also welcome to participate in faculty research labs, attend research group meetings, and pursue additional research experience beyond program requirements. These opportunities are especially encouraged for students considering future doctoral study.
+
+Students interested in continuing into the doctoral program may apply directly from the MA/EdS program. While acceptance is not automatic, many MA/EdS students have successfully transitioned into the doctoral program. Requirements for the doctoral degree are maintained in a separate handbook, and prospective applicants are encouraged to speak with the program director for guidance on planning and application.
+
+## Duration and Structure
+
+The program is designed as a **three-year, full-time sequence**:
+- **Years 1–2**: Campus-based coursework, practicum experiences, and research activities
+- **Year 3**: Full-time internship in an approved school or community-based setting
+
+Students begin field experiences during their first semester and build toward increasingly independent practice under supervision. A minimum of 60 semester credit hours is required for graduation.
+
+## NASP Approval
+
+The MA/EdS Program in School Psychology has been *approved by the National Association of School Psychologists (NASP)* since 1998. The program most recently hosted a site visit as part of its regular review cycle and is currently awaiting updated approval results.
+
+Graduates of NASP-approved programs are eligible to apply for the *Nationally Certified School Psychologist (NCSP)* credential.
+
+## Accreditation and State Approval
+
+The University of Memphis is fully accredited by the *Southern Association of Colleges and Schools Commission on Colleges (SACSCOC)*.
+
+The School Psychology Program is also consistent with guidelines from the Tennessee Department of Education (TDOE), and graduates meet the educational requirements for licensure as a school psychologist in Tennessee and many other states.
+
+If you are planning to practice in a state other than Tennessee, please consult with the program director and review that state’s licensure guidelines.
+
+## Admission Requirements {#admissionreq}
+The criteria for admission to the MA/EdS and the PhD programs appear in the UM Graduate Bulletin and include quantitative and qualitative measures. No single measure is used in making a decision.  Rather, the entire application file is reviewed to make a judgment of a student’s probable success in training to become a school psychologist.  See also the Policy for Admission to the MA/EdS Program in this handbook, in Section III.  Some students apply to the program as non-degree students seeking only admission to complete the work necessary for an endorsement for state department of education credentialing.  These applications are reviewed against the usual admission requirements and ensure that appropriate degrees and work have already been satisfactorily completed, The Policy for Endorsement of Non-Degree School Psychology Licensure Students is also available in Section III. **For the time being, the program is not reviewing requests for non-degree school psychology licensure.**
+
+## Advising {@advising}
+Student progress is reviewed during regular advising each semester. This applies to degree and endorsement only students. The policies regarding Responsibility for Student Advising and for Periodic Evaluation of Students are both present in Section III. Policies for the advising of doctoral students are covered in the doctoral handbook. Dr. Farmer serves as the primary advisor for MA/EdS students and Dr. Meisinger for the PhD students.
+
+---
+[Back to top](#program-handbook)
+
+<small>*Last updated: `r format(file.info("overview.Rmd")$mtime, "%B %d, %Y")`*</small>
+
+<!--chapter:end:overview.Rmd-->
+
+# Getting Started {#gettingstarted}
+
+## Orientation and Mentorship
+
+At the beginning of the program, you will attend a graduate orientation hosted by the Department of Psychology. This session provides key information about program expectations, university resources, and support services. Orientation is required for all incoming students.
+
+In addition, the School Psychology Association (SPA) coordinates a peer mentorship program. Incoming students are paired with second-year students who can offer guidance, support, and insight during your first year of training.
+
+Social gatherings and informal meetups are often scheduled around the start of the semester to help you get to know your cohort and student community.
+
+## Campus Logistics
+
+### Parking  
+General student parking is included with your fees. You will receive a parking hangtag and may park in any designated general lots. The closest parking to the Psychology Building is typically Lot 40 on Innovation Drive.
+
+### ID Cards  
+You’ll need to obtain a University of Memphis ID card to access buildings and university services. ID cards are issued in the Wilder Tower lobby and are required for secure building entry, including the Psychology Building.
+
+### Building Access and Safety  
+The Psychology Building remains locked outside of standard business hours and requires card access. Red emergency phones are located in hallways throughout the building and connect directly to campus police.
+
+The university also offers **Tiger Patrol** escort services from dusk until late evening. Call 901-678-HOME for safe escort between locations on campus.
+
+## Graduate Assistantships
+
+While the MA/EdS program does not guarantee assistantship funding, students are encouraged to seek opportunities across campus. Graduate assistantships may involve teaching, research, or student services roles and typically offer a tuition waiver and stipend.
+
+Assistantships are posted by individual offices and programs. Students should inquire with their faculty mentors or explore postings on university job boards and departmental bulletin boards.
+
+## Program Canvas Enrollment
+
+All students in the School Psychology MA/EdS program are enrolled in a **Canvas shell** that serves as the central hub for important announcements, documents, and deadlines. Be sure to check Canvas regularly for updates, shared resources, and communication from faculty.
+
+To self-enroll in the Canvas site, use this link: [https://memphis.instructure.com/enroll/JGKTRL](https://www.memphis.instructure.com/enroll/JGKTRL)
+
+If you have trouble accessing the Canvas shell, contact the program director for assistance.
+
+## Background Checks
+
+Before beginning any field-based experience (including Professional Experience, practicum, and internship), you must complete a **TBI background check** through the College of Education. This is a university-wide requirement for anyone working in school settings.
+
+Instructions for completing the background check are posted on the [College of Education’s Background Checks page](https://www.memphis.edu/tep/clinical/background-checks.php). Follow these instructions carefully and allow time for processing.
+
+Once completed, confirmation is filed with the College of Education, and you may be asked to provide documentation when starting a school placement.
+
+
+---
+[Back to top](#program-handbook)
+
+<small>*Last updated: `r format(file.info("sppc.Rmd")$mtime, "%B %d, %Y")`*</small>
+
+<!--chapter:end:gettingstarted.Rmd-->
+
+# Program Information
+
+## School Psychology Faculty {#faculty}
+
+**Dr. Ryan Farmer**, Clinical Assistant Professor\
+MA/EdS Program Director\
+Director of the Psychological Services Center\
+Rm. 126c\
+901-678-2313 \| [r.farmer\@memphis.edu](mailto:r.farmer@memphis.edu){.email}\
+Interests: Assessment practices in school psychology; the generation, adoption, and maintenance of low value and evidence-based practices in school psychology; and meta-scientific issues (e.g., ethics & philosophy of practice) in school psychology.
+\
+\
+**Dr. Randy Floyd**, Professor\
+Department Chair\
+Rm. 332\
+901-678-4846 \| [rgfloyd\@memphis.edu](mailto:rgfloyd@memphis.edu){.email}\
+Ph.D. 1999, Indiana State University.\
+Interests: Psychoeducational assessment, theories of intelligence, and academic achievement. Additionally, Dr. Floyd is interested in the study of school psychology's scientific literature.
+\
+\
+**Dr. Beth Meisinger**, Professor \
+Doctoral Program Director of Clinical Training\
+Rm. 338\
+901-678-3435 \| [bmsinger\@memphis.edu](mailto:bmsinger@memphis.edu){.email}\
+Ph.D. 2006, University of Georgia\
+Interests: Academic and behavioral interventions, consultation, school mental health
+\
+\
+**Dr. Michelle Washington**, Assistant Professor \
+Rm. 306 \| [mlwshng5\@memphis.edu](mailto:mlwshng5@memphis.edu){.email}\
+Ph.D. 2022, Georgia State University\
+Interests: Impact of diversification on the field of school psychology, including disproportionality, culturally competent service delivery, school psychology practice in urban settings, and the influence of racial-ethnic matching/incongruence on service delivery and student outcomes.
+\
+\
+**Dr. Emily Srisarajivakul**, Assistant Professor \
+Rm. 310 \| [emily.srisarajivakul\@memphis.edu](mailto:emily.srisarajivakul@memphis.edu){.email}\
+Ph.D. 2021, Georgia State University\
+Interests: School climate and safety, cultural humility, applications of positive psychological interventions in schools, and consultation with educators to promote equitable outcome
+
+<small>*Last updated: `r format(file.info("sppc.Rmd")$mtime, "%B %d, %Y")`*</small>
+
+
+<!--chapter:end:faculty.Rmd-->
+
+# Program History {#history}
+
+The history of the School Psychology Programs at The University of Memphis dates primarily from 1975 and is closely tied to the histories of the Department of Psychology and the College of Education (COE).  While school-clinical psychology offerings and an MA degree program were available during the period 1960-1975, a jointly sponsored MA/EdS program (Department of Psychology and COE) was formally initiated in 1976.  It was an outgrowth of changes in the requirements for Tennessee State Department of Education certification (now licensure) of school psychologists in Tennessee (circa 1975) and the need for a revised school psychology program at what was then called Memphis State University.  The revised program, a 45 semester hour MA degree, was developed by a School Psychology Coordinating Committee (SPCC), established at the request of the Vice President for Academic Affairs. The SPCC functioned as the policy-making body for the jointly sponsored MA/EdS program until August 2015.  The new MA program was the first instance of a school psychology specific degree and the hiring of faculty in the area of school psychology.  Dr. Thomas Fagan, the first bona fide school psychologist faculty member, was hired for the 1976-1977 school year.  Dr. Bruce Bracken joined the faculty in 1986 and left in 1999.  Dr. Wendy Naumann served from 1998-2001.  Dr. Randy Floyd joined the program in fall 2001, Dr. Robin Phaneuf served from 2002-2006 and Dr. Laura Casey served in her position on an interim basis in 2006-2007 as a visiting assistant professor.  Dr. Elizabeth Meisinger joined the faculty in fall 2007 and Dr. Xu (Lilya) Jiang joined the faculty in fall 2015 and left in June 2020.  Dr. Sarah Irby was hired as a clinical assistant professor in fall 2020 and in fall 2021 was appointed interim director of the MA/EdS program when Dr. Fagan retired as an emeritus professor in August 2021.  Drs. Emily Srisarajivakul and Ryan Farmer joined the faculty in fall 2022. Dr. Ryan Farmer assumed the role of director of the MA/EdS program in fall 2023. Dr. Sarah Irby left the faculty in spring 2024. Dr. Michelle Washington joined the faculty in Fall 2024. Drs. Meisinger, Srisarajivakul, Washington, Farmer, and Floyd currently constitute the core program faculty and are supported by faculty in other areas of the Psychology Department, the COE, and local practitioners who assist with instruction and field supervision. Faculty appointment history is displayed in figure \@ref(fig:fachistory). 
+
+```{r fachistory, fig.cap ="Timeline of MA/EdS Program Faculty.", fig.align="center", fig.width=12, fig.height=6, echo=FALSE, message=FALSE, warning=FALSE}
+# Faculty history reference:
+# - Dr. Thomas Fagan: 1976–2021 (Director until 2020)
+# - Dr. Bruce Bracken: 1986–1999
+# - Dr. Wendy Naumann: 1998–2001
+# - Dr. Randy Floyd: 2001–present
+# - Dr. Robin Phaneuf: 2002–2006
+# - Dr. Laura Casey: 2006–2007 (interim)
+# - Dr. Elizabeth Meisinger: 2007–present
+# - Dr. Xu (Lilya) Jiang: 2015–2020
+# - Dr. Sarah Irby: 2020–2024 (Director 2021–2023)
+# - Dr. Emily Srisarajivakul: 2022–present
+# - Dr. Ryan Farmer: 2022–present (Director from 2023)
+# - Dr. Michelle Washington: 2024–present
+
+library(ggplot2)
+library(dplyr)
+
+# Faculty appointment data
+faculty <- data.frame(
+  name = c(
+    "Thomas Fagan", "Bruce Bracken", "Wendy Naumann", "Randy Floyd",
+    "Robin Phaneuf", "Laura Casey", "Elizabeth Meisinger", "Lilya Jiang",
+    "Sarah Irby", "Emily Srisarajivakul", "Ryan Farmer", "Michelle Washington"
+  ),
+  start_year = c(1976, 1986, 1998, 2001, 2002, 2006, 2007, 2015, 2020, 2022, 2022, 2024),
+  end_year = c(2021, 1999, 2001, 2025, 2006, 2007, 2025, 2020, 2024, 2025, 2025, 2025)
+)
+
+faculty <- faculty %>%
+  mutate(
+    start = as.Date(paste0(start_year, "-08-01")),
+    end = as.Date(paste0(end_year, "-07-31"))
+  ) %>%
+  arrange(start) %>%
+  mutate(name = factor(name, levels = rev(unique(name))))
+
+# UofM-style colors (can be extended/adjusted)
+faculty_colors <- c(
+  "Thomas Fagan" = "#002147",
+  "Bruce Bracken" = "#005DAA",
+  "Wendy Naumann" = "#A7A9AC",
+  "Randy Floyd" = "#0077C8",
+  "Robin Phaneuf" = "#6C7A89",
+  "Laura Casey" = "#A0CBE8",
+  "Elizabeth Meisinger" = "#A7A9AC",
+  "Lilya Jiang" = "#BFD7EA",
+  "Sarah Irby" = "#003366",
+  "Emily Srisarajivakul" = "#92B4EC",
+  "Ryan Farmer" = "#005DAA",
+  "Michelle Washington" = "#6096BA"
+)
+
+# Director appointment spans
+director_spans <- data.frame(
+  name = c("Thomas Fagan", "Sarah Irby", "Ryan Farmer"),
+  x_start = as.Date(c("1976-08-01", "2021-08-01", "2023-08-01")),
+  x_end   = as.Date(c("2020-07-31", "2023-07-31", "2025-07-31")),
+  y = as.numeric(factor(c("Thomas Fagan", "Sarah Irby", "Ryan Farmer"),
+                        levels = levels(faculty$name))) + 0.35
+)
+
+director_labels <- data.frame(
+  label = c("Director", "Director", "Director"),
+  x = as.Date(c("1998-01-01", "2022-01-01", "2024-01-01")),
+  y = director_spans$y + 0.1
+)
+  # Calculate Y position for labels near Ryan Farmer's line
+label_y <- which(levels(faculty$name) == "Ryan Farmer") - 0.3
+
+# Plot
+ggplot(faculty, aes(y = name, xmin = start, xmax = end, fill = name)) +
+  # Faculty appointment bars
+  geom_rect(aes(xmin = start, xmax = end,
+                ymin = as.numeric(name) - 0.3,
+                ymax = as.numeric(name) + 0.3)) +
+  scale_fill_manual(values = faculty_colors) +
+
+  # Vertical milestone lines
+  geom_vline(xintercept = as.Date("1988-08-01"), color = "black", size = 1) +
+  geom_text(aes(x = as.Date("1988-07-30"), y = label_y),
+          label = "Initial NCATE/NASP Approval",
+          angle = 90, vjust = 0, hjust = 0,
+          size = 3.5, fontface = "bold", color = "#005DAA") +
+
+  geom_vline(xintercept = as.Date("2014-08-01"), color = "black", size = 1) +
+  geom_text(aes(x = as.Date("2014-07-30"), y = label_y),
+          label = "Doctoral Program Begins",
+          angle = 90, vjust = 0, hjust = 0,
+          size = 3.5, fontface = "bold", color = "#005DAA") +
+
+  scale_x_date(date_breaks = "5 years", date_labels = "%Y",
+               expand = expansion(mult = c(0, 0.05))) +
+  labs(title = "Faculty History in the MA/EdS Program", x = "Year", y = NULL) +
+  theme_minimal(base_size = 12) +
+  theme(
+    legend.position = "none",
+    axis.text.y = element_text(size = 10)
+  )
+
+```
+
+Administered from the Psychology Department, the jointly sponsored MA/EdS program was indirectly overseen by the Dean of the COE and the Chair of the Psychology Department.  The MA/EdS program was governed by a 10-member School Psychology Coordinating Committee (SPCC; 4 members chosen from Psychology, 4 chosen from the COE, and 2 students).  All policies and curricula related to this program were the responsibility of the committee and were implemented by the MA/EdS program Director. The Associate Dean for Graduate Studies served as the program's primary contact in the COE. The SPCC developed a set of policy statements for the program as well as the original 45 semester hour Master's degree in 1975-1976 and the revised versions of those policies appear in this Handbook. The current 60-66 semester hour combined MA/EdS degree curriculum was initiated in 1982; the one-school year internship requirement was part of the EdS having previously been one semester. The PhD program was initiated in 1991 but governed by the policies of the Psychology Department's PhD major.  Program curricula and requirements for the different programs (MA/EdS and PhD) were determined entirely by the SPCC and by the Psychology Department, respectively. Starting in the fall of 2014, the directorship of the two programs was split with Dr. Fagan continuing as the director of the MA/EdS program and Dr. Floyd assuming the directorship of the PhD program. The programs continued to overlap in several areas of the curriculum and other areas (e.g., School Psychology Association, SPCC representation, field placements). 
+  
+In the summer of 2015 at a meeting of the core faculty with the UM Provost, the Interim Dean of the College of Education, and the chair of the Department of Psychology, it was agreed to restructure the governance of the MA/EdS program by drawing it into the governance of the Psychology Department. A revised School Psychology Program Committee (SPPC) was created to oversee the MA/EdS and the MS/PhD programs. The 2015 restructured governance arrangement retains the separate directorships, and the chair of the SPPC rotates among the two directors. The revised structure appears in this Handbook in Section III: Program Policies, Chapter \@ref(sppc) for more details.
+  
+With the change in governance, some changes were also made to the curriculum. For several years the program struggled to have certain courses in the COE offered on a regular basis and/or to focus the content more toward the needs of the school psychology students. This was especially true of courses in counseling theory and academic interventions. With the addition of a fourth school psychology faculty member, it was feasible to shift the content of those intervention courses into the core sequence of school psychology (7/8800 courses). Additional optional courses were also recommended in some areas (e.g., research design) and two intervention electives from counseling, special education, and educational psychology were added. The revised curriculum was in effect for students entering in fall, 2016 through spring 2025. In fall, 2025, minor adjustments to the curriculum were made to account for changes within the College of Education that impact course availability. Those changes are reflection in Section II: Program Description, Chapter \@ref(curriculum) for more details. 
+  
+The MA/EdS program has been accredited by NASP/NCATE (now CAEP) since the 1970s and first received NCATE/NASP approval in 1988. This approval has been uninterrupted and is active through December 2024. In 2024, the National Association of School Psychologists (NASP) was recognized by the Council for Higher Education as an accrediting organization in 2023. The program's first self study and site visit for accreditation with NASP was completed during the 2024-2025 academic year; results are anticipated in fall 2025.
+  
+Accreditation of the PhD program from the American Psychological Association was awarded in fall, 2014 and is active until 2021 (extended due to COVID-19 pandemic); the program's accreditation was renewed in spring, 2024 and is active until 2034.
+  
+[Back to top](#program-handbook)
+
+
+<small>*Last updated: `r format(file.info("sppc.Rmd")$mtime, "%B %d, %Y")`*</small>
+
+<!--chapter:end:history.Rmd-->
+
+# Local, Regional, & National Information {#locregnat}
+
+### The School Psychology Association (SPA)
+
+-   **President:** Jasmine Blake
+-   **Vice President:** Asya Miles
+-   **Social Chair:** Katie Vandervort
+-   **Service Chair:** Kristin Hardy
+-   **Webmaster:** Mekyland Williams
+
+### Tennessee Association of School Psychologists
+
+-   **Contact:** Pam Haggard, President\
+-   **Email:**
+    [phaggard\@AlcoaSchools.Net](mailto:phaggard@AlcoaSchools.Net){.email}\
+-   **Website:** [www.tasponline.org](http://www.tasponline.org)\
+-   **TASP Student Representative:** Kailey Thornton
+
+### American Psychological Association
+
+-   750 First St. NE, Washington, DC 20002-4242\
+-   Phone: 800-374-2721\
+-   Website: [www.apa.org](http://www.apa.org)\
+-   **APA Student Representative:** Morgan Huenergarde
+
+### National Association of School Psychologists
+
+-   4340 East West Hwy., Suite 402, Bethesda, MD 20814\
+-   Phone: 301-657-0270 \| Toll-free: 866-331-NASP\
+-   Website: [www.nasponline.org](http://www.nasponline.org)\
+-   **NASP Student Representative:** Kailey Thornton
+
+### Psychology Graduate Student Association (PGSA)
+
+-   **President:** TBD
+-   **Secretary:** TBD
+-   **Treasurer:** TBD
+-   **Wellness/Service Representative:** TBD
+-   **Web & Media Administrator:** TBD
+
+**Program Representatives**
+
+-   Clinical Program – TBD
+-   Behavioral Neuroscience – TBD
+-   Cognitive Science – TBD
+-   School Psych MA/EdS – TBD
+-   School Psych PhD – TBD
+-   MSGP Program Rep – TBD
+
+------------------------------------------------------------------------
+
+# Contact Information
+
+## University Contacts
+
+### Psychology Department
+
+-   202 Psychology Bldg., 400 Innovation Dr.\
+    University of Memphis, Memphis, TN 38152-3230
+-   Phone: 901-678-2145 \| Fax: 901-678-2579
+-   Website:
+    [www.memphis.edu/psychology](https://www.memphis.edu/psychology)
+
+### Psychological Services Center
+
+-   Rm. 126 Psychology Bldg., 400 Innovation Dr.\
+    University of Memphis, Memphis, TN 38152-3230\
+-   Phone: 901-678-2147
+-   Email: psc@memphis.edu
+-   Website: [www.memphis.edu/psc](https://www.memphis.edu/psc)
+
+### College of Education
+
+-   Website: <https://www.memphis.edu/education/>\
+\
+-   **Dr. Steve Zanskas**, Associate Dean
+    -   Office: BH 215J
+    -   Phone: 901-678-3663
+    -   Email:
+        [szanskas\@memphis.edu](mailto:szanskas@memphis.edu){.email}
+
+### Graduate Studies
+
+-   **Stormy Warren**
+    -   Office: BH 215G
+    -   Email:
+        [shutsell\@memphis.edu](mailto:shutsell@memphis.edu){.email}
+    -   Phone: 901-678-2363
+    -   Website: <https://www.memphis.edu/psychology/centers/psc.php>
+
+### Office of Teacher Education & Student Support Services
+
+-   Email: [t3ecp\@memphis.edu](mailto:t3ecp@memphis.edu){.email}
+-   Phone: 901-678-2377\
+-   **Licensing and Certification Specialist:** Mary Lanier
+    -   Office: BH 202
+    -   Email:
+        [mlanier\@memphis.edu](mailto:mlanier@memphis.edu){.email}
+
+### CAEP Accreditation Coordinator
+
+-   Colton Cockrum
+-   Email: [ccockrum\@memphis.edu](mailto:ccockrum@memphis.edu){.email}
+
+### Graduate School
+
+-   Website: <http://memphis.edu/gradschool>\
+-   **Dr. Deborah Perron Tollefsen**, Vice Provost and Dean
+    -   Office: 201D FedEx Institute of Technology
+    -   Phone: 901-678-5739
+    -   Email:
+        [dtollfsn\@memphis.edu](mailto:dtollfsn@memphis.edu){.email}\
+-   **Peggy Callahan**, Graduation Analyst
+    -   Email:
+        [mcllahan\@memphis.edu](mailto:mcllahan@memphis.edu){.email}
+    -   Phone: 901-678-3560
+
+## External Contacts
+
+### Shelby County Schools
+
+-   **Deborah Harris**, Executive Director
+    -   Exceptional Children and Health Services\
+        2930 Airways, Memphis, TN 38116
+    -   Phone: 901-416-5600
+    -   Email:
+        [harrisdg\@scsk12.org](mailto:harrisdg@scsk12.org){.email}\
+-   **Dr. Mary Berk**, Supervising Psychologist
+    -   Phone: 901-416-5600
+    -   Email: [berkmr\@scsk12.org](mailto:berkmr@scsk12.org){.email}\
+-   **Dr. Natalie Wilkins**, Supervising Psychologist
+    -   Phone: 901-416-5600
+    -   Email:
+        [wilkinsn1\@scsk12.org](mailto:wilkinsn1@scsk12.org){.email}\
+-   **Dr. Jennifer Geter**, Supervising Psychologist
+    -   MSCS Mental Health
+    -   Phone: 901-416-7113
+    -   Email: [geterjl\@scsk12.org](mailto:geterjl@scsk12.org){.email}
+
+------------------------------------------------------------------------
+
+### State Agencies and Licensing Boards
+
+**Tennessee State Department of Education**
+
+-   Andrew Johnson Tower,\
+    7th Floor 710 James Robertson Parkway\
+    Nashville, TN 37243-1102\
+-   Contact: April Ebbinger
+-   Phone: (615) 478-1268
+-   Email:
+    [April.Ebbinger\@tn.gov](mailto:April.Ebbinger@tn.gov){.email}
+
+**TN Department of Health — Health Related Boards: Psychology**
+
+-   665 Mainstream Dr., 2nd Floor\
+    Nashville, TN 37243\
+-   Phone: (615) 741-5735 | Toll-free: 1-800-778-4123
+-   Website: [TN Psychology
+    Board](https://www.tn.gov/health/health-program-areas/health-professional-boards/psychology-board.html)
+
+------------------------------------------------------------------------
+
+# Important Resources, Publications, and Events
+
+-   **Department of Psychology, Graduate Program Handbook**\
+    <http://www.memphis.edu/psychology>\
+    This site also connects to related sites in the department and the
+    graduate school.
+
+-   **Graduate School Catalog**\
+    <http://memphis.edu/gradcatalog/>
+
+-   **College of Education Website**\
+    <http://memphis.edu/coe/>
+
+-   **University of Memphis Graduate Bulletin**\
+    <http://catalog.memphis.edu/index.php>
+
+-   **UM Code of Student Conduct**\
+    <http://www.memphis.edu/osa/pdfs/csrr.pdf>
+
+-   **APA Code of Ethics**\
+    [www.apa.org/ethics/code](https://www.apa.org/ethics/code/)
+
+-   **NASP Principles for Professional Ethics**\
+    <https://www.nasponline.org/standards-and-certification/professional-ethics>
+
+------------------------------------------------------------------------
+
+## Selected Journals in School Psychology
+
+::: {style="column-count: 2; column-gap: 40px;"}
+-   *Journal of Applied School Psychology*
+-   *Journal of School Psychology*
+-   *Psychology in the Schools*
+-   *School Psychology International*
+-   *School Psychology*
+-   *Professional Psychology: Research & Practice*
+-   *School Psychology Review*
+-   *Journal of Educational & Psychological Consultation*
+-   *Journal of Psychoeducational Assessment*
+-   *Canadian Journal of School Psychology*
+-   *Contemporary School Psychology (California)*
+-   *International Journal of School & Educational Psychology*
+:::
+
+------------------------------------------------------------------------
+
+## Newsletters
+
+- [*Communiqué*](https://www.nasponline.org/resources-and-publications/cq-archive), National Association of School Psychologists  
+- [*The School Psychologist*](https://apadivision16.org/the-school-psychologist-tsp/), Division of School Psychology, APA  
+- *The Tennessee School Psychologist*, Tennessee Association of School Psychologists (TASP)
+
+---
+
+## Websites for School Psychology Information
+
+- [National Association of School Psychologists](https://www.nasponline.org)  
+- [American Psychological Association](https://www.apa.org)  
+- [APA Division of School Psychology](https://www.apadivisions.org/division-16)  
+- [Tennessee Association of School Psychologists](https://www.tasponline.org)  
+
+---
+
+## Calendar of Events (2025–2026)
+
+[**American Psychological Association (APA) Annual Convention**](https://convention.apa.org/)\
+_Denver, CO & Virtual_ *This Summer*\
+August 7-9, 2025
+
+_Washington, DC_\
+August 6-8, 2026
+
+
+[**National Association of School Psychologists (NASP) Annual Convention**](https://www.nasponline.org/professional-development/nasp-annual-convention-x105)\
+_Chicago, IL (Hyatt Regency Chicago)_\
+February 24–27, 2026
+
+---
+
+### State Conferences
+
+**Tennessee Association of School Psychologists' (TASP) Fall Conference**  
+_Chattanooga, TN_\
+September 25-26, 2025\
+[https://www.tasponline.org](https://www.tasponline.org)
+
+**Tennessee Psychological Association (TPA) Annual Convention**  
+TBA\
+[https://www.tpaonline.org](https://www.tpaonline.org)
+
+
+[Back to top](#program-handbook)
+<small>*Last updated: `r format(file.info("sppc.Rmd")$mtime, "%B %d, %Y")`*</small>
+
+<!--chapter:end:resources.Rmd-->
+
+# Program & Institutional Context {#context} 
+
+## The University of Memphis
+
+The University of Memphis was founded under the auspices of the General Education Bill, enacted by the Tennessee Legislature in 1909. Known originally as West Tennessee Normal School, the institution opened its doors September 10, 1912. In 1925 the name of the college changed to West Tennessee State Teachers College. The college changed names again in 1941, becoming Memphis State College, and in 1950 graduate studies were initiated. In 1957 the state legislature designated Memphis State full university status. The first doctoral programs began in 1966. In 1983 MSU became the first public university in Tennessee to gain accreditation of its entire curriculum. In 1994 MSU became The University of Memphis, and the Ned R. McWherter Library was completed.\
+\
+Moving into the 21st century, the Kemmons Wilson School of Hospitality and Resort Management and the FedEx Institute of Technology have made their mark on the University landscape. Today, the University of Memphis is one of Tennessee's three comprehensive doctoral-extensive institutions of higher learning. Situated in a beautiful park-like setting in the state's largest city, it was the flagship of the Tennessee Board of Regents system; in 2016-2017 the UM transitioned to its own governing board. The university awards more than 3,000 degrees annually. With an enrollment of approximately 22,000 students, The University of Memphis has 24 Chairs of Excellence, more than any other Tennessee university, and five state-approved Centers of Excellence.\
+\
+**Mission:**\
+The University of Memphis is a learner-centered metropolitan research university providing high quality educational experiences while pursuing new knowledge through research, artistic expression, and interdisciplinary and engaged scholarship.\
+\
+**Accreditation:**\
+The University of Memphis is accredited by the Commission on Colleges of the Southern Association of Colleges and Schools to award bachelor's, first professional, master's, educational specialist, and doctoral degrees.\
+\
+**Major Divisions of the University:**\
+College of Arts and Sciences, Fogelman College of Business and Economics, College of Communication and Fine Arts, College of Education, Herff College of Engineering, Kemmons Wilson School of Hospitality and Resort Management, University College, Loewenberg College of Nursing, School of Communication Sciences and Disorders, School of Public Health, School of Health Sciences, Cecil C. Humphreys School of Law, and the Graduate School.\
+\
+**Degrees:**\
+The University of Memphis offers 17 bachelor's degrees in more than 250 areas of study, master's degrees in over 55 subjects, and doctoral degrees in 23 disciplines in addition to the Juris Doctor (law) and a specialist degree in education.\
+\
+**Library:**\
+The University's Ned R. McWherter Library provides one of the most electronically up-to-date information repositories within hundreds of miles. Library collections contain more than 13 million items, which include monographs, periodical volumes, federal and state documents, maps, and manuscripts. Holdings include nearly 3.1 million microformat materials and more than a million bound volumes.\
+\
+**Information Technology.**\
+The U of M provides state-of-the-art computing facilities for student and faculty use, including a 24-hour TigerLAN lab. Thirty-five additional labs with more than 700 PC and Macintosh workstations and nearly "smart" classrooms complement teaching and research.\
+\
+**Center and Chairs of Excellence:**\
+The University has five state-approved Centers of Excellence: Center for Applied Psychological Research, Center for Earthquake Research and Information, Center for Research Initiatives and Strategies for the Communicatively Impaired, Center for Research in Educational Policy, and the Institute of Egyptian Art and Archaeology. There are 25 endowed Chairs of Excellence.
+
+## University Data {#unidata}
+
+The University of Memphis operates a large, urban campus with a strong faculty and administrative base, supported by substantial annual resources.
+
+-   **Operating Budget:** \$478 million annually
+-   **Full-Time Faculty:** Over 1,000
+-   **Total Employees:** Approximately 2,500 (faculty and staff combined)
+-   **Campus Size:** 1,160 acres
+
+### Faculty Demographic Data
+
+Table \@ref(tab:facdemo) summarizes the demographic composition of faculty by race, gender, and appointment type for the 2024 academic year. Data are organized separately for female and male faculty, with categories for non-tenure track, tenure track, and tenured appointments. A small number of visiting faculty (n=2) are excluded from the table.
+
+```{r facdemo, results='asis', echo=FALSE, message=FALSE, warning=FALSE}
+library(dplyr)
+library(knitr)
+library(kableExtra)
+library(scales)
+
+# Original faculty data by Race and Gender
+faculty_data <- data.frame(
+  Race = rep(c("Asian", "Black", "Hispanic", "Multi Race", "Other", "White"), times = 2),
+  Gender = rep(c("Female", "Male"), each = 6),
+  NonTenure = c(11, 63, 6, 6, 2, 201,
+                 22, 21, 5, 2, 2, 108),
+  TenureTrack = c(19, 18, 4, 2, 0, 56,
+                   24, 10, 5, 1, 1, 53),
+  Tenured = c(21, 14, 10, 1, 1, 111,
+              46, 16, 13, 4, 1, 175)
+)
+
+# Calculate totals
+faculty_data <- faculty_data %>%
+  mutate(Total = NonTenure + TenureTrack + Tenured)
+
+# Add 'Not Reported' row 
+faculty_not_reported <- data.frame(
+  Race = "Asian",
+  Gender = "Not Reported",
+  NonTenure = 2,
+  TenureTrack = 0,
+  Tenured = 0,
+  Total = 2
+)
+
+faculty_data <- bind_rows(faculty_data, faculty_not_reported)
+
+# Group and summarize female, male, and not reported
+faculty_female <- faculty_data %>%
+  filter(Gender == "Female") %>%
+  bind_rows(
+    summarise(., Race = "Total", Gender = "Female",
+              NonTenure = sum(NonTenure), TenureTrack = sum(TenureTrack),
+              Tenured = sum(Tenured), Total = sum(Total))
+  )
+
+faculty_male <- faculty_data %>%
+  filter(Gender == "Male") %>%
+  bind_rows(
+    summarise(., Race = "Total", Gender = "Male",
+              NonTenure = sum(NonTenure), TenureTrack = sum(TenureTrack),
+              Tenured = sum(Tenured), Total = sum(Total))
+  )
+
+faculty_unknown <- faculty_data %>%
+  filter(Gender == "Not Reported") %>%
+  bind_rows(
+    summarise(., Race = "Total", Gender = "Not Reported",
+              NonTenure = sum(NonTenure), TenureTrack = sum(TenureTrack),
+              Tenured = sum(Tenured), Total = sum(Total))
+  )
+
+# Combine for final display
+faculty_split <- bind_rows(faculty_female, faculty_male, faculty_unknown)
+
+# Format and display table
+faculty_split %>%
+  mutate(across(c(NonTenure, TenureTrack, Tenured, Total), ~ comma(.))) %>%
+  select(-Gender) %>%
+  kbl(
+     caption = "Faculty Demographics by Appointment Type",
+     col.names = c("Race", "Non-Tenure Track", "Tenure Track", "Tenured", "Total"),
+    align = "lrrrr",
+    format = "html"
+  ) %>%
+  add_header_above(c(" " = 1, "Appointment Type" = 3, " " = 1)) %>%
+  group_rows("Female", 1, nrow(faculty_female)) %>%
+  group_rows("Male", nrow(faculty_female) + 1, nrow(faculty_female) + nrow(faculty_male)) %>%
+  group_rows("Not Reported", nrow(faculty_female) + nrow(faculty_male) + 1, nrow(faculty_split)) %>%
+  kable_styling(
+    full_width = TRUE,
+    bootstrap_options = c("striped", "hover", "condensed", "responsive"),
+    font_size = 13
+  )
+```
+
+**Note.** This table presents full-time faculty by gender, race, and appointment type. Visiting and Ineligible faculty (n = 5) were excluded from this summary.\
+\
+\
+**Tuition & Fees for Graduate Students (2025-2025 data; Full-Time, 10+ Credit Hours):** 
+- In-State: \$6,780/year\
+- Out-of-State: \$9,140/year\
+- International: \$11,500/year
+
+**Enrollment & Student Demographics**
+
+As of Fall 2024, the University of Memphis serves over 20,000 students across undergraduate and graduate programs.
+
+-   **Total Enrollment:** \~20,272
+    -   Undergraduate: \~15,766
+    -   Graduate: \~3,093
+
+**Average ACT Score (Entering Freshmen):** 
+- University of Memphis: **23**\
+- Tennessee Average: **19.1**\
+- U.S. Average: **20.3**
+
+### Undergraduate and Graduate Student Demographic Data
+
+The tables below summarize the race and gender distribution of undergraduate and graduate students at the university for the 2024 academic year. Table \@ref(tab:ugraddemo) presents demographic data for undergraduate students, while Table \@ref(tab:graddemo) provides the same breakdown for graduate students. Each table includes headcounts and percentages by gender and race, offering a clear snapshot of the student population’s composition. These data help contextualize the diversity represented within the university community.\
+\
+
+```{r ugraddemo, results='asis', echo=FALSE, message=FALSE, warning=FALSE}
+library(knitr)
+library(kableExtra)
+library(dplyr)
+library(scales)
+
+# Undergraduate Data
+ug_data <- data.frame(
+  Race = c("Black", "White", "Hispanic", "Asian", "Multi Race", "Non Resident Alien",
+           "Not Specified", "Am Indian/Alaskan", "Native Hawaiian/Pacific Isl."),
+  Female_Headcount = c(3490, 2421, 909, 298, 337, 126, 32, 10, 8),
+  Female_Percent = c(45.73, 31.73, 11.91, 3.91, 4.42, 1.65, 0.42, 0.13, 0.10),
+  Male_Headcount = c(1695, 2061, 637, 306, 213, 139, 44, 5, 5),
+  Male_Percent = c(33.20, 40.37, 12.48, 5.99, 4.17, 2.72, 0.86, 0.10, 0.10),
+  Total_Headcount = c(5185, 4482, 1546, 604, 551, 265, 76, 15, 13),
+  Total_Percent = c(40.71, 35.19, 12.14, 4.74, 4.33, 2.08, 0.60, 0.12, 0.10)
+)
+
+ug_totals <- ug_data %>%
+  summarise(
+    Race = "Total",
+    Female_Headcount = sum(Female_Headcount),
+    Female_Percent = 100.00,
+    Male_Headcount = sum(Male_Headcount),
+    Male_Percent = 100.00,
+    Total_Headcount = sum(Total_Headcount),
+    Total_Percent = 100.00
+  )
+
+ug_data_full <- bind_rows(ug_data, ug_totals) %>%
+  mutate(across(ends_with("Headcount"), comma),
+         across(ends_with("Percent"), ~ sprintf("%.2f", .)))
+
+ug_data_full %>%
+  kbl(
+  caption = "Undergraduate Student Race and Gender",
+  col.names = c("Race", "Female", "%", "Male", "%", "Total", "%"),
+  align = "lrrrrrr",
+  format = "html"
+) %>%
+add_header_above(c(" " = 1, "Headcount" = 6)) %>%
+kable_styling(
+  full_width = TRUE,
+  bootstrap_options = c("striped", "hover", "condensed", "responsive"),
+  font_size = 13
+) %>%
+row_spec(nrow(ug_data_full), bold = TRUE)
+
+```
+
+\
+\
+
+```{r graddemo, echo=FALSE, message=FALSE, warning=FALSE}
+
+# Graduate Data
+grad_data <- data.frame(
+  Race = c("White", "Non Resident Alien", "Black", "Hispanic", "Asian",
+           "Multi Race", "Am Indian/Alaskan", "Not Specified"),
+  Female_Headcount = c(1013, 515, 867, 150, 99, 79, 7, 6),
+  Female_Percent = c(37.01, 18.82, 31.68, 5.48, 3.62, 2.89, 0.26, 0.22),
+  Male_Headcount = c(621, 718, 267, 59, 58, 31, 5, 6),
+  Male_Percent = c(35.14, 40.63, 15.11, 3.34, 3.28, 1.75, 0.40, 0.34),
+  Total_Headcount = c(1636, 1233, 1134, 209, 157, 110, 12, 12),
+  Total_Percent = c(36.31, 27.36, 25.17, 4.64, 3.48, 2.44, 0.27, 0.27)
+)
+
+grad_totals <- grad_data %>%
+  summarise(
+    Race = "Total",
+    Female_Headcount = sum(Female_Headcount),
+    Female_Percent = 100.00,
+    Male_Headcount = sum(Male_Headcount),
+    Male_Percent = 100.00,
+    Total_Headcount = sum(Total_Headcount),
+    Total_Percent = 100.00
+  )
+
+grad_data_full <- bind_rows(grad_data, grad_totals) %>%
+  mutate(across(ends_with("Headcount"), comma),
+         across(ends_with("Percent"), ~ sprintf("%.2f", .)))
+
+grad_data_full %>%
+  kbl(
+    caption = "Graduate Student Race and Gender",
+    col.names = c("Race", "Female", "%", "Male", "%", "Total", "%"),
+    align = "lrrrrrr",
+  format = "html") %>%
+  add_header_above(c(" " = 1, "Headcount" = 6)) %>%
+  kable_styling(
+  full_width = TRUE,
+  bootstrap_options = c("striped", "hover", "condensed", "responsive"),
+  font_size = 13) %>%
+  row_spec(nrow(grad_data_full), bold = TRUE)
+```
+
+\
+\
+**University Maintained Data & Dashboards:**\
+This section provides links to University of Memphis maintained fact sheets and dashboards that may provide more up-to-date information about the University of Memphis as well as University of Memphis faculty, employee, and student data. 
+- [UofM Facts at a Glance](https://www.memphis.edu/about/facts.php)\
+- [Faculty Statistics](https://www.memphis.edu/oir/data/public_faculty.php)\
+- [Employee Headcount](https://www.memphis.edu/oir/data/public_employee_headcount.php)\
+- [Enrollment Trends](https://www.memphis.edu/oir/data/public_enrollment_trends.php)\
+- [Student Demographics](https://www.memphis.edu/oir/data/public_student_demographics.php)
+
+------------------------------------------------------------------------
+
+## The Department of Psychology
+
+**Mission:** Psychology is a major discipline which contributes to the social and natural sciences. The primary mission of the Department of Psychology is to advance the science and profession of psychology through the production and dissemination of knowledge related to the discipline, and the preparation of academic and professional psychologists. Consistent with the mission of the Center for Applied Psychological Research (CAPR), departmental emphasis is placed upon scholarly activities which maintain and enhance the department’s national research reputation. The department strives to provide high quality liberal and general education for undergraduate students, a coherent, high-quality program for its majors and graduate students, service courses to students in other majors, and services to the general public. The breadth of the faculty’s commitment is reflected in graduate programs in both basic and applied science and in diverse research and scholarly pursuits. The department’s mission is consistent with the university’s mission to advance learning through excellence in teaching, research, and service. In 2020-2021 the department employed 22 full-time and 10 Non-Tenure-Track faculty (including adjuncts), and 24 full-time office staff including the Institute for Intelligent Systems (IIS) and the Psychological Services Center (PSC).
+
+**History and Degrees:** Psychology was established as an independent department in 1947. Authorization to award the master's degree was granted in 1960 and the first such degree was granted in 1962. The Ph.D. program in psychology was begun in 1966. For fall semester 2021 there were 112 students enrolled: There were 40 doctoral students in clinical, 12 in experimental, and 15 in school psychology. There were 29 students enrolled in the Master of Science in General Psychology (MSGP) and 16 in the Master of Arts/Educational Specialist in School Psychology (MA/EdS) Program. Graduate students have a voice in policy and decision-making through elected representatives to the department, and students are full members of several committees in the department. The training program in clinical psychology has been continuously accredited by the American Psychological Association since 1972. The MA/EdS program in school psychology has been continuously NASP approved since 1988. The PhD school psychology program was accredited by the APA in fall, 2014. More detailed history about the program is available in Chapter \@ref(history).
+
+**Facilities:** The Department of Psychology occupies a building of 88,000 square feet on the main University campus. This four-story structure contains two complete floors of animal and human research laboratories allowing all types of psychological investigation, a clinic (Psychological Services Center), undergraduate laboratories, a data analysis center, classrooms, and offices for all Psychology Department faculty and full-time graduate students. Classrooms are modern and equipped with computer, projection equipment, and internet access. The department's laboratories and clinic are outfitted completely with modern equipment sufficient for faculty or student research or training activities. Additional space exists in the nearby FedEx Institute of Technology Bldg.
+
+The University maintains a modern computer center with numerous networked connections in the Department of Psychology. Student access to this system is readily available. The department owns many network-connected computers. Wireless internet access is available to faculty and students in all campus instructional buildings. The department also houses two computer laboratories that are used for both research and teaching. Online and distance learning facilities have expanded to meet the needs of continued instruction and business operations during the pandemic.
+
+**The Psychological Services Center (PSC).** The PSC at the University of Memphis offers a wide range of services to the university and the public. The Center is the training and service delivery unit of the Psychology Department’s graduate programs in clinical and school psychology. Psychological and psychoeducational assessment, consultation, and intervention services are available by graduate students and advanced Ph.D. candidates who are directly supervised by clinical and school psychologists from the Memphis community and the University faculty. Center of Excellence. Founded in 1984, the Center for Applied Psychological Research (CAPR) is one of the original Tennessee Centers of Excellence, now designated an Accomplished Center of Excellence. The CAPR faculty have attracted millions of dollars in extramural funding to the State of Tennessee, published hundreds of scholarly works, graduated hundreds of masters and doctoral students and many times that number of undergraduates, been elected or appointed to many national professional offices, and won numerous local and national honors and awards. The primary CAPR goals are (a) to achieve national prominence for its accomplishments, (b) to increase the number of trained psychologists able to conduct, disseminate, and apply such research, and (c) to secure extramural funding to facilitate research and training. In addition, as part of a Psychology Department in a major urban research university, CAPR supports the general teaching, research, and service missions of the department and university. Center funds are also used to sponsor major conferences that allow top psychologists from this country and throughout the world to visit our department. The primary mission of the Center for Applied Psychological Research (CAPR) at The University of Memphis is to support psychological research. As part of a major urban research university, a primary focus of this mission is the application of psychological knowledge to finding solutions to individual and social problems -- local, regional, and national. Therefore, CAPR research focuses extensively on problems concerning health, mental health, education, schools, crime, the environment, and children and their families. In addition, to increasing our capacity for generating new approaches to applied problems, CAPR also supports basic scientific research in cognitive psychology, biopsychology, social psychology, developmental psychology, and research design and statistics.
+
+**Collaboration:** Faculty and graduate students conduct research and work on collaborative service projects in numerous community agencies, including the Desoto County Schools, Shelby County Schools, the municipal school districts of Arlington, Bartlett, Collierville, Germantown, Lakeland, and Millington, area charter schools and the Achievement School Districts including the ASPIRE Schools; Shelby County Head Start, the Boling Developmental Disabilities Center, the Veterans Administration Medical Center, the Departments of Psychiatry, Community Medicine, Pediatrics and Preventive Medicine at the University of Tennessee-Center for the Health Sciences-Memphis, St. Jude Children’s Research Hospital, the Memphis Mental Health Institute, agencies and departments of the City of Memphis, the University's Center for Student Development and Disability Resources for Students, and several community agencies. Administrators of these agencies are receptive to making their facilities and subject populations available for diverse psychological research projects and clinical services. Several distinguished scholars in psychology and related areas visit the department each year to present colloquia and workshops to faculty and students. The speakers represent a variety of current subject matter areas within psychology and have contributed to the Department’s Diversity Series held across the academic year. Additionally, the local chapters of Sigma Xi and other campus and community groups often invite scholars in psychology and related disciplines to Memphis.
+
+**Research Areas:** The faculty, students, and programs are spread over 5 research areas: Behavioral Neuroscience; Child and Family Studies; Clinical Health Psychology; Cognitive Psychology; and Psychotherapy Research. All faculty and students in the school psychology programs are affiliated with the Child and Family Studies area.
+
+*The Child, Adolescent, and Family Studies (CAFS) Research Area.* CAFS includes faculty and students from several department programs including Child Clinical Psychology, Developmental Psychology, and School Psychology and represents all three of the department's doctoral degree concentrations (Clinical, Experimental, and School). The common core of faculty research interests is a commitment to examining age-related cognitive, cultural, emotional, health, and social factors across infancy, childhood, and adolescence. Basic and applied research projects are conducted in a variety of settings, including community agencies, day care and preschool programs, homes, hospitals, and schools. From this diversity across faculty interests, graduate students can construct individualized programs of study and be involved with a wide variety of research topics and populations. CFS faculty have teaching assignments to courses related to the research area, and many provide supervised practicum experiences through the department's Psychological Services Center. Colloquium meetings are scheduled as needed on Friday afternoons during which faculty, students, and community partners present research findings. [Sources: Psychology Website, Undergraduate and Graduate Bulletins, Admissions Secretary, Governance Policy Manual.] The College of Education Teacher education has been a strong mission since the University was founded as a normal school in 1912.
+
+## The College of Education
+
+**The College of Education (COE)** is dedicated to preparing students for careers in a variety of professional and related occupational areas. Three academic departments make up the College of Education: Counseling, Educational Psychology and Research; Instruction and Curriculum Leadership; and Leadership. One department offers undergraduate degrees, and all departments offer a variety of graduate degree programs. School psychology students take courses in several of these departments including the areas of counseling, educational psychology and research, educational leadership, reading, and special education.
+
+The COE also has several research and service units: Advising and Student Services, The Center for the Study of Higher Education, The Reading Center, The Center for Rehabilitation and Employment Research, The Center for Research in Educational Policy, The Institute on Disability, and The Barbara K. Lipman Early Childhood School and Research Institute.
+
+## Conceptual Framework: Preparing Educational Leaders
+
+The conceptual framework of the University of Memphis’ College of Education consists of its vision, mission, and core values. We have high expectations for candidate performance. It ensures that we are engaged with our community, relevant to our stakeholders and disciplines, and leading our profession.
+
+The vision of the College of Education is driven by a commitment to diversity, social justice and equity. The College of Education is a premier educational organization that engages in innovative and impactful research, teaching, and service.
+
+The mission of the College of Education is to build on a foundation of success in research, teaching, and service by:
+
+-   fostering depth and breadth of knowledge conducting relevant and innovative research
+-   developing culturally competent leaders and practitioners
+-   collaborating with and providing services to diverse and local, national, and international partners to address real world problems of practice
+-   advancing an environment where diversity, social justice, and equity are paramount.
+
+The core values of the College of Education include:
+
+-   *Diversity* – We recognize, include and embrace all individuals ensuring intercultural relationships.
+-   *Inclusion* – We actively and intentionally commit to promoting equity and social justice in every endeavor.
+-   *Respect* – We value all people, recognizing that good ideas can come from anyone, anywhere, at any time.
+-   *Innovation* – We stay on the cutting edge by identifying new ways to embrace technology and solve problems.
+-   *Service* – We utilize our skills and attributes to enhance our practices and expand our support to others.
+-   *Build* on the foundation of success in research, teaching and service by fostering depth and breadth of knowledge, conducting relevant and innovative research, developing culturally competent leaders and practitioners.
+
+[Back to top](#program-handbook)
+
+<small>*Last updated: `r format(file.info("sppc.Rmd")$mtime, "%B %d, %Y")`*</small>
+
+<!--chapter:end:context.Rmd-->
+
+# (PART) Program Description {.unnumbered}
+
+<!--chapter:end:section2.Rmd-->
+
+# Program Philosophy {#philosophy}
+
+A societal emphasis has been placed on schools to provide a better future for children through a life-long educative process. In their professional roles, school psychologists are sensitive to the needs of a culturally diverse community, value the importance of children to the future of society, and advocate on behalf of children. As an integral part of human services available to children, adolescents, adults, and families, school psychologists’ function across multiple settings with a focus on educational institutions. School psychologists address diverse referral issues with varied services such as psychoeducational assessment, consultation, counseling and other interventions, in-service education, administrative services, research and evaluation.
+
+The primary distinction that separates school psychology from other psychological specialties is the combining of education and psychology in the study and delivery of services to children, youth, families, and learners of all ages. The additional focus of education to this area of psychology stems from the assumption that schools play a primary nurturing and socializing role in the lives of all individuals. School psychologists focus on the natural ecologies of children, youth, families, learners, and persons involved in schooling, and the process of schooling in multiple settings. Because of their training in both education and psychology, school psychologists are in a unique position to coordinate educational, psychological, and behavioral health services to learners across the life span. The curriculum of our program is an integrated course of study in areas of education and psychology that contribute to the preparation of school psychologists, in addition to a core of school psychology courses.
+
+```{r philfig1, fig.cap = "Conceptual model of program philosophy.", fig.align = 'center', out.width = "100%", echo = FALSE}
+knitr::include_graphics("https://github.com/rlfarmer27/MAEDSHandbook/blob/main/docs/images/philfig1.png?raw=true")
+```
+
+The overall philosophy of the school psychology program at The University of Memphis is an ecological, empirically based model that focuses on the multiple systems in which children exist. This perspective recognizes the complex interaction of person variables within and across multiple systems. This philosophy also acknowledges that the way problems are defined influences the subsequent use of assessment and intervention strategies. Using Bronfenbrenner’s ecological model (panel A) and Bandura’s notion of reciprocal determinism (panel B), this blend of problem definition and system analysis is driven by the following premises.
+
+-   The client is not only the center of the ecological model but is also an active participant who brings multiple dynamics to the model.
+-   The context in which the client resides includes multiple systems that have both direct and indirect influences. The microsystem includes immediate environments such as home, school, and community. Larger systems such as the cultural and political context of the community (e.g., exosystem and macrosystem) influence the client’s microsystem indirectly. The mesosytem includes interactions between the client and his/her microsystem and the larger systems.
+-   A reciprocal relationship exists between client and system. The client acts on his/her environment exerting control and influence over variables in the immediate and larger systems. Also, the multiple contexts in which the client resides influence the psycho-social development, adjustment and educational experiences and performance of the client.
+-   School psychologists intervene in the ecology in multiple ways. For existing concerns, problems are defined with information related to the client, the multiple contexts, and the interaction between the client and context. This information guides the practice of school psychology including prevention, assessment, and intervention services.
+-   Additionally, school psychologists provide services that assist in the creation of healthy individuals and systems. These services focus on wellness and maintenance of healthy environments and individuals.
+
+The overarching program model reflects the scientist-practitioner approach that balances knowledge, competencies, and skills in both research and practice. Students draw upon scientific literature to make decisions regarding practice with a focus on selecting and using empirically supported services while avoiding untested, ineffective, unnecessary, or harmful practices. Students are also instructed regarding basic program evaluation techniques and treatment monitoring and evaluation to determine the effectiveness of their assessment and interventions. In addition to these skill areas, doctoral students are trained in more advanced design and statistical techniques to become producers of scientific knowledge for the practice of school psychology. All students are taught to use a scientific, problem focused model to make clinical decisions by operationalizing problems, identifying appropriate data collection techniques, analyzing, and interpreting data collected, and utilized the findings to determine the target variables for intervention.
+
+The MA/EdS program focuses on practitioner training for the delivery of comprehensive school psychological services primarily in school settings. The training of practitioner skills follows a curricular sequence in assessment and intervention with a focus on linking problem-solving assessment and intervention to all roles of the school psychologist. In this manner the curriculum is constructed along the lines of NASP’s Model for Comprehensive and Integrated School Psychological Services, and its related standards for program approval. In addition to practitioner skills, MA/EdS students are trained in a “scientist as consumer” model which emphasizes the use of research findings and evidenced-based practices in clinical decision-making.
+
+**Program Goals and Content Domains\
+**The overall goal of the MA/EdS program is that students will successfully complete the domain-related requirements of the program, obtain credentialing for school-based practice from the Tennessee Department of Education or comparable authority in other states, and seek National Certification in School Psychology (NCSP). The MA/EdS curriculum and student evaluations are organized to be consistent with the following NASP domains, See the domain-course crosswalk in Chapter \@ref(curriculum).
+
+# 2020 Domains of School Psychology Training & Practice {#domains}
+
+**Domain 1: Data-Based Decision Making**:\
+School psychologists understand and utilize assessment methods for identifying strengths and needs; developing effective interventions, services, and programs; and measuring progress and outcomes within a multitiered system of support. School psychologists use a problem-solving framework as the basis for all professional activities. School psychologists systematically collect data from multiple sources as a foundation for decision-making at the individual, group, and systems levels, and they consider ecological factors (e.g., classroom, family, and community characteristics) as a context for assessment and intervention.
+
+**Domain 2: Consultation and Collaboration:**\
+School psychologists understand varied models and strategies of consultation and collaboration applicable to individuals, families, groups, and systems, as well as methods to promote effective implementation of services. As part of a systematic and comprehensive process of effective decision making and problem solving that permeates all aspects of service delivery, school psychologists demonstrate skills to consult, collaborate, and communicate effectively with others.
+
+**Domain 3: Academic Interventions and Instructional Supports:**\
+School psychologists understand the biological, cultural, and social influences on academic skills; human learning, cognitive, and developmental processes; and evidence-based curricula and instructional strategies. School psychologists, in collaboration with others, use assessment and data collection methods to implement and evaluate services that support academic skill development in children.
+
+**Domain 4: Mental and Behavioral Health Services and Interventions:**\
+School psychologists understand the biological, cultural, developmental, and social influences on mental and behavioral health, behavioral and emotional impacts on learning, and evidence-based strategies to promote social–emotional functioning. School psychologists, in collaboration with others, design, implement, and evaluate services that promote resilience and positive behavior, support socialization and adaptive skills, and enhance mental and behavioral health.
+
+**Domain 5: School-Wide Practices to Promote Learning:**\
+School psychologists understand systems structures, organization, and theory; general and special education programming; implementation science; and evidence-based, school-wide practices that promote learning, positive behavior, and mental health. School psychologists, in collaboration with others, develop and implement practices and strategies to create and maintain safe, effective, and supportive learning environments for students and school staff.
+
+**Domain 6: Services to Promote Safe and Supportive Schools:**\
+School psychologists understand principles and research related to social–emotional well-being, resilience and risk factors in learning, mental and behavioral health, services in schools and communities to support multitiered prevention and health promotion, and evidence-based strategies for creating safe and supportive schools. School psychologists, in collaboration with others, promote preventive and responsive services that enhance learning, mental and behavioral health, and psychological and physical safety and implement effective crisis prevention, protection, mitigation, response, and recovery.
+
+**Domain 7: Family, School, and Community Collaboration:**\
+School psychologists understand principles and research related to family systems, strengths, needs, and cultures; evidence-based strategies to support positive family influences on children’s learning and mental health; and strategies to develop collaboration between families and schools. School psychologists, in collaboration with others, design, implement, and evaluate services that respond to culture and context. They facilitate family and school partnerships and interactions with community agencies to enhance academic and social–behavioral outcomes for children.
+
+**Domain 8: Equitable Practices for Diverse Student Populations:**\
+School psychologists have knowledge of individual differences, abilities, disabilities, and other diverse characteristics and the impact they have on development and learning. They also understand principles and research related to diversity in children, families, schools, and communities, including factors related to child development, religion, culture and cultural identity, race, sexual orientation, gender identity and expression, socioeconomic status, and other variables. School psychologists implement evidence-based strategies to enhance services in both general and special education and address potential influences related to diversity. School psychologists demonstrate skills to provide professional services that promote effective functioning for individuals, families, and schools with diverse characteristics, cultures, and backgrounds through an ecological lens across multiple contexts. School psychologists recognize that equitable practices for diverse student populations, respect for diversity in development and learning, and advocacy for social justice are foundational to effective service delivery. While equality ensures that all children have the same access to general and special educational opportunities, equity ensures that each student receives what they need to benefit from these opportunities.
+
+**Domain 9: Research and Evidence-Based Practice:**\
+School psychologists have knowledge of research design, statistics, measurement, and varied data collection and analysis techniques sufficient for understanding research, interpreting data, and evaluating programs in applied settings. As scientist practitioners, school psychologists evaluate and apply research as a foundation for service delivery and, in collaboration with others, use various techniques and technology resources for data collection, measurement, and analysis to support effective practices at the individual, group, and/or systems levels.
+
+**Domain 10: Legal, Ethical, and Professional Practice:**\
+School psychologists have knowledge of the history and foundations of school psychology; multiple service models and methods; ethical, legal, and professional standards; and other factors related to professional identity and effective practice as school psychologists. School psychologists provide services consistent with ethical, legal, and professional standards; engage in responsive ethical and professional decision-making; collaborate with other professionals; and apply professional work characteristics needed for effective practice as school psychologists, including effective interpersonal skills, responsibility, adaptability, initiative, dependability, technological competence, advocacy skills, respect for human diversity, and a commitment to social justice and equity.
+
+Note: The domains and descriptions are from the [2020 NASP Standards](https://www.nasponline.org/standards-and-certification/nasp-2020-professional-standards-adopted/nasp-2020-domains-of-practice) and added to the Handbook in 2021. The 2010 NASP domains were used for all program requirements and evaluations in 2019-2020 and 2020-2021.
+
+[Back to top](#program-handbook) <small>*Last updated: `r format(file.info("sppc.Rmd")$mtime, "%B %d, %Y")`*</small>
+
+<!--chapter:end:philosophy.Rmd-->
+
+# Curriculum {#curriculum}
+
+## An Established Plan of Study
+All students are required to complete a Plan of Study, outlining their anticipated coursework and clinical experiences for each term. This plan helps ensure timely progress toward graduation and is often used to verify eligibility for financial aid, course prerequisites, and internship placement.
+
+Students should complete their Plan of Study in consultation with their academic advisor during their first semester. The plan is flexible and can be updated as needed to reflect changes in goals, course availability, or field placements.
+
+Students should also download and maintain the [Degree Worksheet](https://github.com/rlfarmer27/MAEDSHandbook/raw/main/docs/resources/chron_degreeworksheet.docx) throughout the program. It serves as a personal record of progress and a helpful tool during advising sessions.
+
+The following section provides a detailed course sequence in chronological order. Students are expected to download and complete the degree worksheet. This will support advising and help you stay organized as you progress through the program.
+
+The MA/EdS Program requires 61 semester hours divided across the two degrees. 
+
+## Degree Worksheet
+<small>Updated Spring 2025</small>
+
+#### Fall Year 1
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(knitr)
+library(kableExtra)
+fall_y1 <- data.frame(
+  Course = c(
+    "PSYC 7800: Ethical, Legal, & Professional Issues in School Psychology",
+    "PSYC 7803: Psychoeducational Assessment I",
+    "PSYC 7803 Lab: Assessment Lab",
+    "SPED 7000: Introduction to Special Education OR SPED 7206: Special Education LAw",
+    "Mid-Year Evaluation"
+  ),
+  `Credit Hours` = c(3, 3, 1, 3, 0),
+  `Permit Source` = c(
+    "Department of Psychology", "Department of Psychology", "None",
+    "College of Education", "None"
+  )
+)
+
+kbl(
+  fall_y1,
+  booktabs = TRUE,
+  align = "lcc",
+  caption = "Fall Year 1 Course Sequence",
+  col.names = c("Course", "Credit Hours", "Permit Source"),
+  format ="html") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed"),
+                position = "center")
+
+```
+
+#### Spring Year 1
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+spring_y1 <- data.frame(
+  Course = c(
+    "PSYC 7614a: Practicum in School Psychology",
+    "PSYC 7804: Psychoeducational Assessment II",
+    "PSYC 7807: Academic Interventions",
+    "COUN 7542: Counseling, Consultation, & Interventions in Schools OR COUN 7730: Crisis Intervention Counseling",
+    "End-of-Year Evaluation"
+  ),
+  `Credit Hours` = c(3, 3, 3, 3, 0),
+  `Permit Source` = c(
+    "Department of Psychology", "Department of Psychology", "Department of Psychology",
+    "College of Education", "None"
+  )
+)
+
+kbl(
+  spring_y1,
+  booktabs = TRUE,
+  align = "lcc",
+  caption = "Spring Year 1 Course Sequence",
+  col.names = c("Course", "Credit Hours", "Permit Source"),
+  format ="html") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed"),
+                position = "center") 
+
+
+```
+
+#### Summer Year 1
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+summer_y1 <- data.frame(
+  Course = c(
+    "EDPR 7521: Introduction to Research Design & Methods",
+    "EDPR 7511: Introduction to Edu and Psych Measurement",
+    "Annual Evaluations"
+  ),
+  `Credit Hours` = c(3, 3, 0),
+  `Permit Source` = c("College of Education", "College of Education", "None")
+)
+
+kbl(
+  summer_y1,
+  booktabs = TRUE,
+  align = "lcc",
+  caption = "Summer Year 1 Course Sequence",
+  col.names = c("Course", "Credit Hours", "Permit Source"),
+  format ="html") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed"),
+                position = "center")
+
+```
+
+#### Fall Year 2
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(knitr)
+library(kableExtra)
+
+fall_y2 <- data.frame(
+  Course = c(
+    "PSYC 7207: Developmental Psychology",
+    "PSYC 7805: Psych Consultation",
+    "PSYC 7806: School Psych Interventions",
+    "EDPR 7581: Behavior Analysis/Single Case Design",
+    "Mid-Year Eval",
+    "Comprehensive Ethics Exam"
+  ),
+  `Credit Hours` = c(3, 3, 3, 3, 0, 0),
+  `Permit Source` = c(
+    "Department of Psychology", "Department of Psychology", "Department of Psychology", "College of Education", "None", "None")
+)
+
+kbl(
+  fall_y2,
+  booktabs = TRUE,
+  align = "lcc",
+  caption = "Fall Year 2 Course Sequence",
+  col.names = c("Course", "Credit Hours", "Permit Source"),
+  format ="html") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed"),
+                position = "center")
+
+```
+<small>*Note.* Students earn their MA in School Psychology in December after their fourth semester on campus. Students who participate in the graduation ceremony do so during the December commencement.</small>
+
+#### Spring Year 2
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(knitr)
+library(kableExtra)
+
+spring_y2 <- data.frame(
+  Course = c(
+    "PSYC 7614b: Consultation Practicum in SP",
+    "SPED 7518: EBP in ABA",
+    "EDPR 7541: Stat Methods Applied to Edu I",
+    "COUN 7750: Multicultural Counseling",
+    "End-of-Year Eval"
+  ),
+  `Credit Hours` = c(3, 3, 3, 3, 0),
+  `Permit Source` = c(
+    "Department of Psychology",
+    "College of Education",
+    "College of Education",
+    "College of Education",
+    "None"
+  )
+)
+
+kbl(
+  spring_y2,
+  booktabs = TRUE,
+  align = "lcc",
+  caption = "Spring Year 2 Course Sequence",
+  col.names = c("Course", "Credit Hours", "Permit Source"),
+  format ="html") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed"),
+                position = "center")
+
+```
+<small>*Note.* In spring of the second year, students are applying for and accepting positions as interns. The internship is completed during the third year.</small>
+
+#### Summer Year 2
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+
+
+summer_y2 <- data.frame(
+  Course = c(
+    "Annual Evaluation"),
+  `Credit Hours` = c(0),
+  `Permit Source` = c("None")
+)
+
+kbl(
+  summer_y2,
+  booktabs = TRUE,
+  align = "lcc",
+  caption = "Summer Year 2 Course Sequence",
+  col.names = c("Course", "Credit Hours", "Permit Source"),
+  format ="html") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed"),
+                position = "center")
+
+```
+
+#### Internship Year
+##### Fall
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(knitr)
+library(kableExtra)
+
+fall_y3 <- data.frame(
+  Course = c(
+    "PSYC 8812: Internship in School Psychology",
+    "Mid-Year Evaluation"
+  ),
+  `Credit Hours` = c(3, 0),
+  `Permit Source` = c("Department of Psychology", "None"
+  )
+)
+
+kbl(
+  fall_y3,
+  booktabs = TRUE,
+  align = "lcc",
+  caption = "Fall Year 3 Course Sequence",
+  col.names = c("Course", "Credit Hours", "Permit Source"),
+  format ="html") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed"),
+                position = "center")
+```
+
+##### Spring
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+library(knitr)
+library(kableExtra) 
+
+spring_y3 <- data.frame(
+  Course = c(
+    "PSYC 8812: Internship in School Psychology",
+    "End-of-Year Evaluation",
+    "Praxis Examination"
+  ),
+  `Credit Hours` = c(3, 0, 0),
+  `Permit Source` = c("Department of Psychology", "None", "Educational Testing Service"
+  )
+)
+
+kbl(
+  spring_y3,
+  booktabs = TRUE,
+  align = "lcc",
+  caption = "Spring Year 3 Course Sequence",
+  col.names = c("Course", "Credit Hours", "Permit Source"),
+  format ="html") %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover", "condensed"),
+                position = "center")
+```
+<small>*Note.* During this semester, interns are often applying for and securing formal positions as school psychologists post-internship. They should also apply for any credentials they will need, though this is not a program requirement. Completion of this semester yields the Educational Specialist degree.</small>
+
+### Courses & NASP Alignments
+
+```{r  echo=FALSE, message=FALSE, warning=FALSE}
+psych_courses <- data.frame(
+  Course = c(
+    "PSYC 7800 Introduction to School Psychology",
+    "PSYC 7803 Psych. Asst. I, Cognitive & Ach",
+    "PSYC 7804 Psych. Asst. II, Personality & Social",
+    "PSYC 7805 Psychological Consultation",
+    "PSYC 7806 Interventions in School Psychology",
+    "PSYC 7807 Academic Interventions",
+    "PSYC 7614a Prac in School Psych, Assessment",
+    "PSYC 7614b Prac in School Psych, Interventions",
+    "PSYC 7207 Developmental Psychology",
+    "PSYC 7812 Internship in School Psychology"
+  ),
+  Hours = c(3, 3, 3, 3, 3, 3, 3, 3, 3, 7),
+  `2.1` = c("", "P", "", "P", "P", "P", "P", "P", "", "P"),
+  `2.2` = c("", "P", "", "P", "P", "P", "", "P", "", "P"),
+  `2.3` = c("", "", "", "P", "P", "", "", "P", "", "P"),
+  `2.4` = c("P", "", "", "", "P", "", "", "", "", "P"),
+  `2.5` = c("", "", "", "", "P", "", "", "", "", "P"),
+  `2.6` = c("", "", "", "P", "", "", "", "", "", "P"),
+  `2.7` = c("", "", "", "", "", "", "", "", "", "P"),
+  `2.8` = c("", "", "", "", "", "", "", "P", "", "P"),
+  `2.9` = c("", "", "", "", "", "P", "", "P", "", "P"),
+  `2.10` = c("P", "", "", "", "", "", "", "P", "", "P")
+)
+ed_courses <- data.frame(
+  Course = c(
+    "COUN 7730 Crisis Intervention Counseling",
+    "COUN 7542 Couns. Cons. & Intervention in Schl",
+    "EDPR 7511 Measurement & Evaluation",
+    "EDPR 7521 Intro to Research Design & Method",
+    "EDPR 7581: Behavior Analysis/Single Case Design",
+    "EDPR 7541 Stat Method Applied to Education I",
+    "SPED 7000 Introduction to Exceptional Children",
+    "SPED 7514 Intro to Appl Beh Analysis",
+    "SPED 7518 Evidence Based Practice in ABA",
+    "COE Elective (Examples Below)"
+  ),
+  Hours = c(3, 3, 3, 3, 3, 3, 3, 3, 3, 6),
+  `2.1` = c("", "", "", "P", "", "P", "", "P", "P", ""),
+  `2.2` = c("P", "P", "", "", "", "", "", "", "P", ""),
+  `2.3` = c("", "", "", "", "", "", "", "", "P", ""),
+  `2.4` = c("", "", "", "", "", "", "", "", "P", ""),
+  `2.5` = c("", "", "", "", "", "", "", "", "P", ""),
+  `2.6` = c("", "", "P", "", "", "", "", "", "P", ""),
+  `2.7` = c("", "", "", "", "", "", "", "", "P", ""),
+  `2.8` = c("", "", "", "", "", "", "P", "", "P", ""),
+  `2.9` = c("", "", "", "P", "", "P", "P", "", "P", ""),
+  `2.10` = c("", "", "", "", "", "", "", "", "", "")
+)
+```
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+kbl(
+  psych_courses,
+  booktabs = TRUE,
+  align = "lccccccccccc",
+  caption = "Department of Psychology Courses and NASP Standards",
+  col.names = c("Course", "Hours", "2.1", "2.2", "2.3", "2.4", "2.5", "2.6", "2.7", "2.8", "2.9", "2.10")
+) %>%
+  kable_styling(full_width = TRUE, bootstrap_options = c("striped", "hover", "condensed"))
+
+```
+\
+\
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+kbl(
+  ed_courses,
+  booktabs = TRUE,
+  align = "lccccccccccc",
+  caption = "College of Education Courses and NASP Standards",
+  col.names = c("Course", "Hours", "2.1", "2.2", "2.3", "2.4", "2.5", "2.6", "2.7", "2.8", "2.9", "2.10")
+) %>%
+  kable_styling(full_width = TRUE, bootstrap_options = c("striped", "hover", "condensed"))
+
+```
+> **COE Elective Examples:**
+> - COUN 7750 Multicultural Counseling  
+> - EDPR 6000 Edu, School, & American Society  
+> - LEAD 7100 Education & Community  
+> - EDPR 7111 Child Development & Edu  
+> - EDPR 7150 Motivation  
+> - EDPR 7112 Adolescent Dev & Edu  
+> - SPED 7806 Special Education Law  
+> - SPED 7522 Tiered Interventions  
+
+You can download the Degree Worksheet [here](https://github.com/rlfarmer27/MAEDSHandbook/raw/main/docs/resources/chron_degreeworksheet.docx).
+
+[Back to top](#program-handbook)
+
+<small>*Last updated: `r format(file.info("sppc.Rmd")$mtime, "%B %d, %Y")`*</small>
+
+<!--chapter:end:curriculum.Rmd-->
+
+# Field Experiences {#fieldexp}
+
+As part of your training in the MA/EdS program, you will complete a sequence of field experiences designed to build your readiness for advanced practice. These include:
+
+- **Professional Experience (PE)** — early exposure and observation  
+- **Practicum 1** — focused on assessment skills  
+- **Practicum 2** — focused on consultation and intervention  
+- **Internship** — a full-time placement during your final year (described in its own section)  
+
+The table below summarizes key details for the first three experiences:
+
+| **Type**        | **When**              | **Primary Activities**                    | **Time Commitment**   | **Campus Supervisor**     |
+|----------------|-----------------------|-------------------------------------------|------------------------|----------------------------|
+| PE             | Fall, Year 1          | Shadowing and general school exposure     | 4 hours per week       | Dr. Farmer                 |
+| Practicum 1    | Spring, Year 1        | Assessment in schools and PSC             | 4 hours per week       | Dr. Washington             |
+| Practicum 2    | Fall & Spring, Year 2 | Consultation and intervention             | 4 hours per week       | Dr. Srisarajivakul         |
+
+Each experience is designed to complement your coursework and is supervised by qualified school psychologists or affiliated professionals.
+
+Students sometimes worry about whether they are accumulating enough hours. If you complete an average of 4 hours per week for 14 weeks each semester, you will log approximately 56 hours per semester. Across PE, Practicum 1, and Practicum 2, this results in a total of 224 hours during your time on campus. **The program expects a minimum of 200 hours** across the professional experience and practicum experiences.
+
+Internship is calculated separately and follows NASP’s explicit guidance on time and supervision. We’ll cover those expectations in more detail in the \@ref(internship) section.
+
+### Required Background Checks
+
+The following information has been copied from the [College of Education website: http://www.memphis.edu/ tep/clinical/background-checks.php](http://www.memphis.edu/ tep/clinical/background-checks.php)\
+All students needing to obtain field experience hours for courses are required to have a TBI Background Check cleared and on file in the College of Education's Office of Teacher Education and Student Support Services. Read the procedures for obtaining a background check at the College of Education website and follow them closely.
+
+### Required Liability Insurance
+
+Students engaged in external practicum placements or external research projects are required to carry student liability insurance. The Psychology Department purchases a group student liability policy on an annual basis. Dr. Meisinger will email documentation regarding this policy to students each fall semester. Students should retain a copy of this documentation for their own records.
+
+
+## Professional Experience {#profexp}
+
+### Overview  
+The **Professional Experience (PE)** takes place during the first fall semester in which you are enrolled on campus. It serves as an early field placement to help you become familiar with school environments and the role of the school psychologist.
+
+You will volunteer approximately **half a day per week** (or equivalent) in a local school under the supervision of a credentialed school psychologist. The total time commitment is typically **50–60 hours** over the course of the semester.
+
+### Schedule & Coordination  
+You and the assigned school psychologist will determine your schedule, location, and activities. A formal agreement outlining the placement is signed by both parties and kept on file.  
+
+- The experience begins the week after Labor Day and follows the University of Memphis academic calendar for the fall semester.  
+- You are **expected to serve during fall break** but are **not required to serve during Thanksgiving week**.  
+- You may not exceed one full day per week of service unless approved in advance by the program director and your on-site supervisor.  
+
+### Supervision & Documentation  
+You are required to maintain a log of your activities throughout the semester. This log should be submitted to the program director at the end of the fall term as a standalone document. You will be provided with a log to use for this purpose.
+
+Your supervising school psychologist will also complete a brief performance evaluation which will be submitted online. Both documents become part of your program record.
+
+### Purpose  
+The Professional Experience introduces you to:
+
+- The structure and function of public and private school systems  
+- The role of the school psychologist within educational and community contexts  
+- How school-based psychological services are delivered  
+
+This early placement provides the foundation for your practicum work in the spring semester (PSYC 7614A: Practicum in School Psychology).
+
+### Typical Activities  
+
+You will engage in activities suited to your training level and arranged collaboratively with your mentor. While not all activities must be completed, your log should document what you did, when, and for how long.
+
+#### Building Level  
+- Attend a school-based support team or staff meeting  
+- Attend a building-level faculty meeting  
+- Observe instruction at elementary, middle, and high school levels  
+- Participate in a teacher in-service meeting  
+- Attend a PTA or Home-School Association meeting  
+- Assist with statewide group testing  
+- Serve as a teacher aide for at least two hours  
+- Review how school and psychological records are maintained  
+
+#### District Level  
+- Attend a school board meeting  
+- Visit at least three special education classrooms  
+- Observe programs for alternative placements (e.g., teen pregnancy, Head Start)  
+- Learn about the school psychological services unit's structure and role  
+- Visit other buildings served by your supervisor  
+
+#### Service Delivery Level  
+- Understand the district’s referral process  
+- Observe the school-based support team’s role and procedures  
+- Learn about common assessment tools used in the district  
+- Observe or assist in test administration and scoring  
+- Conduct child observations in various settings  
+- Review student case files and psychological reports  
+- Observe school psychologists' daily responsibilities  
+- Participate in professional development activities  
+- Conduct follow-up for prior cases  
+
+#### Community Level  
+- Visit a juvenile court or youth treatment facility (e.g., Youth Villages)  
+- Attend a city or county government meeting  
+- Visit local service agencies (e.g., rehab centers, children’s hospitals, mental health clinics)  
+- Attend at least one Southwest TASP regional event  
+
+#### State & National Level  
+- Visit the Tennessee Department of Education or state legislature  
+- Join TASP as a student member  
+- Attend the fall or spring TASP conference  
+- Join a national organization such as APA Division 16 or NASP
+
+### Assignment & Shelby County Procedure  
+After consulting with the program director, you will be matched with a credentialed school psychologist for supervision. Provide Dr. Farmer with the supervisor’s name, title, and contact information by September 15. You and the supervisor must sign the PE agreement form.
+
+Students are matched and introduced early in the fall semester to finalize assignments and agreements.  
+
+### Mid-Year Evaluation Evaluation  
+At the end of the semester:
+- Submit your PE activity log  
+- Your supervisor submits an evaluation form.  
+
+Both items are due to the program director and are added to your program portfolio.
+
+### Additional Information  
+- No academic credit is awarded for this experience.  
+- The program does not require any readings, exams, or assignments beyond the log.  
+- While there are no assigned readings, your supervisor may ask you to read particular articles, chapters, or state regulations to improve your understanding during the experience.
+- PE students may occasionally meet with school psychology faculty for discussion and reflection.
+
+### Important Documents
+[Professional Experience Agrement Form](images/PEagreement.docx)
+[Experience Log](images/praclog.xlsx)
+
+## Practicum Experience {#practicum}
+
+Practicum experiences build on your foundational training by allowing you to apply developing skills in real-world settings. Across two sequenced placements—Assessment (Year 1) and Intervention/Consultation (Year 2), you will work in both school and clinic environments under close supervision. Practicum experiences are designed to support your integration of coursework with applied service delivery.
+
+### Overview  
+Students in the MA/EdS program complete two practica prior to internship. These are designed to align with key phases of your training:
+
+- **Assessment Practicum**  
+  *Spring, Year 1*  
+  Taken alongside your assessment coursework.  
+  - **Course:** PSYC 7614a – Practicum in School Psychology
+\
+\
+- **Consultation & Intervention Practicum**  
+  *Fall & Spring, Year 2*  
+  Taken alongside your intervention coursework.  
+  - **Course:** PSYC 8614b – Practicum in School Psychology II
+
+Although the Consultation & Intervention Practicum spans the entire second year, you only enroll in the corresponding course (PSYC 8614b) during the spring semester. The instructor will reach out to you regarding scheduling for meeting times in the fall and spring of the second year. In both Year 1 and Year 2, this means that formal enrollment in the practicum course occurs in the spring.
+
+Fieldwork may occur in a local school district, a partnering community agency, and/or in the department’s *[Psychological Services Center (PSC)](https://www.memphis.edu/psc)*. The assessment practicum typically includes both school-based and PSC-based cases. The consultation and intervention practicum primarily takes place in schools and community agencies. Additional expectations are detailed in the respective course syllabi.
+
+### Supervision  
+Practicum supervision is always provided by qualified faculty and/or credentialed community-based school psychologists.  
+
+- In the PSC, students receive individual and group supervision from program faculty.  
+- In school or community settings, supervision is coordinated with approval from the faculty supervisor, the on-site supervisor, and the student.  
+
+> **Note:** If you intend to pursue **non-school licensure** (e.g., as a *Certified Psychological Assistant*), the Tennessee Board of Examiners in Psychology requires supervision by a licensed Health Service Provider for relevant practicum or internship hours.
+
+### Evaluation  
+Students are assigned a grade of **Satisfactory (S)**, **Unsatisfactory (U)**, or **In Progress (IP)** for each semester of practicum.  
+
+In **PSYC 7614A**, supervisors rate students on professional behaviors, characteristics, and relevant **NASP training domains**. Clients served through the PSC also complete satisfaction measures.  
+
+Progression to **consultation and intervention practicum and coursework** is contingent upon earning a **Satisfactory (S)** grade in the first-year practicum. Similar evaluations are conducted in PSYC 8614B, and a satisfactory grade is required to be eligible for internship.  
+
+A syllabus is provided for both practica and outlines specific competencies, expectations, and evaluation criteria.
+
+### Important Documents
+[Practicum Agreement Form](images/pracagreement.docx)
+[Practicum Log](images/praclog.xlsx)
+
+---
+
+## Internship {#internship}
+
+Internship is the capstone field experience in the MA/EdS program. You will complete a full-time, year-long placement that meets national and state requirements for certification and licensure. Working under the supervision of a credentialed school psychologist, you will engage in all major domains of practice, including assessment, intervention, consultation, and systems-level work. Faculty will support you throughout the planning, application, and supervision process. During this time, you will be enrolled in PSYC 8812 which will provide you course credit for your internship experience.
+
+### Overview  
+The internship is the culminating field experience in the MA/EdS program and must meet requirements set forth by:
+
+- The Tennessee Department of Education (TDOE)  
+- The National Association of School Psychologists (NASP)  
+
+Internship placements must offer meaningful opportunities to serve diverse K–12 students and families in both regular and special education settings. All elements of the placement—supervision, setting, experiences, and facilities—must align with national training standards and program expectations.
+
+Internships are established through a formal agreement between the student, the program, and a local school district or approved agency. The Shelby County Schools system frequently takes students for internship, though in recent years opportunities for rural placement have become more frequent.
+
+### Internship Course (PSYC 8812)
+
+Internship is completed while enrolled in PSYC 8812: Internship in School Psychology, an entirely online graduate-level course that spans the final academic year of the program. Although you will spend  your time in the field, you are still registered in a course and must meet academic requirements throughout the year. These include:
+
+- Submitting mid- and end-of-year supervisor evaluations  
+- Maintaining an up-to-date internship hour log  
+- Completing and submitting two case studies (academic and behavioral)  
+- Completing a research or program evaluation project  
+- Participating in university check-ins, including one required on-campus meeting (typically in February)
+
+The standard enrollment is **3 credit hours in the fall and 3 credit hours in the spring** for a total of 6 credit hours. Students who need to maintain full-time enrollment (e.g., for financial aid) may register for up to 12 credit hours. Regardless of credit hour enrollment, the internship must meet the same training standard: a full-time, supervised **1,200-hour experience** consistent with NASP and program expectations.
+
+### Requirements  
+Before selecting a site, students must consult with the program director and ensure all pre-internship requirements have been met.
+
+- A full-time, **1,200-clock-hour** experience
+  - At least 600 hours must be completed in a school setting, as required by NASP
+- Supervised by a credentialed school psychologist  
+- Equivalent in scope to a 9-semester-hour academic load
+
+A formal Internship Plan template is provided to guide site selection, supervision, and training activities. Additional details and forms are available through the program director.
+
+### Logging Internship Hours
+
+You are required to log all hours completed across the entire internship year. This log should reflect the full scope of your activities, including direct services, indirect services, supervision, and other professional responsibilities.
+
+Internship hours should be documented using the same log form used for practicum experiences. If you need a new copy of the form, please contact the program director or download it from the program resources folder.
+
+Just as in practicum, your hour log will be submitted as part of your end-of-semester documentation and must be kept up to date throughout the year. Supervisors will also review and sign off on your logs as part of the evaluation process. This documentation helps ensure that your experience aligns with NASP’s 1,200-hour requirement and supports your eligibility for certification and licensure after graduation.
+
+### Evaluation of Internship
+
+Interns receive formal evaluations at both the midpoint and conclusion of the internship year. These evaluations are completed by the primary field-based supervisor and are submitted to the university program director.
+
+The purpose of these evaluations is to assess your progress toward competency in the domains of school psychology practice, to provide feedback for ongoing professional growth, and to support readiness for entry-level credentialing. The evaluation form used is aligned with NASP standards and program expectations, and includes ratings of your performance, strengths, and areas for continued development.
+
+In addition to supervisor ratings, you are expected to submit the following materials to your university supervisor by early April:
+
+- One academic intervention case study  
+- One social-behavioral case study  
+- One research or program evaluation project completed during your internship  
+
+These materials contribute to program assessment and may be included in documentation for accreditation purposes. 
+
+If concerns arise at any point, supervisors are expected to contact the university program director promptly to address and resolve issues collaboratively.
+
+### Applying for Internship
+
+Students are responsible for seeking out and applying to internship placements independently, much like applying for a professional position. This process includes identifying appropriate sites, submitting application materials, and communicating with potential supervisors. Students are not limited to the state of Tennessee.
+
+Faculty will support you throughout this process by helping you evaluate site options, reviewing application materials, and ensuring that your selected placement meets program and NASP requirements.
+
+### Additional Resource: NASP Internship Toolkit
+
+The [**School Psychology Internship Toolkit**](https://www.nasponline.org/resources-and-publications/graduate-students/the-school-psychology-internship-toolkit) from NASP is a free, comprehensive guide for graduate students preparing for internship. It includes practical guidance on securing placements, understanding supervision requirements, meeting national standards, and advocating for appropriate support.  
+
+Students are encouraged to review this resource early in the internship planning process to ensure they understand expectations and best practices across different settings.
+
+### Important Documents
+[Internship Agreement Form](images/internshipaggreement.docx)  
+[Internship Log](images/praclog.xlsx)
+
+---
+[Back to top](#program-handbook)
+
+<small>*Last updated: `r format(file.info("sppc.Rmd")$mtime, "%B %d, %Y")`*</small>
+
+<!--chapter:end:fieldexp.Rmd-->
+
+# Assessment and Evaluation of Student Progress {#evaluation}
+
+Student progress in the MA/EdS program is evaluated continuously through a combination of academic, field-based, and professional development benchmarks. These assessments are intended to support your growth, ensure readiness for advanced training, and uphold the standards set by the program and accrediting bodies.
+
+## Mid- and End-of-Year Evaluations
+
+Each year, students receive formal evaluations from the program faculty. These reviews occur at both the midpoint and end of the academic year and are based on:
+
+- Performance in coursework  
+- Practicum or internship evaluations  
+- Professional behavior and dispositions  
+- Progress toward competency in NASP’s domains of school psychology  
+
+Students are rated using standardized forms aligned with training standards. Evaluation results are shared during advising meetings and used to guide continued development, support planning, and address any concerns proactively.
+
+## Ethics Exam
+
+All students must pass an Ethics and Professional Standards Examination administered by the program. This exam is typically taken at the end of the first year and is based on the **[NASP Principles for Professional Ethics](https://www.nasponline.org/standards-and-certification/professional-ethics)** and applicable state guidelines. Students must demonstrate adequate understanding of ethical responsibilities before entering more advanced practica or internship placements.
+
+This exam is completed in Canvas. 
+
+## Praxis Examination in School Psychology
+
+Prior to graduation, all students are required to take the **Praxis II Examination in School Psychology** (ETS Test Code 5403). A passing score, as defined by the Tennessee Department of Education or the student’s desired credentialing state, is necessary for program completion and for certification as a school psychologist.
+
+- Students are encouraged to take the exam in late Fall or Early spring of the internship year.
+- Students will need to submit evidence from ETS of a passing score as part of the internship course.
+- Preparation materials are available through NASP and ETS. Materials are housed on campus as well; consult with the program director for access. 
+- Scores should be submitted to both the program and appropriate state licensure agencies.
+
+## Additional Ongoing Assessments
+
+In addition to the formal milestones above, student progress is assessed through:
+
+- **Course Grades** (S/U/IP for practica; letter grades for coursework)  
+- **Field-Based Supervisor Ratings** in practicum and internship  
+- **Portfolio Components** including case studies and intervention reports  
+- **Professional Dispositions Ratings** conducted annually  
+
+These assessments ensure that students are developing the necessary competencies to become effective, ethical, and evidence-based school psychologists.
+
+---
+[Back to top](#program-handbook)
+
+<small>*Last updated: `r format(file.info("sppc.Rmd")$mtime, "%B %d, %Y")`*</small>
+
+<!--chapter:end:evaluation.Rmd-->
+
+# Additional Requirements and Optional {#misc}
+
+## Research Requirements and Expectations
+
+### Expectations of All Students  
+All students are expected to be involved in research. While students in the PhD program engage in intensive research training, MA/EdS students are also encouraged to participate through various means, including:
+
+- Attending meetings of the Child and Family Studies Research Group  
+- Voluntary involvement in research labs  
+- Research responsibilities through assistantship assignments
+
+### Child and Family Studies Research Group  
+All school psychology students are affiliated with the Child and Family Studies Research Group, which meets during the fall and spring semesters. MA/EdS students are **strongly encouraged**, but not required, to attend these meetings.
+
+If needed to meet full-time status requirements, students may enroll in:  
+**PSYC 7619: Research Practicum – Child and Family Studies**  
+Note: Credit hours earned in this course do **not** count toward degree requirements.
+
+### Voluntary Participation  
+MA/EdS students frequently volunteer to work on research projects led by faculty or fellow students. These projects may take place on campus, in local schools, or within community agencies. Students considering doctoral study are especially encouraged to gain voluntary research experience.
+
+### Research and Teaching Assistantships  
+Some MA/EdS students are offered graduate assistantships involving research and/or teaching. Assistantship appointments typically range from **10 to 20 hours per week**. Compensation and tuition waiver eligibility vary by assignment and funding availability.
+
+### Thesis and Dissertation  
+Only doctoral program students are required to complete a research thesis (MS) and a dissertation (PhD).  
+
+- MA/EdS students are **not required** to complete a thesis.  
+- Students who previously completed a thesis at another institution must have it reviewed for departmental acceptance.  
+- MA/EdS students who may transition to a doctoral program are **encouraged** to complete a thesis during their time in the program.
+
+Detailed requirements for theses and dissertations are outlined in the [Graduate Program Handbook](#) (link to be added).
+
+
+[Back to top](#program-handbook)
+
+<small>*Last updated: `r format(file.info("sppc.Rmd")$mtime, "%B %d, %Y")`*</small>
+
+<!--chapter:end:misc.Rmd-->
+
+# (PART) Program Policies {.unnumbered}
+
+<!--chapter:end:section3.Rmd-->
+
+# The School Psychology Program Committee (SPPC) {#sppc}
+
+Starting with the fall semester, 2015, the SPPC replaced the former
+School Psychology Coordinating Committee that governed the MA/EdS
+Program from 1976-2015. The SPPC governs both the MA/EdS and the MS/PhD
+programs. The committee members are:
+  
+- Dr. Ryan Farmer (Chair)
+- Dr. Randy Floyd
+- Dr. Beth Meisinger
+- Dr. Emily Srisarajivakul
+- Dr. Michelle Washington
+- Dr. Steve Zanskas (College of Education representative)
+
+## SPPC Policies & Procedures 
+<small>Created August 17, 2015\
+Updated June, 2025</small>
+
+The School Psychology Coordinating Committee (SPCC) was originally
+established in 1975 by the Vice president for Academic Affairs to
+develop policy and curriculum for a jointly sponsored school psychology
+graduate program. The committee had representation from both the
+Department of Psychology (College of Arts and Sciences) and the College
+of Education. The original committee was appointed jointly by the Chair
+of the Psychology Department and by the Dean of the College of
+Education. The Chair and the Dean were granted joint overall authority
+for the School Psychology Program. Originally charged with the task of
+developing a program approval proposal to be submitted to the Tennessee
+State Department of Education, the committee's efforts resulted in the
+development of the present program. At a meeting of July 7, 2015 it was
+recommended that the SPCC be reconstituted and that the MA/EdS program
+be brought into the governance of the Department of Psychology with the
+support of the College of Education via a revised committee structure.
+The original SPCC, comprised of four persons from the Psychology
+Department, four persons from the COE, with one person from each
+administrative unit designated as co-director of the program, and
+student representation will cease to exist, effective at the beginning
+of the fall semester, 2015.
+
+The new governing committee will be titled The School Psychology Program
+Committee (SPPC). The committee will govern the MA/EdS and the MS/PhD
+degree programs. The MA/EdS program will no longer be considered as
+jointly sponsored but rather will include curricula and policies that
+are developed by the core school psychology faculty and a dean’s office
+level representative of the College of Education. In 2021-2022 the SPPC
+will include Drs. Ryan Farmer (Director of the MA/EdS Program), Beth
+Meisinger (Director of the PhD Program), Randy Floyd (Psychology
+Department Chair), Ryan Farmer (Clinical Assistant Professor and
+Director of the Psychological Services Center), Emily Srisarajivakul
+(Assistant Professor), and (Dr. Steve Zanskas, Dean’s Faculty Fellow for
+the College of Education. Student members as needed will be asked to
+participate on the SPPC.
+
+Like the former SPCC’s authority over the MA/EdS degree program, the
+SPPC has policy authority over the MA/EdS and the MS/PhD degree
+programs. The committee ensures that its policies are consistent with
+the policies of the Department of Psychology while maintaining the
+necessary adaptations enacted in the past for the EdS degree governed by
+the College of Education (e.g., 30 semester hours beyond the MA degree
+including the internship and requirements of the overall sequence as
+approved by the SPPC).
+
+The following policies apply to the committee:
+
+### Establishment of the SPPC
+
+-   The SPPC shall consist of the following persons:
+
+    -   The core faculty of the school psychology program from the
+        Department of Psychology, to include faculty whose primary
+        assignment is to the MA/EdS and the PhD programs; in effect, all
+        members of the school psychology core faculty. 
+    -   A representative from the College of Education’s administration
+        selected by the Dean of the COE and approved by the core school
+        psychology faculty.  This is usually a dean’s office level
+        person with broad understanding of the COE.  At the discretion
+        of the Dean, this person may be drawn from the areas of special
+        education, educational psychology, or counseling.
+    -   Students (e.g., from the MA/EdS level and the PhD levels of the
+        program) may be asked to participate in the SPPC governance. The
+        students will serve as ad hoc members, called upon as needed by
+        the SPPC. 
+    -   Faculty member vacancies are replaced in a timely fashion
+        through the same process as the original selection procedure
+        (see A-1-a & b, and A-2). 
+    -   One or more practicing school psychologists may be asked to
+        participate in the SPPC governance. These professionals will
+        serve as ad hoc members, called upon as needed by the SPPC.
+  
+-   The SPPC requires a continuity of membership from year to year.
+    Faculty selected to serve on the SPPC shall be expected to serve
+    throughout their terms of appointment by the Department of
+    Psychology or the College of Education. A core school psychology
+    faculty member may choose not to serve for reasons acceptable to the
+    SPPC and at the discretion of the SPPC a faculty member from another
+    area of the Department of Psychology or the College of Education may
+    be chosen to serve in that person’s stead.
+
+-   The SPPC Chair shall rotate annually between the MA/EdS and PhD
+    program directors, beginning with the MA/EdS director in 2015. A
+    history of the SPPC chair is provided in Figure \@ref(fig:spcc).
+
+```{r spcc, fig.cap ="Timeline of MA/EdS Program Faculty.", fig.align="center",fig.align="center", fig.width=10, fig.height=3, echo=FALSE, message=FALSE, warning=FALSE}
+# Timeline reference:
+#   - 2015, Tom Fagan
+#   - 2016, Randy Floyd
+#   - 2017, Tom Fagan
+#   - 2018, Randy Floyd
+#   - 2019, Tom Fagan
+#   - 2020, Beth Meisinger
+#   - 2021, Tom Fagan
+#   - 2022, Beth Meisinger
+#   - 2023, Sarah Irby
+#   - 2024, Beth Meisinger
+#   - 2025, Ryan Farmer
+
+library(ggplot2)
+library(dplyr)
+
+df <- data.frame(
+  person = c("Tom Fagan", "Randy Floyd", "Tom Fagan", "Randy Floyd", "Tom Fagan", 
+             "Beth Meisinger", "Tom Fagan", "Beth Meisinger", "Sarah Irby", 
+             "Beth Meisinger", "Ryan Farmer"),
+  year = 2015:2025
+)
+
+df <- df %>%
+  mutate(start = as.Date(paste0(year, "-01-01")),
+         end = as.Date(paste0(year, "-12-31")),
+         duration = as.numeric(end - start))
+
+# Order names by first year served, reversed for top-to-bottom layout
+first_years <- df %>%
+  group_by(person) %>%
+  summarize(first_year = min(year)) %>%
+  arrange(first_year)
+
+df$person <- factor(df$person, levels = rev(first_years$person))
+
+uofm_colors <- c(
+  "Tom Fagan" = "#002147",
+  "Randy Floyd" = "#0077C8",
+  "Beth Meisinger" = "#A7A9AC",
+  "Sarah Irby" = "#003366",
+  "Ryan Farmer" = "#005DAA"
+)
+
+ggplot(df, aes(y = person, x = start, fill = person)) +
+  geom_tile(aes(width = 365, height = 0.3), color = "white") +
+  scale_fill_manual(values = uofm_colors) +
+  scale_x_date(date_breaks = "1 year", date_labels = "%Y") +
+  theme_minimal(base_size = 12) +
+  labs(title = "SPPC Chairs by Year", x = "Year", y = NULL) +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    legend.position = "none"
+  )
+```
+
+
+
+
+### Operating Procedures
+
+**Meeting Times & Minutes**
+
+-   The SPPC shall meet at least once during each academic semester,
+    excluding summer sessions. The meetings may be conducted through
+    email or other electronic means.
+
+-   Meeting times and dates are established by the SPPC Chair in
+    consultation with the members of the SPPC
+
+-   Meeting locations will usually be in the Department of Psychology
+    but may be held in the COE at the discretion of the committee.
+
+-   The SPPC Chair shall announce the meeting, establish the agenda, and
+    conduct the meeting.
+
+-   Minutes of meetings are recorded by the SPPC Chair (or by a
+    designated committee member). Minutes are disseminated and
+    maintained by the SPPC Chair.
+
+**Business Topics**
+
+The following represent the type of business that may be brought before
+the committee, though the committee is not limited to these examples:
+
+-   program admission policies or decisions
+
+-   retention or dismissal of students
+
+-   special appeals or petitions prepared by students
+
+-   curriculum policy decisions such as course additions, deletions, and
+    substitutions (not to include day-to-day matters such as waivers)
+
+-   selection of subcommittee members (e.g., admissions)
+
+-   policies of the SPPC
+
+-   accreditation
+
+-   responsibilities of program faculty
+
+**Decision-Making Policies**
+
+-   The presence of any three members, including the Chair and two
+    faculty shall constitute a quorum.
+
+-   The committee attempts to reach decisions by consensus, avoiding the
+    necessity of formal votes. In situations where clear consensus
+    cannot be reached, a vote may be requested by any committee member.
+    A simple majority of the voting members of the committee present at
+    the meeting shall determine the decision.
+
+-   Each faculty member of the SPPC has equal voting power (1 vote).
+
+-   Student ad hoc members shall neither be present nor vote on
+    deliberations related to fellow students currently enrolled in the
+    program (e.g., examination results, appeals, retention decisions).
+
+-   Ultimate responsibility for the operation of the program rests with
+    the Chair of the Department of Psychology and policy decisions
+    regarding the program are subject to such review.
+
+**Subcommittees**
+
+-   A Subcommittee on Admissions shall be established each year as per
+    the policy on admissions.
+
+-   If needed, a Subcommittee on Examinations shall be established as
+    per the policy on examinations.
+
+-   Additional subcommittees shall be established as judged appropriate
+    by the SPPC.
+
+**Changes to these policies**
+
+This governance document is reviewed annually to ensure that new
+policies and amendments to the document have been included. These
+policies may be temporarily suspended by the proper motion, second, and
+affirmative vote of two-thirds of a quorum present at a SPPC meeting; or
+the policies may be permanently changed by the proper motion, second,
+and affirmative vote of two-thirds of the SPPC's eligible voting
+members.
+
+[Back to top](#program-handbook)
+<small>*Last updated: `r format(file.info("sppc.Rmd")$mtime, "%B %d, %Y")`*</small>
+
+
+<!--chapter:end:sppc.Rmd-->
+
