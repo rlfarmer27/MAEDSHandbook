@@ -1,5 +1,17 @@
+# RStudio cruft
+.Rproj.user/
 .Rhistory
 .RData
-.Rproj.user
-*.Rproj
+.DS_Store
+
+# bookdown build artifacts
+_book/
 _bookdown_files/
+docs/
+
+# keep .html previews if you like
+# *.html
+
+# BUT track source assets
+!assets/
+!assets/**

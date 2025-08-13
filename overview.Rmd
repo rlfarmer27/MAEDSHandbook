@@ -54,7 +54,7 @@ If you are planning to practice in a state other than Tennessee, please consult 
 ## Admission Requirements {#admissionreq}
 The criteria for admission to the MA/EdS and the PhD programs appear in the UM Graduate Bulletin and include quantitative and qualitative measures. No single measure is used in making a decision.  Rather, the entire application file is reviewed to make a judgment of a student’s probable success in training to become a school psychologist.  See also the Policy for Admission to the MA/EdS Program in this handbook, in Section III.  Some students apply to the program as non-degree students seeking only admission to complete the work necessary for an endorsement for state department of education credentialing.  These applications are reviewed against the usual admission requirements and ensure that appropriate degrees and work have already been satisfactorily completed, The Policy for Endorsement of Non-Degree School Psychology Licensure Students is also available in Section III. **For the time being, the program is not reviewing requests for non-degree school psychology licensure.**
 
-## Advising {@advising}
+## Advising {#advising}
 Student progress is reviewed during regular advising each semester. This applies to degree and endorsement only students. The policies regarding Responsibility for Student Advising and for Periodic Evaluation of Students are both present in Section III. Policies for the advising of doctoral students are covered in the doctoral handbook. Dr. Farmer serves as the primary advisor for MA/EdS students and Dr. Meisinger for the PhD students.
 
 ***

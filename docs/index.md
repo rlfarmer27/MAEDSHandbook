@@ -9,17 +9,18 @@ output:
     keep_md: false
 ---
 
+
 <!-- Suppress chapter numbering -->
 # {-}
 \
 \
 <div style="text-align: center; margin-top: 100px;">
 
-<img src="https://github.com/rlfarmer27/MAEDSHandbook/blob/main/docs/images/maedslogo.png?raw=true" width="500px" style="margin-top: 50px;" />
+<img src="https://github.com/rlfarmer27/MAEDSHandbook/blob/main/assets/maedslogo.png?raw=true" width="500px" style="margin-top: 50px;" />
 
 <div style="text-align: center; margin-top: 50px;">
   <p><em>R.L. Farmer</em></p>
-  <p><em>July 11, 2025</em></p>
+  <p><em>August 13, 2025</em></p>
 </div>
 </div>
 

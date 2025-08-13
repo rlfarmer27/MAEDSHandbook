@@ -121,10 +121,6 @@ Both items are due to the program director and are added to your program portfol
 - While there are no assigned readings, your supervisor may ask you to read particular articles, chapters, or state regulations to improve your understanding during the experience.
 - PE students may occasionally meet with school psychology faculty for discussion and reflection.
 
-### Important Documents
-[Professional Experience Agrement Form](images/PEagreement.docx)
-[Experience Log](images/praclog.xlsx)
-
 ## Practicum Experience {#practicum}
 
 Practicum experiences build on your foundational training by allowing you to apply developing skills in real-world settings. Across two sequenced placements—Assessment (Year 1) and Intervention/Consultation (Year 2), you will work in both school and clinic environments under close supervision. Practicum experiences are designed to support your integration of coursework with applied service delivery.
@@ -164,10 +160,6 @@ Progression to **consultation and intervention practicum and coursework** is con
 
 A syllabus is provided for both practica and outlines specific competencies, expectations, and evaluation criteria.
 
-### Important Documents
-[Practicum Agreement Form](images/pracagreement.docx)
-[Practicum Log](images/praclog.xlsx)
-
 ---
 
 ## Internship {#internship}
@@ -206,14 +198,6 @@ Before selecting a site, students must consult with the program director and ens
 
 A formal Internship Plan template is provided to guide site selection, supervision, and training activities. Additional details and forms are available through the program director.
 
-### Logging Internship Hours
-
-You are required to log all hours completed across the entire internship year. This log should reflect the full scope of your activities, including direct services, indirect services, supervision, and other professional responsibilities.
-
-Internship hours should be documented using the same log form used for practicum experiences. If you need a new copy of the form, please contact the program director or download it from the program resources folder.
-
-Just as in practicum, your hour log will be submitted as part of your end-of-semester documentation and must be kept up to date throughout the year. Supervisors will also review and sign off on your logs as part of the evaluation process. This documentation helps ensure that your experience aligns with NASP’s 1,200-hour requirement and supports your eligibility for certification and licensure after graduation.
-
 ### Evaluation of Internship
 
 Interns receive formal evaluations at both the midpoint and conclusion of the internship year. These evaluations are completed by the primary field-based supervisor and are submitted to the university program director.
@@ -242,9 +226,108 @@ The [**School Psychology Internship Toolkit**](https://www.nasponline.org/resour
 
 Students are encouraged to review this resource early in the internship planning process to ensure they understand expectations and best practices across different settings.
 
-### Important Documents
-[Internship Agreement Form](images/internshipaggreement.docx)  
-[Internship Log](images/praclog.xlsx)
+## Logging Practicum and Internship Hours
+
+All students are required to log **all hours completed** during practicum and internship experiences.  
+These logs must reflect the full scope of your activities, including direct services, indirect services, supervision, and other professional responsibilities.
+
+- **Practicum:** Minimum of **600 total hours** across the entire MAEDS program.  
+- **Internship:** Minimum of **1,200 total hours** during the internship year.
+
+Accurate logging ensures your experiences meet NASP requirements and supports your eligibility for certification as a school psychologist after graduation.
+
+#### Using the MAEDS Weekly Hours Log Workbook
+
+The **MAEDS Weekly Hours Log** Excel workbook is the required tool for tracking practicum and internship hours. It is designed to help you meet both the practicum and internship hour requirements:
+
+- **Practicum:** Minimum of **600 total hours** across the program.
+- **Internship:** Minimum of **1,200 total hours** during the internship year.
+
+Maintaining an accurate record supports your eligibility for certification and licensure, and ensures that your experiences align with NASP standards.
+
+
+##### Workbook Structure
+
+The workbook contains the following sheets:
+
+1. **Instructions**  
+   - Step‐by‐step guidance for completing the log.  
+   - Category descriptions for each activity type to ensure accurate classification.  
+   - The link to the online **Weekly Hours Submission Form**.
+
+2. **Weekly Logs (Week 1, Week 2, Week 3, Week 4, Week 5)**  
+   - **Mon Date, Site(s), Sup(s):** Enter the Monday date for the week, the site(s) where you worked, and your supervisor(s).  
+   - **Daily Entry Table:** Record hours for each activity Monday–Friday in 0.5‐hour increments.  
+   - **Weekly Sums (For Online Entry):** These totals align with the categories in the online form. Copy these values into the program’s online submission form each week.  
+   - **Hours Submitted?:** Check or note after you submit online.
+
+3. **Monthly Summary**  
+   - Provides monthly totals by activity category.  
+   - Useful for review meetings, end‐of‐semester documentation, and supervisor verification.
+
+
+##### Weekly Procedure
+
+1. **Track daily**: Enter hours into the daily table each day you work.
+2. **Submit online by Monday**:  
+   - By **Monday following the week in which the hours occurred**, copy the “Weekly Sums” from your Excel log into the [MAEDS Weekly Hours Online Form](https://livememphis.sharepoint.com/:l:/s/Team-MAEDSProgram2/FKoN3pj8B5NLtJLin9di3WUBCKXP96bAcsmUNyBobeE_Zw?nav=Y2MwNWFhMjYtM2QxNC00NzYxLWFiYzEtZjJjZDQ2MmQ1YTU1).  
+   - Mark the “Hours Submitted?” box in your Excel log.
+3. **Keep your Excel log current**: Your copy is your **personal record** and is not replaced by online submissions.
+4. **End‐of‐semester**: Submit the completed log to the program for review and supervisor sign‐off.
+
+
+##### File Retention and Naming
+
+Keep a copy of each month’s log for your own records.  
+A recommended file‐naming scheme is: Lastname_Firstname_MAEDS_Hours_YYYY_MM.xlsx
+
+
+**Examples:**
+- `Smith_Jordan_MAEDS_Hours_2025_09.xlsx`  
+- `Smith_Jordan_MAEDS_Hours_2025_10.xlsx`
+
+**Retention:**  
+- Save a copy for each month of practicum and internship.
+- Keep all copies until after graduation and certification, in case verification is required.
+
+
+##### Summary
+
+- **Excel log** = Your detailed, personal record.  
+- **Online form** = Program’s official weekly totals collection.  
+- **Deadline** = Submit online by Monday following the week’s end. *Note, you will not submit the excel file.*
+- **Keep everything** = Maintain copies of your logs until after certification is secured.
+
+
+### Weekly Submission to the Program
+
+### Weekly Submission to the Program
+
+In addition to maintaining your Excel log, you must enter your **weekly totals** into the online form.
+
+Follow these steps when completing the online form:
+
+1. **Follow the link** to open the form.
+2. You **must** be logged into your University of Memphis account before opening the form.  
+   - This allows the form to automatically capture your UM email address for identification purposes.
+3. If you worked at multiple sites during the week, select all applicable sites.
+4. Enter your supervisor’s last name.  
+   - If you had multiple supervisors, list them one after another, separated by a comma or semicolon.
+5. Enter your weekly totals in the fields provided.  
+   - If you did not complete hours in a category, leave it blank.
+
+**Deadline:** Hours for each week must be submitted **no later than Monday following the week in which they were completed**.
+
+This online submission is used for program monitoring and official records, while your Excel log remains your personal copy.  
+Both the Excel log and the online form must be maintained accurately throughout your practicum and internship.
+
+
+## Important Documents & Online Submission Form
+- [Professional Experience Agreement Form](assets/PEagreement.docx)
+- [Practicum Agreement Form](assets/pracagreement.docx)
+- [Internship Agreement Form](assets/internshipagreement.docx)
+- [MAEDS Weekly Practicum & Internship Log (Excel)](assets/MAEDS_WeeklyPracticumLog.xlsx)
+- [Online Log Form](https://livememphis.sharepoint.com/:l:/s/Team-MAEDSProgram2/FKoN3pj8B5NLtJLin9di3WUBCKXP96bAcsmUNyBobeE_Zw?nav=Y2MwNWFhMjYtM2QxNC00NzYxLWFiYzEtZjJjZDQ2MmQ1YTU1)
 
 ***
 <small>*Last updated: `r format(file.info("fieldexp.Rmd")$mtime, "%B %d, %Y")`*</small>

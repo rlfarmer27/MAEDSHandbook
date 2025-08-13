@@ -32,4 +32,4 @@ Only doctoral program students are required to complete a research thesis (MS) a
 Detailed requirements for theses and dissertations are outlined in the [Graduate Program Handbook](#) (link to be added).
 
 ***
-<small>*Last updated: July 11, 2025*</small>
+<small>*Last updated: August 13, 2025*</small>

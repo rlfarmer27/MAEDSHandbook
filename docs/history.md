@@ -18,4 +18,4 @@ The MA/EdS program has been accredited by NASP/NCATE (now CAEP) since the 1970s 
 Accreditation of the PhD program from the American Psychological Association was awarded in fall, 2014 and is active until 2021 (extended due to COVID-19 pandemic); the program's accreditation was renewed in spring, 2024 and is active until 2034.
   
 ***
-<small>*Last updated: July 11, 2025*</small>
+<small>*Last updated: August 13, 2025*</small>

@@ -44,4 +44,4 @@ Instructions for completing the background check are posted on the [College of E
 Once completed, confirmation is filed with the College of Education, and you may be asked to provide documentation when starting a school placement.
 
 ***
-<small>*Last updated: July 11, 2025*</small>
+<small>*Last updated: August 13, 2025*</small>

@@ -89,4 +89,4 @@ The program gathers informal and formal feedback from alumni and employers—oft
 
 ***
 
-<small>*Last updated: July 11, 2025*</small>
+<small>*Last updated: August 13, 2025*</small>

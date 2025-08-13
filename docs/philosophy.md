@@ -5,7 +5,7 @@ A societal emphasis has been placed on schools to provide a better future for ch
 The primary distinction that separates school psychology from other psychological specialties is the combining of education and psychology in the study and delivery of services to children, youth, families, and learners of all ages. The additional focus of education to this area of psychology stems from the assumption that schools play a primary nurturing and socializing role in the lives of all individuals. School psychologists focus on the natural ecologies of children, youth, families, learners, and persons involved in schooling, and the process of schooling in multiple settings. Because of their training in both education and psychology, school psychologists are in a unique position to coordinate educational, psychological, and behavioral health services to learners across the life span. The curriculum of our program is an integrated course of study in areas of education and psychology that contribute to the preparation of school psychologists, in addition to a core of school psychology courses.
 
 <div class="figure" style="text-align: center">
-<img src="https://github.com/rlfarmer27/MAEDSHandbook/blob/main/docs/images/philfig1.png?raw=true" alt="Conceptual model of program philosophy." width="100%" />
+<img src="https://github.com/rlfarmer27/MAEDSHandbook/blob/main/assets/philfig1.png?raw=true" alt="Conceptual model of program philosophy." width="100%" />
 <p class="caption">(\#fig:philfig1)Conceptual model of program philosophy.</p>
 </div>
 
@@ -59,4 +59,4 @@ School psychologists have knowledge of the history and foundations of school psy
 Note: The domains and descriptions are from the [2020 NASP Standards](https://www.nasponline.org/standards-and-certification/nasp-2020-professional-standards-adopted/nasp-2020-domains-of-practice) and added to the Handbook in 2021. The 2010 NASP domains were used for all program requirements and evaluations in 2019-2020 and 2020-2021.
 
 ***
-<small>*Last updated: July 11, 2025*</small>
+<small>*Last updated: August 13, 2025*</small>

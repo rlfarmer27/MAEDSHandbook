@@ -5,14 +5,20 @@ All students are required to complete a Plan of Study, outlining their anticipat
 
 Students should complete their Plan of Study in consultation with their academic advisor during their first semester. The plan is flexible and can be updated as needed to reflect changes in goals, course availability, or field placements.
 
-Students should also download and maintain the [Degree Worksheet](https://github.com/rlfarmer27/MAEDSHandbook/raw/main/docs/resources/chron_degreeworksheet.docx) throughout the program. It serves as a personal record of progress and a helpful tool during advising sessions.
+Students should also download and maintain the Degree Worksheet throughout the program. It serves as a personal record of progress and a helpful tool during advising sessions.
 
 The following section provides a detailed course sequence in chronological order. Students are expected to download and complete the degree worksheet. This will support advising and help you stay organized as you progress through the program.
 
 The MA/EdS Program requires 61 semester hours divided across the two degrees. 
 
 ## Degree Worksheet
-<small>Updated Spring 2025</small>
+[Degree Worksheet](https://github.com/rlfarmer27/MAEDSHandbook/raw/main/assets/maeds_degreeworksheet.docx)
+<small>Updated Summer 2025</small>
+
+::: note
+**Note:** PSYC 7807: *Academic Interventions* will not be offered in Spring 2026. Students should plan accordingly and select an appropriate course from the second-year spring schedule for that semester. While not required, the cohort is encouraged to coordinate their selections to help maintain sequence with one another. Dr. Farmer will consult with the group during Fall 2025 to make this decision.
+:::
+
 
 #### Fall Year 1
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
@@ -333,8 +339,6 @@ kbl(
 > - EDPR 7112 Adolescent Dev & Edu  
 > - SPED 7806 Special Education Law  
 > - SPED 7522 Tiered Interventions  
-
-You can download the Degree Worksheet [here](https://github.com/rlfarmer27/MAEDSHandbook/raw/main/docs/resources/chron_degreeworksheet.docx).
 
 ***
 <small>*Last updated: `r format(file.info("curriculum.Rmd")$mtime, "%B %d, %Y")`*</small>
