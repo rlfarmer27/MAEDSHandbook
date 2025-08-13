@@ -298,7 +298,7 @@ Students have the right to grieve decisions related to SIPs, academic standing, 
 2. **Written Grievance** – If the matter is not resolved informally, the student may submit a written grievance to the Program Director within 10 business days of the decision or action being contested.  
 3. **Program Review** – The Program Director will convene a review committee of at least two core faculty members to evaluate the grievance and render a decision.  
 4. **Appeal** – If dissatisfied with the review committee’s decision, the student may appeal in writing to the Department Chair within 10 business days. The Chair’s decision is final at the departmental level.  
-5. **University Procedures** – Students may pursue further appeals through the university’s formal grievance channels as outlined in the Graduate Catalog.
+5. **University Procedures** – Students may pursue further appeals through the university’s formal grievance channels as outlined in the Graduate Catalog. You can find an updated version online in the [graduate catalog](https://catalog.memphis.edu/content.php?catoid=32&navoid=1900#academic-performance-termination-and-appeals).
 
 ## Gross Misconduct
 
