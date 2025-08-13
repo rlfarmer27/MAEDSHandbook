@@ -138,7 +138,6 @@ sppc
 sppc-policies-procedures
 establishment-of-the-sppc
 operating-procedures
-policies
 admissionspolicy
 studentadvisingpolicy
 residencypolicy

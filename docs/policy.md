@@ -1,11 +1,11 @@
----
+\newpage
 output:
   word_document: default
   html_document: default
----
+\newpage
 # School Psychology Program Policies {#policies}
 
----
+\newpage
 
 ## Policy For Admission to The MA/EdS Program In School Psychology {#admissionspolicy}
 *(Revised 8/3/99, Reapproved, June, 2007, Revised July, 2008; updated July 2009, July 2013, June 2015, July 2022)*
@@ -32,7 +32,7 @@ Students are admitted only into the fall semester. The admissions deadline is es
 Diversity:  
 The program is sensitive to the need for greater cultural and ethnic diversity in the statewide and nationwide delivery of school psychological services and is committed to actively recruiting a diverse student population to assist in meeting this need. In accordance with overall University policy, the admissions process does not discriminate against applicants on the basis of race, ethnicity, gender, or lifestyle choice.
 
----
+\newpage
 
 ## Policy Regarding Responsibility for Student Advising in the MA/EdS Program in School Psychology {#studentadvisingpolicy}
 *(Effective 1998-1999; updated May 2002, July 2013, June 2014, June 2015, July 2021)*
@@ -45,7 +45,7 @@ Students in the Educational Specialist degree (EdS) program have as their primar
 
 The MA/EdS director maintains a file on each student enrolled in the program which is updated as part of the periodic student evaluation process. A permanent file of graduates is also maintained by the Psychology Department. Non-degree, licensure endorsement students are advised by the MA/EdS program director who files a proposed endorsement program with the Teacher Licensure Office (COE) for initial approval and an endorsement recommendation after the student has completed all requirements. As faculty members of the Department of Psychology, the director and core program faculty may have advisory responsibilities for undergraduate psychology majors. The Director of the MA/EdS Program also confers with prospective students seeking a career in school psychology.
 
----
+\newpage
 
 ## Policy Regarding Residency in the MA/EdS Program In School Psychology {#residencypolicy}
 
@@ -53,7 +53,7 @@ Regular and intensive pursuit of the School Psychology Program are expected of a
 
 Recognizing the importance of traditional and emerging instructional methodologies for the completion of curriculum requirements, the program will allow up to 4 courses (typically 12 sem. hrs.) of on-line learning to be applied to the entire 60-66 hr. MA/EdS requirement. The online course(s) must receive prior approval of the MA/EdS Director for students enrolled in the program, or approval at the time of program entrance for online courses already completed. Online courses will not be approved for core courses (PSYC 7/8800 courses) and field experiences including practica and internship. This policy will be reviewed periodically as a means of keeping up to date with online offerings and the need for flexibility in training practices.
 
----
+\newpage
 
 ## Policy for the Periodic Evaluation of Students in the School Psychology Program {#periodicevaluationpolicy}
 
@@ -75,7 +75,7 @@ The periodic evaluation of students is important to judging their progress and t
 - Additional sessions are generally conducted in conjunction with the student's regular academic advising for registration each semester. It is the responsibility of the student to schedule an advising session each semester with the primary advisor.  
 - Interns are evaluated through separate procedures at mid-year and at the end of the internship.  
 
----
+\newpage
 
 ## Policy for Receiving a Recommendation to and Completing the EdS Level Internship in School Psychology {#internshippolicy}
 *(Revised July, 2008; Updated, 2012, 2013, 2015)*
@@ -100,7 +100,7 @@ Recommendation letters from the Director of the MA/EdS Program and other faculty
 
 Internship experiences are designed to be in accord with the training and field placement standards of the National Association of School Psychologists. The experience is a minimum of 1200 clock hours, at least half of which is completed in a school setting. The internship, and the intern's expected period of service, extends across the entire school year. The experience is not considered to have been completed simply on the basis of 1200 hours of satisfactory service. The internship is completed only when the agency/district-based supervisor provides a final evaluation of satisfactory completion to the MA/EdS Director. On the basis of the supervisor's letter, the results of on-campus and on-site meetings, and any other evaluation information, the Director of the MA/EdS Program records a final grade for the student (Satisfactory, Unsatisfactory). The student must receive a satisfactory (S) grade for the internship in order to complete the program requirements and receive licensure endorsement.
 
----
+\newpage
 
 ## Policy for the MA and EdS Specialty Examinations {#specialtyexampolicy}
 *(Revised 2006, Updated 2007, Revised July 2013, Update June 2015)*
@@ -133,13 +133,13 @@ For students who for whatever reason are not completing the internship but seeki
 
 Students failing either the MA or the EdS traditional written examination may apply to take the examination a second and final time in the semester following the first administration. Failure on the second administration will result in dismissal from the program.
 
----
+\newpage
 
 ## School Psychology Program at the University of Memphis – Licensure Recommendation Requirements {#licensurepolicy}
 
 Degree: The Educational Specialist or higher degree (or its equivalent) including preparation specifically in school psychology. A recommendation is made only when the applicant has completed all requirements of The University of Memphis MA/EdS program or the equivalent. A person seeking licensure endorsement who has prior degrees and/or licensure from outside Tennessee will have requirements determined individually to be equivalent to the training level of the licensure requirements specified below. The review is done by the MA/EdS school psychology program coordinator.
 
----
+\newpage
 
 ## Policy and Procedure for the Endorsement of Non-Degree School Psychology Licensure Students {#nondegreepolicy}
 *(Effective 1998-1999, Update July, 2013)*
@@ -157,7 +157,7 @@ Occasionally persons seek the assistance of the program in achieving licensure a
 - Once the student's requirements are completed, the student will file for endorsement through the Office of Teacher Education & Student Support Services of the CO and the MA/EdS Director will file the final review form, as is customary for other students.  
 - **Note:** Students with prior work almost always complete the EdS degree enroute to endorsement. Thus, although the program provides for the endorsement training of students already holding an EdS or greater degree or its equivalent, it is a very rare occasion.
 
----
+\newpage
 
 ## Responsibilities of the Director of the MA/EdS School Psychology Program {#directorpolicy}
 *(Effective 1998-1999, Updated July 2013, June 2015)*
@@ -183,7 +183,7 @@ The director serves as a member of the SPPC. In this capacity, the director brin
 - Oversee the preparation and grading of MA and EdS exams.  
 - Establishing and maintaining liaison relationships to various agencies. This is a central responsibility of the day-to-day operation of the program. This includes relationships with the various constituencies identified in the first paragraph above.  
 
----
+\newpage
 
 ## Policy on Student Use of Artificial Intelligence (AI) Tools {#aipolicy}
 *(Effective July 2025)*
@@ -236,16 +236,16 @@ Students may use AI tools in research for specific, transparent purposes with re
 
 Misuse of AI tools may result in remediation, academic discipline, or removal from practicum or internship settings, depending on the severity of the situation. Repeated or serious violations may lead to dismissal from the program. 
 
----
+\newpage
 
-# Policy on Student Intervention Plans and Grievance Procedures {#sippolicy}
+## Policy on Student Intervention Plans and Grievance Procedures {#sippolicy}
 *(Effective August 2025)*
 
-## Purpose and Scope
+### Purpose and Scope
 
 This policy outlines the procedures for implementing and monitoring student intervention plans (SIPs) in the MA/EdS program, including when they are required, what they must contain, expectations for student compliance, and the process for addressing grievances. The goal is to support student success while maintaining the academic, clinical, and professional standards of the program. This policy applies to all enrolled students and covers academic performance, clinical competencies, professional conduct, and adherence to ethical standards.
 
-## When a Student Intervention Plan is Required
+### When a Student Intervention Plan is Required
 
 A SIP will be initiated when a student’s academic, clinical, or professional performance falls below program expectations, or when conduct is inconsistent with the values and standards of the school psychology profession. Examples include, but are not limited to:
 
@@ -257,7 +257,7 @@ A SIP will be initiated when a student’s academic, clinical, or professional p
 
 The decision to initiate a SIP will be made by the Program Director in consultation with core faculty and/or the student’s practicum/internship supervisor.
 
-## Content of the Student Intervention Plan
+### Content of the Student Intervention Plan
 
 Each SIP will:
 
@@ -270,7 +270,7 @@ Each SIP will:
 
 The plan will be documented in writing, signed by the student, Program Director, and any relevant supervisors.
 
-## Student Responsibilities
+### Student Responsibilities
 
 Students are expected to:
 
@@ -279,7 +279,7 @@ Students are expected to:
 - Complete all assigned activities and submit requested documentation by deadlines.  
 - Demonstrate ongoing progress toward SIP goals.
 
-## Consequences for Non-Compliance
+### Consequences for Non-Compliance
 
 Failure to meet the terms of the SIP may result in escalating consequences, up to and including:
 
@@ -290,7 +290,7 @@ Failure to meet the terms of the SIP may result in escalating consequences, up t
 
 The severity of the consequence will reflect the seriousness of the concern and the student’s responsiveness to remediation efforts.
 
-## Grievance Procedures
+### Grievance Procedures
 
 Students have the right to grieve decisions related to SIPs, academic standing, or conduct concerns. The grievance process is as follows:
 
@@ -300,7 +300,7 @@ Students have the right to grieve decisions related to SIPs, academic standing, 
 4. **Appeal** – If dissatisfied with the review committee’s decision, the student may appeal in writing to the Department Chair within 10 business days. The Chair’s decision is final at the departmental level.  
 5. **University Procedures** – Students may pursue further appeals through the university’s formal grievance channels as outlined in the Graduate Catalog. You can find an updated version online in the [graduate catalog](https://catalog.memphis.edu/content.php?catoid=32&navoid=1900#academic-performance-termination-and-appeals).
 
-## Gross Misconduct
+### Gross Misconduct
 
 Certain behaviors constitute gross misconduct and may result in immediate suspension from clinical duties or recommendation for dismissal without an intervention plan. Examples include:
 
