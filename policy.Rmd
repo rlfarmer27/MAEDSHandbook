@@ -238,14 +238,14 @@ Misuse of AI tools may result in remediation, academic discipline, or removal fr
 
 ---
 
-# Policy on Student Intervention Plans and Grievance Procedures {#sippolicy}
+## Policy on Student Intervention Plans and Grievance Procedures {#sippolicy}
 *(Effective August 2025)*
 
-## Purpose and Scope
+### Purpose and Scope
 
 This policy outlines the procedures for implementing and monitoring student intervention plans (SIPs) in the MA/EdS program, including when they are required, what they must contain, expectations for student compliance, and the process for addressing grievances. The goal is to support student success while maintaining the academic, clinical, and professional standards of the program. This policy applies to all enrolled students and covers academic performance, clinical competencies, professional conduct, and adherence to ethical standards.
 
-## When a Student Intervention Plan is Required
+### When a Student Intervention Plan is Required
 
 A SIP will be initiated when a student’s academic, clinical, or professional performance falls below program expectations, or when conduct is inconsistent with the values and standards of the school psychology profession. Examples include, but are not limited to:
 
@@ -257,7 +257,7 @@ A SIP will be initiated when a student’s academic, clinical, or professional p
 
 The decision to initiate a SIP will be made by the Program Director in consultation with core faculty and/or the student’s practicum/internship supervisor.
 
-## Content of the Student Intervention Plan
+### Content of the Student Intervention Plan
 
 Each SIP will:
 
@@ -270,7 +270,7 @@ Each SIP will:
 
 The plan will be documented in writing, signed by the student, Program Director, and any relevant supervisors.
 
-## Student Responsibilities
+### Student Responsibilities
 
 Students are expected to:
 
@@ -279,7 +279,7 @@ Students are expected to:
 - Complete all assigned activities and submit requested documentation by deadlines.  
 - Demonstrate ongoing progress toward SIP goals.
 
-## Consequences for Non-Compliance
+### Consequences for Non-Compliance
 
 Failure to meet the terms of the SIP may result in escalating consequences, up to and including:
 
@@ -290,7 +290,7 @@ Failure to meet the terms of the SIP may result in escalating consequences, up t
 
 The severity of the consequence will reflect the seriousness of the concern and the student’s responsiveness to remediation efforts.
 
-## Grievance Procedures
+### Grievance Procedures
 
 Students have the right to grieve decisions related to SIPs, academic standing, or conduct concerns. The grievance process is as follows:
 
@@ -300,7 +300,7 @@ Students have the right to grieve decisions related to SIPs, academic standing, 
 4. **Appeal** – If dissatisfied with the review committee’s decision, the student may appeal in writing to the Department Chair within 10 business days. The Chair’s decision is final at the departmental level.  
 5. **University Procedures** – Students may pursue further appeals through the university’s formal grievance channels as outlined in the Graduate Catalog. You can find an updated version online in the [graduate catalog](https://catalog.memphis.edu/content.php?catoid=32&navoid=1900#academic-performance-termination-and-appeals).
 
-## Gross Misconduct
+### Gross Misconduct
 
 Certain behaviors constitute gross misconduct and may result in immediate suspension from clinical duties or recommendation for dismissal without an intervention plan. Examples include:
 
