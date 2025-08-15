@@ -72,15 +72,8 @@ background-checks
 curriculum
 an-established-plan-of-study
 degree-worksheet
-fall-year-1
-spring-year-1
-summer-year-1
-fall-year-2
-spring-year-2
-summer-year-2
+curriculum-plan-of-study
 internship-year
-fall
-spring
 courses-nasp-alignments
 fieldexp
 required-background-checks
@@ -138,6 +131,7 @@ sppc
 sppc-policies-procedures
 establishment-of-the-sppc
 operating-procedures
+policies
 admissionspolicy
 studentadvisingpolicy
 residencypolicy
@@ -165,4 +159,6 @@ content-of-the-student-intervention-plan
 student-responsibilities
 consequences-for-non-compliance
 grievance-procedures
+grievance-procedures-1
+grade-appeals
 gross-misconduct

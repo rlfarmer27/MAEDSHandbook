@@ -46,6 +46,12 @@ library(knitr)
 library(kableExtra)
 library(scales)
 
+format_type <- if (knitr::pandoc_to() == "docx") {
+  "pandoc"  # for Word output in kbl()
+} else {
+  "html"    # default for HTML output in kbl()
+}
+
 # Original faculty data by Race and Gender
 faculty_data <- data.frame(
   Race = rep(c("Asian", "Black", "Hispanic", "Multi Race", "Other", "White"), times = 2),
@@ -110,7 +116,7 @@ faculty_split %>%
      caption = "Faculty Demographics by Appointment Type",
      col.names = c("Race", "Non-Tenure Track", "Tenure Track", "Tenured", "Total"),
     align = "lrrrr",
-    format = "html"
+    format = format_type
   ) %>%
   add_header_above(c(" " = 1, "Appointment Type" = 3, " " = 1)) %>%
   group_rows("Female", 1, nrow(faculty_female)) %>%
@@ -187,7 +193,7 @@ ug_data_full %>%
   caption = "Undergraduate Student Race and Gender",
   col.names = c("Race", "Female", "%", "Male", "%", "Total", "%"),
   align = "lrrrrrr",
-  format = "html"
+  format = format_type
 ) %>%
 add_header_above(c(" " = 1, "Headcount" = 6)) %>%
 kable_styling(
@@ -203,6 +209,7 @@ row_spec(nrow(ug_data_full), bold = TRUE)
 \
 
 ```{r graddemo, echo=FALSE, message=FALSE, warning=FALSE}
+
 
 # Graduate Data
 grad_data <- data.frame(
@@ -236,7 +243,7 @@ grad_data_full %>%
     caption = "Graduate Student Race and Gender",
     col.names = c("Race", "Female", "%", "Male", "%", "Total", "%"),
     align = "lrrrrrr",
-  format = "html") %>%
+  format = format_type) %>%
   add_header_above(c(" " = 1, "Headcount" = 6)) %>%
   kable_styling(
   full_width = TRUE,

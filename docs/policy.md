@@ -1,8 +1,3 @@
-\newpage
-output:
-  word_document: default
-  html_document: default
-\newpage
 # School Psychology Program Policies {#policies}
 
 \newpage
@@ -239,7 +234,7 @@ Misuse of AI tools may result in remediation, academic discipline, or removal fr
 \newpage
 
 ## Policy on Student Intervention Plans and Grievance Procedures {#sippolicy}
-*(Effective August 2025)*
+*(Effective August 2025, Updated August 15, 2025)*
 
 ### Purpose and Scope
 
@@ -292,13 +287,23 @@ The severity of the consequence will reflect the seriousness of the concern and 
 
 ### Grievance Procedures
 
-Students have the right to grieve decisions related to SIPs, academic standing, or conduct concerns. The grievance process is as follows:
+## Grievance Procedures  
 
-1. **Informal Resolution** – Students are encouraged to discuss concerns directly with the faculty member, supervisor, or Program Director as soon as possible.  
-2. **Written Grievance** – If the matter is not resolved informally, the student may submit a written grievance to the Program Director within 10 business days of the decision or action being contested.  
-3. **Program Review** – The Program Director will convene a review committee of at least two core faculty members to evaluate the grievance and render a decision.  
-4. **Appeal** – If dissatisfied with the review committee’s decision, the student may appeal in writing to the Department Chair within 10 business days. The Chair’s decision is final at the departmental level.  
-5. **University Procedures** – Students may pursue further appeals through the university’s formal grievance channels as outlined in the Graduate Catalog. You can find an updated version online in the [graduate catalog](https://catalog.memphis.edu/content.php?catoid=32&navoid=1900#academic-performance-termination-and-appeals).
+Students have the right to grieve decisions related to SIPs, academic standing, or conduct concerns. The department encourages students to follow the steps below, which are consistent with the Psychology Department [Graduate Student Handbook](https://www.memphis.edu/psychology/graduate/psych-grad-handbook-10-2019.pdf), p. 32.  
+
+1. **Informal Resolution** – Whenever possible, students should first address concerns directly with the faculty member, supervisor, or other person involved. Students may also consult informally with their Program Director, the Graduate Coordinator, the Department Chair, or Psychology Student Government Association (PSGA) officers. Conversations at this stage, except in harassment/discrimination cases, can generally remain confidential.  Details for reporting complaints or concerns are available at this website: [https://www.memphis.edu/psychology/graduate/gscc_complaints.php](https://www.memphis.edu/psychology/graduate/gscc_complaints.php).
+
+2. **Written Grievance** – If the concern cannot be resolved informally, the student may submit a written grievance to their Program Director describing the issue, relevant facts, and desired resolution.  
+
+3. **Program Review** – The Program Director will review the grievance and may meet with relevant parties to seek resolution. If further review is needed, the Director may recommend formation of a departmental grievance committee, in accordance with Appendix A of the Graduate Student Handbook.  
+
+4. **Departmental Review** – The grievance committee (if formed) will review the matter and make a recommendation to the Department Chair. The Chair will communicate the decision to the student.  
+
+5. **University Procedures** – If the student is not satisfied with the departmental outcome, they may pursue further appeal through the University’s formal grievance channels as outlined in the Graduate Catalog. Separate University procedures apply to grade disputes and to harassment/discrimination complaints, as described in the Handbook.  
+
+### Grade Appeals
+
+The University of Memphis specifies procedures for grade appeals. Following attempts at information resolution, students may elect to file a formal appeal with the university. Information on doing so is provided in the [Final Course Grade Appeal Process](https://www.memphis.edu/fcbe/pdfs/grade_appeals.pdf) document found online. 
 
 ### Gross Misconduct
 
@@ -313,4 +318,4 @@ Gross misconduct will be reviewed by the Program Director and faculty, and may a
 
 
 ***
-<small>*Last updated: August 13, 2025*</small>
+<small>*Last updated: August 15, 2025*</small>

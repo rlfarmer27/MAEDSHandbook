@@ -2,12 +2,27 @@
 title: "MA/EdS School Psychology Program Handbook"
 author: "R.L. Farmer"
 date: "July 11 2025"
-site: bookdown::bookdown_site
-output: 
+output:
   bookdown::gitbook:
     css: ["style.css", "custom.css"]
     keep_md: false
+  bookdown::word_document2:
+     reference_docx: default
 ---
+
+```{r yaml storage, include=FALSE}
+#title: "MA/EdS School Psychology Program Handbook"
+#author: "R.L. Farmer"
+#date: "July 11 2025"
+#site: bookdown::pdf_book
+#  latex_engine: xelatex
+#  keep_tex: yes
+#output: 
+#  bookdown::gitbook:
+#    css: ["style.css", "custom.css"]
+#    keep_md: false
+```
+
 
 ```{r setup, include=FALSE}
 if (file.exists("_common.R")) source("_common.R", local = knitr::knit_global())

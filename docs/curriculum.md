@@ -13,16 +13,18 @@ The MA/EdS Program requires 61 semester hours divided across the two degrees.
 
 ## Degree Worksheet
 [Degree Worksheet](https://github.com/rlfarmer27/MAEDSHandbook/raw/main/assets/maeds_degreeworksheet.docx)
-<small>Updated Summer 2025</small>
+Updated Summer 2025
 
 ::: note
 **Note:** PSYC 7807: *Academic Interventions* will not be offered in Spring 2026. Students should plan accordingly and select an appropriate course from the second-year spring schedule for that semester. While not required, the cohort is encouraged to coordinate their selections to help maintain sequence with one another. Dr. Farmer will consult with the group during Fall 2025 to make this decision.
 :::
+## Curriculum & Plan of Study
 
 
-#### Fall Year 1
-<table class="table table-striped table-hover table-condensed" style="width: auto !important; margin-left: auto; margin-right: auto;">
-<caption>(\#tab:unnamed-chunk-1)Fall Year 1 Course Sequence</caption>
+
+\
+<table class="table table-striped table-hover table-condensed table-responsive" style="font-size: 13px; margin-left: auto; margin-right: auto;">
+<caption style="font-size: initial !important;">(\#tab:unnamed-chunk-1)Fall Year 1 Course Sequence</caption>
  <thead>
   <tr>
    <th style="text-align:left;"> Course </th>
@@ -52,16 +54,16 @@ The MA/EdS Program requires 61 semester hours divided across the two degrees.
    <td style="text-align:center;"> College of Education </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Mid-Year Evaluation </td>
-   <td style="text-align:center;"> 0 </td>
-   <td style="text-align:center;"> None </td>
+   <td style="text-align:left;font-weight: bold;"> Mid-Year Evaluation </td>
+   <td style="text-align:center;font-weight: bold;"> 0 </td>
+   <td style="text-align:center;font-weight: bold;"> None </td>
   </tr>
 </tbody>
 </table>
 
-#### Spring Year 1
-<table class="table table-striped table-hover table-condensed" style="width: auto !important; margin-left: auto; margin-right: auto;">
-<caption>(\#tab:unnamed-chunk-2)Spring Year 1 Course Sequence</caption>
+\
+<table class="table table-striped table-hover table-condensed table-responsive" style="font-size: 13px; margin-left: auto; margin-right: auto;">
+<caption style="font-size: initial !important;">(\#tab:unnamed-chunk-2)Spring Year 1 Course Sequence</caption>
  <thead>
   <tr>
    <th style="text-align:left;"> Course </th>
@@ -91,16 +93,16 @@ The MA/EdS Program requires 61 semester hours divided across the two degrees.
    <td style="text-align:center;"> College of Education </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> End-of-Year Evaluation </td>
-   <td style="text-align:center;"> 0 </td>
-   <td style="text-align:center;"> None </td>
+   <td style="text-align:left;font-weight: bold;"> End-of-Year Evaluation </td>
+   <td style="text-align:center;font-weight: bold;"> 0 </td>
+   <td style="text-align:center;font-weight: bold;"> None </td>
   </tr>
 </tbody>
 </table>
 
-#### Summer Year 1
-<table class="table table-striped table-hover table-condensed" style="width: auto !important; margin-left: auto; margin-right: auto;">
-<caption>(\#tab:unnamed-chunk-3)Summer Year 1 Course Sequence</caption>
+\
+<table class="table table-striped table-hover table-condensed table-responsive" style="font-size: 13px; margin-left: auto; margin-right: auto;">
+<caption style="font-size: initial !important;">(\#tab:unnamed-chunk-3)Summer Year 1 Course Sequence</caption>
  <thead>
   <tr>
    <th style="text-align:left;"> Course </th>
@@ -120,16 +122,16 @@ The MA/EdS Program requires 61 semester hours divided across the two degrees.
    <td style="text-align:center;"> College of Education </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Annual Evaluations </td>
-   <td style="text-align:center;"> 0 </td>
-   <td style="text-align:center;"> None </td>
+   <td style="text-align:left;font-weight: bold;"> Annual Evaluations </td>
+   <td style="text-align:center;font-weight: bold;"> 0 </td>
+   <td style="text-align:center;font-weight: bold;"> None </td>
   </tr>
 </tbody>
 </table>
 
-#### Fall Year 2
-<table class="table table-striped table-hover table-condensed" style="width: auto !important; margin-left: auto; margin-right: auto;">
-<caption>(\#tab:unnamed-chunk-4)Fall Year 2 Course Sequence</caption>
+\
+<table class="table table-striped table-hover table-condensed table-responsive" style="font-size: 13px; margin-left: auto; margin-right: auto;">
+<caption style="font-size: initial !important;">(\#tab:unnamed-chunk-4)Fall Year 2 Course Sequence</caption>
  <thead>
   <tr>
    <th style="text-align:left;"> Course </th>
@@ -164,17 +166,17 @@ The MA/EdS Program requires 61 semester hours divided across the two degrees.
    <td style="text-align:center;"> None </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Comprehensive Ethics Exam </td>
-   <td style="text-align:center;"> 0 </td>
-   <td style="text-align:center;"> None </td>
+   <td style="text-align:left;font-weight: bold;"> Comprehensive Ethics Exam </td>
+   <td style="text-align:center;font-weight: bold;"> 0 </td>
+   <td style="text-align:center;font-weight: bold;"> None </td>
   </tr>
 </tbody>
 </table>
-<small>*Note.* Students earn their MA in School Psychology in December after their fourth semester on campus. Students who participate in the graduation ceremony do so during the December commencement.</small>
+*Note.* Students earn their MA in School Psychology in December after their fourth semester on campus. Students who participate in the graduation ceremony do so during the December commencement.
 
-#### Spring Year 2
-<table class="table table-striped table-hover table-condensed" style="width: auto !important; margin-left: auto; margin-right: auto;">
-<caption>(\#tab:unnamed-chunk-5)Spring Year 2 Course Sequence</caption>
+\
+<table class="table table-striped table-hover table-condensed table-responsive" style="font-size: 13px; margin-left: auto; margin-right: auto;">
+<caption style="font-size: initial !important;">(\#tab:unnamed-chunk-5)Spring Year 2 Course Sequence</caption>
  <thead>
   <tr>
    <th style="text-align:left;"> Course </th>
@@ -204,17 +206,16 @@ The MA/EdS Program requires 61 semester hours divided across the two degrees.
    <td style="text-align:center;"> College of Education </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> End-of-Year Eval </td>
-   <td style="text-align:center;"> 0 </td>
-   <td style="text-align:center;"> None </td>
+   <td style="text-align:left;font-weight: bold;"> End-of-Year Eval </td>
+   <td style="text-align:center;font-weight: bold;"> 0 </td>
+   <td style="text-align:center;font-weight: bold;"> None </td>
   </tr>
 </tbody>
 </table>
-<small>*Note.* In spring of the second year, students are applying for and accepting positions as interns. The internship is completed during the third year.</small>
-
-#### Summer Year 2
-<table class="table table-striped table-hover table-condensed" style="width: auto !important; margin-left: auto; margin-right: auto;">
-<caption>(\#tab:unnamed-chunk-6)Summer Year 2 Course Sequence</caption>
+*Note.* In spring of the second year, students are applying for and accepting positions as interns. The internship is completed during the third year.
+\
+<table class="table table-striped table-hover table-condensed table-responsive" style="font-size: 13px; margin-left: auto; margin-right: auto;">
+<caption style="font-size: initial !important;">(\#tab:unnamed-chunk-6)Summer Year 2 Course Sequence</caption>
  <thead>
   <tr>
    <th style="text-align:left;"> Course </th>
@@ -224,17 +225,17 @@ The MA/EdS Program requires 61 semester hours divided across the two degrees.
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> Annual Evaluation </td>
-   <td style="text-align:center;"> 0 </td>
-   <td style="text-align:center;"> None </td>
+   <td style="text-align:left;font-weight: bold;"> Annual Evaluation </td>
+   <td style="text-align:center;font-weight: bold;"> 0 </td>
+   <td style="text-align:center;font-weight: bold;"> None </td>
   </tr>
 </tbody>
 </table>
 
-#### Internship Year
-##### Fall
-<table class="table table-striped table-hover table-condensed" style="width: auto !important; margin-left: auto; margin-right: auto;">
-<caption>(\#tab:unnamed-chunk-7)Fall Year 3 Course Sequence</caption>
+### Internship Year
+
+<table class="table table-striped table-hover table-condensed table-responsive" style="font-size: 13px; margin-left: auto; margin-right: auto;">
+<caption style="font-size: initial !important;">(\#tab:unnamed-chunk-7)Fall Year 3 Course Sequence</caption>
  <thead>
   <tr>
    <th style="text-align:left;"> Course </th>
@@ -249,16 +250,16 @@ The MA/EdS Program requires 61 semester hours divided across the two degrees.
    <td style="text-align:center;"> Department of Psychology </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Mid-Year Evaluation </td>
-   <td style="text-align:center;"> 0 </td>
-   <td style="text-align:center;"> None </td>
+   <td style="text-align:left;font-weight: bold;"> Mid-Year Evaluation </td>
+   <td style="text-align:center;font-weight: bold;"> 0 </td>
+   <td style="text-align:center;font-weight: bold;"> None </td>
   </tr>
 </tbody>
 </table>
 
-##### Spring
-<table class="table table-striped table-hover table-condensed" style="width: auto !important; margin-left: auto; margin-right: auto;">
-<caption>(\#tab:unnamed-chunk-8)Spring Year 3 Course Sequence</caption>
+
+<table class="table table-striped table-hover table-condensed table-responsive" style="font-size: 13px; margin-left: auto; margin-right: auto;">
+<caption style="font-size: initial !important;">(\#tab:unnamed-chunk-8)Spring Year 3 Course Sequence</caption>
  <thead>
   <tr>
    <th style="text-align:left;"> Course </th>
@@ -278,13 +279,13 @@ The MA/EdS Program requires 61 semester hours divided across the two degrees.
    <td style="text-align:center;"> None </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Praxis Examination </td>
-   <td style="text-align:center;"> 0 </td>
-   <td style="text-align:center;"> Educational Testing Service </td>
+   <td style="text-align:left;font-weight: bold;"> Praxis Examination </td>
+   <td style="text-align:center;font-weight: bold;"> 0 </td>
+   <td style="text-align:center;font-weight: bold;"> Educational Testing Service </td>
   </tr>
 </tbody>
 </table>
-<small>*Note.* During this semester, interns are often applying for and securing formal positions as school psychologists post-internship. They should also apply for any credentials they will need, though this is not a program requirement. Completion of this semester yields the Educational Specialist degree.</small>
+*Note.* During this semester, interns are often applying for and securing formal positions as school psychologists post-internship. They should also apply for any credentials they will need, though this is not a program requirement. Completion of this semester yields the Educational Specialist degree.
 
 ### Courses & NASP Alignments
 
@@ -625,4 +626,4 @@ The MA/EdS Program requires 61 semester hours divided across the two degrees.
 > - SPED 7522 Tiered Interventions  
 
 ***
-<small>*Last updated: August 13, 2025*</small>
+*Last updated: August 15, 2025*

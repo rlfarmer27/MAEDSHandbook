@@ -2,12 +2,16 @@
 title: "MA/EdS School Psychology Program Handbook"
 author: "R.L. Farmer"
 date: "July 11 2025"
-site: bookdown::bookdown_site
-output: 
+output:
   bookdown::gitbook:
     css: ["style.css", "custom.css"]
     keep_md: false
+  bookdown::word_document2:
+     reference_docx: default
 ---
+
+
+
 
 
 <!-- Suppress chapter numbering -->
